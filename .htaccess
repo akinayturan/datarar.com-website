@@ -1,0 +1,34 @@
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.hizmet\.epfarki\.com$ [NC,OR]  
+RewriteCond %{HTTP_HOST} ^hizmet\.epfarki\.com$ [NC]
+RewriteRule ^(.*)$ http://epfarki.com/hizmet/$1 [L,R=301] 
+
+
+# Error Pages
+ErrorDocument 400 http://epfarki.com/hizmet
+ErrorDocument 401 http://epfarki.com/hizmet
+ErrorDocument 402 http://epfarki.com/hizmet
+ErrorDocument 403 http://epfarki.com/hizmet
+ErrorDocument 404 http://epfarki.com/hizmet
+ErrorDocument 405 http://epfarki.com/hizmet
+ErrorDocument 406 http://epfarki.com/hizmet
+ErrorDocument 407 http://epfarki.com/hizmet
+ErrorDocument 408 http://epfarki.com/hizmet
+ErrorDocument 409 http://epfarki.com/hizmet
+ErrorDocument 410 http://epfarki.com/hizmet
+ErrorDocument 411 http://epfarki.com/hizmet
+ErrorDocument 412 http://epfarki.com/hizmet
+ErrorDocument 413 http://epfarki.com/hizmet
+ErrorDocument 414 http://epfarki.com/hizmet
+ErrorDocument 500 http://epfarki.com/hizmet
+ErrorDocument 501 http://epfarki.com/hizmet
+ErrorDocument 502 http://epfarki.com/hizmet
+ErrorDocument 503 http://epfarki.com/hizmet
+ErrorDocument 504 http://epfarki.com/hizmet
+ErrorDocument 505 http://epfarki.com/hizmet 
