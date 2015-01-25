@@ -1,6 +1,6 @@
 /* TEAM */
 	Administrator: bizimakin
-  Helper: SerbayAcar
+  	Helper: SerbayAcar
 
 /* THANKS */
 	Hosting: Hostturka
