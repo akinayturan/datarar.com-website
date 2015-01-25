@@ -1,0 +1,33 @@
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+
+RewriteEngine on
+
+# Error Pages
+ErrorDocument 400 http://epfarki.com
+ErrorDocument 401 http://epfarki.com
+ErrorDocument 402 http://epfarki.Com
+ErrorDocument 403 http://epfarki.Com
+ErrorDocument 404 http://epfarki.Com
+ErrorDocument 405 http://epfarki.Com
+ErrorDocument 406 http://epfarki.Com
+ErrorDocument 407 http://epfarki.Com
+ErrorDocument 408 http://epfarki.Com
+ErrorDocument 409 http://epfarki.Com
+ErrorDocument 410 http://epfarki.Com
+ErrorDocument 411 http://epfarki.Com
+ErrorDocument 412 http://epfarki.Com
+ErrorDocument 413 http://epfarki.Com
+ErrorDocument 414 http://epfarki.Com
+ErrorDocument 500 http://epfarki.Com
+ErrorDocument 501 http://epfarki.Com
+ErrorDocument 502 http://epfarki.Com
+ErrorDocument 503 http://epfarki.Com
+ErrorDocument 504 http://epfarki.Com
+ErrorDocument 505 http://epfarki.Com 
+RewriteCond %{HTTP_HOST} ^demo\.epfarki\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.demo\.epfarki\.com$
+RewriteRule ^/?$ "http\:\/\/epfarki\.com\/" [R=301,L]
+

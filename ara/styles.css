@@ -1,0 +1,230 @@
+#searchForm{position:relative;margin-bottom:20px;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+}
+fieldset{background: #222;padding-left: 15px;   padding-top: 15px}
+
+#searchInputContainer{
+	/* This div contains the transparent search box */
+	width:420px;
+	height:36px;
+	background:url("img/searchBox.png") no-repeat;
+	float:left;
+	margin-right:12px;
+}
+
+#s{
+	/* The search text box. */
+	
+	border:none;
+	color:#888888;
+	background:url("img/searchBox.png") no-repeat;
+	
+	float:left;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+	height:36px;
+	line-height:36px;
+	margin-right:5px;
+	outline:medium none;
+	padding:0 0 0 35px;
+	text-shadow:1px 1px 0 white;
+	width:385px;
+}
+
+/* The UL that contains the search type icons */
+
+#icons ul{
+	list-style:none;
+	margin:10px 0 0 440px;
+	height:19px;
+	position:relative;     
+}
+
+#icons ul li {
+	background:url("img/icons.png") no-repeat;
+	float:left;
+	height:19px;
+	text-indent:-9999px;
+	cursor:pointer;
+}
+
+/* Styling each icon */
+
+#icons ul li.web{ width:15px;}
+#icons ul li.web.active,
+#icons ul li.web:hover{ background-position:left bottom;}
+
+#icons ul li.images{ width:22px; background-position:-18px 0;}
+#icons ul li.images.active,
+#icons ul li.images:hover{ background-position:-18px bottom;}
+
+#icons li.news{ width:14px; background-position:-44px 0;}
+#icons li.news.active,
+#icons li.news:hover{ background-position:-44px bottom;}
+
+#icons ul li.videos{ width:17px; background-position:right 0;}
+#icons ul li.videos.active,
+#icons ul li.videos:hover{ background-position:right bottom;}
+
+span.arrow{
+	/* The little arrow that moves below the icons */
+	
+	width:11px;
+	height:6px;
+	margin:21px 0 0 5px;
+	position:absolute;
+	background:url('img/arrow.png') no-repeat;
+	left:0;
+}
+
+
+/* The submit button */
+
+
+#submitButton{
+	background:url('img/buttons.png') no-repeat;
+	width:83px;
+	height:36px;
+	text-indent:-9999px;
+	overflow:hidden;
+	text-transform:uppercase;
+	border:none;
+	cursor:pointer;
+}
+
+#submitButton:hover{
+	background-position:left bottom;
+}
+
+
+/* The Search tutorialzine.com / Search the Web radio buttons */
+
+
+#searchInContainer{
+	float:left;
+	margin-top:12px;
+	width:330px;
+}
+
+label{
+	color:#DDDDDD;
+	cursor:pointer;
+	font-size:11px;
+	position:relative;
+	right:-2px;
+	top:-2px;
+	margin-right:10px;
+	white-space:nowrap;
+	/*float:left;*/
+}
+
+input[type=radio]{
+	cursor:pointer;
+	/*float:left;*/
+}
+
+
+.pageContainer{
+	border-bottom:1px solid #5e7481;
+	margin-bottom:50px;
+	
+	
+	-moz-box-shadow:0 1px 0 #798e9c;
+	-webkit-box-shadow:0 1px 0 #798e9c;
+	box-shadow:0 1px 0 #798e9c;
+}
+
+
+p.notFound{
+	text-align:center;
+	padding:0 0 40px;
+}
+.webResult{ 
+margin-bottom:10px;
+}
+.webResult h2{ 
+	background-color:#111;
+	font-size:18px;
+	font-weight:normal;
+	padding:8px 20px;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+}
+.webResult h2 a{ color:#eee;border:none;}
+.webResult p{ line-height:1.5;padding:5px 20px;}
+.webResult > a{ 
+margin-left:20px;
+text-decoration: underline;}
+
+
+.imageResult{
+	float:left;
+	height:180px;
+  margin-left: 10px;
+  margin-right: 10px;
+	text-align:center;
+	width: 45%;
+	overflow:hidden;
+}
+.imageResult img{ display:block;border:none;}
+.imageResult a.pic{
+	border:1px solid #fff;
+	outline:1px solid #777;
+	display:block;
+	margin:0 auto 15px;
+}
+
+/* The show more button */
+
+#more{
+	width:83px;
+	height:24px;
+	background:url('img/more.png') no-repeat;
+	cursor:pointer;
+	margin:40px auto;
+}
+
+#more:hover{
+	background-position:left bottom;
+}
+
+
+
+/* Giving Credit */
+
+p.credit{
+	margin:20px 0;
+	text-align:center;
+}
+
+p.credit a{
+	background-color:#4B5A64;
+	border:1px solid;
+	border-color:#3D4D57 #788E9B #788E9B #3D4D57;
+	color:#c0d0d8;
+	font-size:10px;
+	padding:4px 8px;
+	text-shadow:1px 1px 0 #38464F;
+}
+
+p.credit a:hover{
+	background-color:#38464f;
+	border-color:#38464f #788E9B #788E9B #38464f;
+}
+
+h2 a, 
+h2 a:visited {
+	text-decoration:none;
+	outline:none;
+}
+
+h2 a:hover{
+	border-bottom:1px dashed transparent;
+}
+
+.clear{
+	clear:both;
+}
