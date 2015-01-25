@@ -1,16 +1,17 @@
 /* TEAM */
 	Administrator: bizimakin
+  Helper: SerbayAcar
 
 /* THANKS */
 	Hosting: Hostturka
-	From: the World
+	From: Turkey
 
 /* SITE */
 	Site Name: EPfarki	
 	Site URL: http://epfarki.com/  
 	Doctype: PHP, HTML, CSS
 	Standards: HTML5, CSS
-  	Charset: UTF-8             
+  Charset: UTF-8             
 	Language: Usually Turkish
-	Contact: iletisim [at] epfarki.com 
+	Contact: iletisim@epfarki.com 
 	Twitter: @epfarki         
