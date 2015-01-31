@@ -7,7 +7,9 @@
 <div id="yanlo2go">
 <div id="lo2go"><h1><a title="EP" href="//epfarki.com/" class="dJAX_internal"> <span>EP</span>farkı</a></h1><h2><a title="EP" href="//epfarki.com/" class="dJAX_internal"> | Birazcık Farklı</a></h2></div></div>
 
-<div class="yans"><?php $dosya = fopen("../../sozler.txt","r"); while($satir = fgets($dosya,1024)) $sozler[] = $satir; fclose($dosya); $soz = $sozler[rand(0,count($sozler)-1)]; echo $soz; ?></div>
+<div class="yans">
+ <ul><li id="sozler"><a><i>Albert Einstein</i>: <cite>Mantık sizi A'dan B'ye götürür... Hayalgücü ise her yere...</cite></a></li></ul>
+</div>
 
 <? require('../../wp-content/themes/epbeyaz/sosyal-paylasim-sidebar.php'); ?> 
 <div class="temiz"></div>

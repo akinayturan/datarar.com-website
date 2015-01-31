@@ -38,7 +38,11 @@ $(function(){
   parseRSS('http://epfarki.com/feed/', '#epfarki')
 });
 </script>
-
+<script src="//epfarki.com/ep/tema/js/sozler.js"></script>
+    <script type="text/javascript">
+        document.getElementById('preloader').className += 'loading';
+    </script>
+    
 <!-- sayac -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

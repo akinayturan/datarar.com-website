@@ -31,7 +31,10 @@
 <!-- W3TC-include-js-head -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script src="//www.google.com.tr/coop/cse/brand?form=cse-search-box&amp;lang=tr"></script>
-
+     <script src="//epfarki.com/ep/tema/js/sozler.js"></script>
+    <script type="text/javascript">
+        document.getElementById('preloader').className += 'loading';
+    </script>
 
 <!-- sayac -->
 <script>
