@@ -12,29 +12,10 @@
 <? require('../../wp-content/themes/epbeyaz/sosyal-paylasim-sidebar.php'); ?> 
 <div class="temiz"></div>
 <div class="yans yans2">     
-<h4><span>Son Yazılar</span></h4>
-<?php
-function rssoku() 
-{	
-	$feed=file_get_contents("http://epfarki.com/feed");
-	$xml= new SimpleXMLElement($feed);
-	$sayac="1";
-	$limit="10";
-	echo "<ul>";
-	foreach ($xml -> channel -> item as $veri){
-		if ($sayac <= $limit){ 
-		$desc= $veri -> description;
-		$desc=substr($desc,0,0);
-		$link = $veri -> link;
-		$title= $veri -> title;
-		echo "<li><a href=\"$link\" title=\"$title\">$title</a></li>";
-		}
-	$sayac++;
-	}
-	echo "</ul>";
-}
-rssoku();
-?>  
+<h5><span>Son Yazılar</span></h5>
+<ul>
+<div id="epfarki" class="feedcontainer"></div>
+</ul>
 </div>	   
 
 </div><div id="anayazialan">

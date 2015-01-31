@@ -28,9 +28,16 @@
 </div></div></div></div> 
 
 <!-- W3TC-include-js-head -->
+                         
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script src="//www.google.com.tr/coop/cse/brand?form=cse-search-box&amp;lang=tr"></script>
-
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="http://epfarki.com/ep/tema/js/parser.js"></script>
+<script type="text/javascript">
+$(function(){
+  parseRSS('http://epfarki.com/feed/', '#epfarki')
+});
+</script>
 
 <!-- sayac -->
 <script>
