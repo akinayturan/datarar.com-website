@@ -6,8 +6,7 @@
 
             <div id="yanlo2go">
                 <div id="lo2go"><h1><a title="EP" href="//epfarki.com/" class="dJAX_internal"> <span>EP</span>farkı</a></h1><h2><a title="EP" href="//epfarki.com/" class="dJAX_internal"> | Birazcık Farklı</a></h2></div></div>
-
-            <div class="yans">
+            <div id="anakategorimenu">
                 <ul><li id="sozler"><a><i>Albert Einstein</i>: <cite>Mantık sizi A'dan B'ye götürür... Hayalgücü ise her yere...</cite></a></li></ul>
             </div>
 
