@@ -1,6 +1,6 @@
 <?
-$dirurl = "http://epfarki.com/hizmet/icon-mail/";  
-$picdir = "jim_black";  
+$dirurl = "http://epfarki.com/hizmet/icon-mail/";
+$picdir = "jim_black";
 
 function read_from_file($file){
 	$fp=fopen($file,"r");
@@ -14,25 +14,25 @@ function read_from_file($file){
 }
 
 function hexrgb($hexstr, $rgb){ //
- $int = hexdec(str_replace("#", '', $hexstr));
- switch($rgb) {
+	$int = hexdec(str_replace("#", '', $hexstr));
+	switch($rgb) {
 		case "r":
-		return 0xFF & $int >> 0x10;
+			return 0xFF & $int >> 0x10;
 			break;
 		case "g":
-		return 0xFF & ($int >> 0x8);
+			return 0xFF & ($int >> 0x8);
 			break;
 		case "b":
-		return 0xFF & $int;
+			return 0xFF & $int;
 			break;
 		default:
-		return array(
-			"r" => 0xFF & $int >> 0x10,
-			"g" => 0xFF & ($int >> 0x8),
-			"b" => 0xFF & $int
+			return array(
+				"r" => 0xFF & $int >> 0x10,
+				"g" => 0xFF & ($int >> 0x8),
+				"b" => 0xFF & $int
 			);
 			break;
-	}    
+	}
 }
 
 if($_GET['start']=="5glive"){
@@ -49,69 +49,69 @@ if($_GET['start']=="5glive"){
 	readfile($picdir."/".date("ymd",$filename)."/".$filename.".png");
 	exit;
 }elseif($_GET['mkpic']=="5glive"){
-	$username = trim($_GET['s']); //ÓÊ¼þµØÖ·
+	$username = trim($_GET['s']); //ï¿½Ê¼ï¿½ï¿½ï¿½Ö·
 	if(preg_match("/^[_\.0-9a-zA-Z\_@.]*$/i",$username) && $username){
-		$host = $_GET['maillogo']; //ÓÊ¼þHOST
+		$host = $_GET['maillogo']; //ï¿½Ê¼ï¿½HOST
 		$srcUrl = "s_logo/".$host.".gif"; //EmailÍ¼Æ¬URL
 
-		$back_c = "#ffffff"; //±³¾°ÑÕÉ«
-		$border_c = $_GET['bordercolor']; //±ß¿òÑÕÉ«
-		$font_c = $_GET['color']; //ÎÄ×ÖÑÕÉ«
-		$font_size = $_GET['size']; //×ÖÌå´óÐ¡
-		$font_url = "s_font/".$_GET['mailfont'].".ttf"; //×ÖÌåURL
+		$back_c = "#ffffff"; //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+		$border_c = $_GET['bordercolor']; //ï¿½ß¿ï¿½ï¿½ï¿½É«
+		$font_c = $_GET['color']; //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+		$font_size = $_GET['size']; //ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡
+		$font_url = "s_font/".$_GET['mailfont'].".ttf"; //ï¿½ï¿½ï¿½ï¿½URL
 
-		if($_GET['border']=="true") $is_border = 1; else $is_border = 0; //ÊÇ·ñÓÐ±ß¿ò 0Ã»ÓÐ ·Ç0ÓÐ
-		if($host) $is_logo = 1; else $is_logo=0; //ÊÇ·ñÓÐÓÊÏäÍ¼±ê 0Ã»ÓÐ ·Ç0ÓÐ
+		if($_GET['border']=="true") $is_border = 1; else $is_border = 0; //ï¿½Ç·ï¿½ï¿½Ð±ß¿ï¿½ 0Ã»ï¿½ï¿½ ï¿½ï¿½0ï¿½ï¿½
+		if($host) $is_logo = 1; else $is_logo=0; //ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ 0Ã»ï¿½ï¿½ ï¿½ï¿½0ï¿½ï¿½
 
 		$srcWidth = 0;
 		$srcHeight = 0;
 
 		$str_pos = imagettfbbox($font_size,0,$font_url,$username);
-		$str_width = intval($str_pos[2]); //ÎÄ×Ö×Ö·û¿í¶È
-		$str_height = intval(str_replace("-","",$str_pos[5])); //ÎÄ×Ö×Ö·û¸ß¶È
+		$str_width = intval($str_pos[2]); //ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
+		$str_height = intval(str_replace("-","",$str_pos[5])); //ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ß¶ï¿½
 
 		if($is_logo){
 			$origImg = ImageCreateFromGIF($srcUrl);
-			$srcWidth = intval(imagesx($origImg)); //EmailÍ¼Ïñ¿í¶È
-			$srcHeight = intval(imagesy($origImg)); //EmailÍ¼Ïñ¸ß¶È
+			$srcWidth = intval(imagesx($origImg)); //EmailÍ¼ï¿½ï¿½ï¿½ï¿½
+			$srcHeight = intval(imagesy($origImg)); //EmailÍ¼ï¿½ï¿½ß¶ï¿½
 		}
 
-		$newWidth = $str_width + 15 + $srcWidth; //LOGO×Ü¿í¶È
+		$newWidth = $str_width + 15 + $srcWidth; //LOGOï¿½Ü¿ï¿½ï¿½
 		$newHeight = ($srcHeight>$str_height) ? $srcHeight+2 : $str_height+8;
 
-		$image=imagecreatetruecolor($newWidth, $newHeight); //´´½¨Í¼Æ¬
+		$image=imagecreatetruecolor($newWidth, $newHeight); //ï¿½ï¿½ï¿½ï¿½Í¼Æ¬
 
-		$back_color = hexrgb($back_c,rgb); //È¡±³¾°ÑÕÉ«
-		$back = imagecolorallocate($image, $back_color['r'], $back_color['g'], $back_color['b']); //±³¾°ÑÕÉ« °×É«
-		imagefilledrectangle($image, 0, 0, $newWidth - 1, $newHeight - 1, $back); //±³¾°Ìî³ä
+		$back_color = hexrgb($back_c,rgb); //È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+		$back = imagecolorallocate($image, $back_color['r'], $back_color['g'], $back_color['b']); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É« ï¿½ï¿½É«
+		imagefilledrectangle($image, 0, 0, $newWidth - 1, $newHeight - 1, $back); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 		if($is_border){
-			$border_color = hexrgb($border_c,rgb); //È¡±ß¿òÑÕÉ«
-			$border = imagecolorallocate($image, $border_color['r'], $border_color['g'], $border_color['b']); //±ß¿òÑÕÉ«
-			imagerectangle($image, 0, 0, $newWidth - 1, $newHeight - 1, $border); //»­±ß¿ò
+			$border_color = hexrgb($border_c,rgb); //È¡ï¿½ß¿ï¿½ï¿½ï¿½É«
+			$border = imagecolorallocate($image, $border_color['r'], $border_color['g'], $border_color['b']); //ï¿½ß¿ï¿½ï¿½ï¿½É«
+			imagerectangle($image, 0, 0, $newWidth - 1, $newHeight - 1, $border); //ï¿½ï¿½ï¿½ß¿ï¿½
 		}
 
 		if($is_logo){
-			$srcX = $str_width+10; //EmailÍ¼Æ¬XÖáÎ»ÖÃ
-			$srcY = ($newHeight - $srcHeight)/2; //EmailÍ¼Æ¬YÖáÎ»ÖÃ
-			ImageCopy($image, $origImg, $srcX,$srcY,0,0,$srcWidth,$srcHeight); //½«EmailÍ¼Æ¬¸´ÖÆµ½LOGOÉÏ
+			$srcX = $str_width+10; //EmailÍ¼Æ¬Xï¿½ï¿½Î»ï¿½ï¿½
+			$srcY = ($newHeight - $srcHeight)/2; //EmailÍ¼Æ¬Yï¿½ï¿½Î»ï¿½ï¿½
+			ImageCopy($image, $origImg, $srcX,$srcY,0,0,$srcWidth,$srcHeight); //ï¿½ï¿½EmailÍ¼Æ¬ï¿½ï¿½ï¿½Æµï¿½LOGOï¿½ï¿½
 		}
 
-		$font_color = hexrgb($font_c,rgb); //È¡×ÖÌåÑÕÉ«
-		$color = imagecolorallocate($image, $font_color['r'], $font_color['g'], $font_color['b']); //×ÖÌåÑÕÉ«
+		$font_color = hexrgb($font_c,rgb); //È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+		$color = imagecolorallocate($image, $font_color['r'], $font_color['g'], $font_color['b']); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
 		$str_x = $str_height+($newHeight-$str_height)/2;
-		if(!$is_logo) $str_x-=2; //×ÖÌå¸ß¶ÈÐÞÕý
-		imagettftext($image, $font_size, 0, 6, $str_x, $color, $font_url, $username); //½«ÎÄ×ÖÐ´µ½Í¼Æ¬ÉÏ
+		if(!$is_logo) $str_x-=2; //ï¿½ï¿½ï¿½ï¿½ß¶ï¿½ï¿½ï¿½ï¿½ï¿½
+		imagettftext($image, $font_size, 0, 6, $str_x, $color, $font_url, $username); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½Í¼Æ¬ï¿½ï¿½
 
-		//Êä³öÍ¼Æ¬
+		//ï¿½ï¿½ï¿½Í¼Æ¬
 		$filename = time();
 		$filedir = date("ymd",$filename);
 
-		if(!file_exists($picdir."/".$filedir)){ //Éú³ÉÍ¼Æ¬´æ´¢Ä¿Â¼£¬°´ÔÂ·Ý·Ö¿ª´æ´¢
+		if(!file_exists($picdir."/".$filedir)){ //ï¿½ï¿½ï¿½Í¼Æ¬ï¿½æ´¢Ä¿Â¼ï¿½ï¿½ï¿½ï¿½ï¿½Â·Ý·Ö¿ï¿½ï¿½æ´¢
 			mkdir($picdir."/".$filedir);
 		}
 		header("Content-type: image/png");
-		imagepng($image,$picdir."/".$filedir."/".$filename.".png"); //Èç¹ûÒª½«Í¼Æ¬´æÔÚ±¾µØ£¬´ò¿ª´ËÑ¡Ïî
+		imagepng($image,$picdir."/".$filedir."/".$filename.".png"); //ï¿½ï¿½ï¿½Òªï¿½ï¿½Í¼Æ¬ï¿½ï¿½ï¿½Ú±ï¿½ï¿½Ø£ï¿½ï¿½ò¿ª´ï¿½Ñ¡ï¿½ï¿½
 		imagedestroy($image);
 		header("location: ?show=".$filename);
 		exit;
@@ -130,102 +130,102 @@ if($_GET['start']=="5glive"){
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-9" />    
-  
-<meta name="google-site-verification" content="ciu-UfpnqJYe6rjrk5QMrrzz684u2HLlywF9KKLKEjk" />
-<meta name="msvalidate.01" content="910AEDDA7AB4D2A7FA00ACB17E444EA5" />
-<meta name="alexaVerifyID" content="ybOKfPS80NueBfPKssTKHmhaWo0" />  
-<meta name="yandex-verification" content="5d863a6dead77fbe" />
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-9" />
 
-<meta name="description" content="Resimli E-posta oluþturma » EPfarki.com Hizmetleri » Birazcýk Farklý" />
-<meta name="keywords" content="Resimli E-posta oluþturma, epfarki, ep, farki, evrensel, paylasim, evrenselpaylasim, farký, farklý, farkli, fark, " />
-<title>Ýcon Mail » Resimli E-posta oluþturma » EPfarki.com Hizmetleri » Birazcýk Farklý</title>
+	<meta name="google-site-verification" content="ciu-UfpnqJYe6rjrk5QMrrzz684u2HLlywF9KKLKEjk" />
+	<meta name="msvalidate.01" content="910AEDDA7AB4D2A7FA00ACB17E444EA5" />
+	<meta name="alexaVerifyID" content="ybOKfPS80NueBfPKssTKHmhaWo0" />
+	<meta name="yandex-verification" content="5d863a6dead77fbe" />
 
-
-
-  <meta name="robots" content="index, follow" />
-<meta http-equiv="reply-to" content="epfarki@gmail.com" />
-<meta http-equiv="content-language" content="tr, en" />
-<meta http-equiv="pragma" content="no-cache" />
-<meta http-equiv="cache-control" content="no-cache" />
-<meta name="googlebot" content="index, follow" />
-<meta name="abstract" content="EPfarký » Bilgiye Iþýk Tut!" />
-<meta name="distribution" content="global" />
-<meta name="classification" content="personel blog" />
-<meta name="resource-type" content="document" />
-<meta name="rating" content="all" />
-<meta name="copyright" content="creativecommons" />
-<meta name="creation" content="29/11/2010 " />
-<meta name="generator" content="bizimakin" />
-<meta name="designer" content="bizimakin" />
-<meta name="publisher" content="bizimakin" />
-<meta name="author" content="akin" />
-<meta name="geo.region" content="TR-06" />
-<meta name="geo.placename" content="ankara" />
-<meta name="geo.position" content="38.963745;35.243322" />
-<meta name="ICBM" content="38.963745, 35.243322" />
-<meta name="DC.title" content="EPfarký » Bilgiye Iþýk Tut!" />
-
-
-  <link href="http://dosya.epfarki.com/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-  <link href="http://epfarki.com/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
-  <link href="http://epfarki.com/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
-
-  <link rel='index' title='EPfarki' href='http://epfarki.com/' />
-
-
-  <link href="images/common.css" rel="stylesheet" type="text/css" />
-  
+	<meta name="description" content="Resimli E-posta oluï¿½turma ï¿½ EPfarki.com Hizmetleri ï¿½ Birazcï¿½k Farklï¿½" />
+	<meta name="keywords" content="Resimli E-posta oluï¿½turma, epfarki, ep, farki, evrensel, paylasim, evrenselpaylasim, farkï¿½, farklï¿½, farkli, fark, " />
+	<title>ï¿½con Mail ï¿½ Resimli E-posta oluï¿½turma ï¿½ EPfarki.com Hizmetleri ï¿½ Birazcï¿½k Farklï¿½</title>
 
 
 
-<style>
-body{font-size:12px;color:#666;margin:0;}
-</style>
-<script type="text/javascript">
+	<meta name="robots" content="index, follow" />
+	<meta http-equiv="reply-to" content="epfarki@gmail.com" />
+	<meta http-equiv="content-language" content="tr, en" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta name="googlebot" content="index, follow" />
+	<meta name="abstract" content="EPfarkï¿½ ï¿½ Bilgiye Iï¿½ï¿½k Tut!" />
+	<meta name="distribution" content="global" />
+	<meta name="classification" content="personel blog" />
+	<meta name="resource-type" content="document" />
+	<meta name="rating" content="all" />
+	<meta name="copyright" content="creativecommons" />
+	<meta name="creation" content="29/11/2010 " />
+	<meta name="generator" content="bizimakin" />
+	<meta name="designer" content="bizimakin" />
+	<meta name="publisher" content="bizimakin" />
+	<meta name="author" content="akin" />
+	<meta name="geo.region" content="TR-06" />
+	<meta name="geo.placename" content="ankara" />
+	<meta name="geo.position" content="38.963745;35.243322" />
+	<meta name="ICBM" content="38.963745, 35.243322" />
+	<meta name="DC.title" content="EPfarkï¿½ ï¿½ Bilgiye Iï¿½ï¿½k Tut!" />
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-15636054-13']);
-  _gaq.push(['_setDomainName', 'epfarki.com']);
-  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+	<link href="http://dosya.epfarki.com/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="http://epfarki.com/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+	<link href="http://epfarki.com/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
 
-</script>
+	<link rel='index' title='EPfarki' href='http://epfarki.com/' />
+
+
+	<link href="images/common.css" rel="stylesheet" type="text/css" />
+
+
+
+
+	<style>
+		body{font-size:12px;color:#666;margin:0;}
+	</style>
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-15636054-13']);
+		_gaq.push(['_setDomainName', 'epfarki.com']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
 </head>
 <body>
 <? if($type==1){ ?>
-<table style="border:1px solid #f5f5f5;" width="350" align="center">
-<tr><td height="150" align="center"><img src="<?=$filename?>" id="newlogo" /></td></tr>
-</table>
+	<table style="border:1px solid #f5f5f5;" width="350" align="center">
+		<tr><td height="150" align="center"><img src="<?=$filename?>" id="newlogo" /></td></tr>
+	</table>
 <? }elseif($type==2){ ?>
-<script language="javascript">
-function oCopy(obj){
-obj.select();
-js=obj.createTextRange();
-js.execCommand("Copy");
-} 
-</script> 
-<table style="border:1px solid #f5f5f5;" width="350" align="center">
-<tr><td height="80" align="center"><img src="<?=$filename?>" id="newlogo" alt="ÓÊÏäÍ¼±ê" /></td></tr>
-<tr><td height="40" bgcolor="#f5f5f5" align="center"><input name="savebutton" type="button" id="savebutton" onClick="document.location='?down=<?=$picname?>'" value="Resmi Ýndir" style="width:100px;line-height:150%;" /></td></tr>
-<tr><td>
-<table>
-<tr><td height="20" align="center" width="60">Resim Adresi</td><td><input type="text" value="<?=$dirurl.$filename?>" style="width:200px;height:16px;font-family:arial;" onclick="this.select()" id="ubbpic" /></td><td><input type="button" value="Copy" onclick="oCopy(ubbpic)" /></td></tr>
-<tr><td height="20" align="center">HTML codu</td><td><input type="text" value='<img src="<?=$dirurl.$filename?>" alt="Mail icon EPfarki.com" />' style="width:200px;height:16px;font-family:arial;" onclick="this.select()" id="htmlpic" /></td><td><input type="button" value="Copy" onclick="oCopy(htmlpic)" /></td></tr>
-</table>
-</td></tr>
-</table>
+	<script language="javascript">
+		function oCopy(obj){
+			obj.select();
+			js=obj.createTextRange();
+			js.execCommand("Copy");
+		}
+	</script>
+	<table style="border:1px solid #f5f5f5;" width="350" align="center">
+		<tr><td height="80" align="center"><img src="<?=$filename?>" id="newlogo" alt="ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½" /></td></tr>
+		<tr><td height="40" bgcolor="#f5f5f5" align="center"><input name="savebutton" type="button" id="savebutton" onClick="document.location='?down=<?=$picname?>'" value="Resmi ï¿½ndir" style="width:100px;line-height:150%;" /></td></tr>
+		<tr><td>
+				<table>
+					<tr><td height="20" align="center" width="60">Resim Adresi</td><td><input type="text" value="<?=$dirurl.$filename?>" style="width:200px;height:16px;font-family:arial;" onclick="this.select()" id="ubbpic" /></td><td><input type="button" value="Copy" onclick="oCopy(ubbpic)" /></td></tr>
+					<tr><td height="20" align="center">HTML codu</td><td><input type="text" value='<img src="<?=$dirurl.$filename?>" alt="Mail icon EPfarki.com" />' style="width:200px;height:16px;font-family:arial;" onclick="this.select()" id="htmlpic" /></td><td><input type="button" value="Copy" onclick="oCopy(htmlpic)" /></td></tr>
+				</table>
+			</td></tr>
+	</table>
 <? }elseif($type==3){ ?>
 
 <? }else{ ?>
-<table style="border:1px solid #f5f5f5;" width="350" align="center">
-<tr><td height="150" align="center"><img src="<?=$filename?>" id="newlogo" alt="º¹,³ö´íÁË,ÇëÖØÊÔ!" /></td></tr>
-</table>
+	<table style="border:1px solid #f5f5f5;" width="350" align="center">
+		<tr><td height="150" align="center"><img src="<?=$filename?>" id="newlogo" alt="ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!" /></td></tr>
+	</table>
 <? } ?>
 </body>
 </html>

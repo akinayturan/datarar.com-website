@@ -16,11 +16,11 @@ fieldset{background: #222;padding-left: 15px;   padding-top: 15px}
 
 #s{
 	/* The search text box. */
-	
+
 	border:none;
 	color:#888888;
 	background:url("img/searchBox.png") no-repeat;
-	
+
 	float:left;
 	font-family:Arial,Helvetica,sans-serif;
 	font-size:15px;
@@ -39,7 +39,7 @@ fieldset{background: #222;padding-left: 15px;   padding-top: 15px}
 	list-style:none;
 	margin:10px 0 0 440px;
 	height:19px;
-	position:relative;     
+	position:relative;
 }
 
 #icons ul li {
@@ -70,7 +70,7 @@ fieldset{background: #222;padding-left: 15px;   padding-top: 15px}
 
 span.arrow{
 	/* The little arrow that moves below the icons */
-	
+
 	width:11px;
 	height:6px;
 	margin:21px 0 0 5px;
@@ -129,8 +129,8 @@ input[type=radio]{
 .pageContainer{
 	border-bottom:1px solid #5e7481;
 	margin-bottom:50px;
-	
-	
+
+
 	-moz-box-shadow:0 1px 0 #798e9c;
 	-webkit-box-shadow:0 1px 0 #798e9c;
 	box-shadow:0 1px 0 #798e9c;
@@ -141,10 +141,10 @@ p.notFound{
 	text-align:center;
 	padding:0 0 40px;
 }
-.webResult{ 
-margin-bottom:10px;
+.webResult{
+	margin-bottom:10px;
 }
-.webResult h2{ 
+.webResult h2{
 	background-color:#111;
 	font-size:18px;
 	font-weight:normal;
@@ -155,16 +155,16 @@ margin-bottom:10px;
 }
 .webResult h2 a{ color:#eee;border:none;}
 .webResult p{ line-height:1.5;padding:5px 20px;}
-.webResult > a{ 
-margin-left:20px;
-text-decoration: underline;}
+.webResult > a{
+	margin-left:20px;
+	text-decoration: underline;}
 
 
 .imageResult{
 	float:left;
 	height:180px;
-  margin-left: 10px;
-  margin-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 	text-align:center;
 	width: 45%;
 	overflow:hidden;
@@ -215,7 +215,7 @@ p.credit a:hover{
 	border-color:#38464f #788E9B #788E9B #38464f;
 }
 
-h2 a, 
+h2 a,
 h2 a:visited {
 	text-decoration:none;
 	outline:none;

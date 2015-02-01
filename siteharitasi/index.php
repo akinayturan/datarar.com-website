@@ -63,11 +63,11 @@ function formatare_link($url_de_adaugat, $url_curent, $url_principal, $get){
 
 
     if(
-    !$parse_url_de_adaugat[host] or
-    $parse_url_de_adaugat[host]==$parse_url_principal[host] or
+        !$parse_url_de_adaugat[host] or
+        $parse_url_de_adaugat[host]==$parse_url_principal[host] or
 
-    $parse_url_de_adaugat[host]==$url_principal_fara_www or
-    $parse_url_de_adaugat[host]==$url_principal_cu_www
+        $parse_url_de_adaugat[host]==$url_principal_fara_www or
+        $parse_url_de_adaugat[host]==$url_principal_cu_www
     ){
         $url_final=$url_final;
 
@@ -80,38 +80,38 @@ function formatare_link($url_de_adaugat, $url_curent, $url_principal, $get){
     }
 
     if(strstr($url_final, "?") and $get!=''){
-    $query=explode("?", $url_final);
+        $query=explode("?", $url_final);
 
-    $query2=explode("&", $query[1]);
-    $strip=explode(",", $get);
+        $query2=explode("&", $query[1]);
+        $strip=explode(",", $get);
 
 
-    if(!empty($query2) and !empty($strip)){
-        foreach($query2 as $vq){
-        $x=array();
-            foreach($strip as $vs){
+        if(!empty($query2) and !empty($strip)){
+            foreach($query2 as $vq){
+                $x=array();
+                foreach($strip as $vs){
 
-                $vs=trim($vs);
-                if(preg_match("/^$vs/", $vq)){
-                    $x[]=1;
+                    $vs=trim($vs);
+                    if(preg_match("/^$vs/", $vq)){
+                        $x[]=1;
 
+                    }
+                }
+                if(count($x)==0){
+                    $p[]=$vq;
                 }
             }
-            if(count($x)==0){
-                $p[]=$vq;
+            if(!empty($p)){
+
+                $qu=implode("&", $p);
+                $url=$query[0]."?".$qu;
+
+            }else{
+                $url=$query[0];
             }
         }
-        if(!empty($p)){
-
-            $qu=implode("&", $p);
-            $url=$query[0]."?".$qu;
-
-        }else{
-            $url=$query[0];
-        }
-    }
     }else{
-    $url=$url_final;
+        $url=$url_final;
     }
     return $url;
 
@@ -144,14 +144,14 @@ function robotstxt($url_principal){
             }
         }
         if($v4){
-        foreach($v4 as $k5=>$v5){
-            if($v5 and $v5!="*" and $k5!="0"){
+            foreach($v4 as $k5=>$v5){
+                if($v5 and $v5!="*" and $k5!="0"){
 
-                $disalow[]=$v5;
+                    $disalow[]=$v5;
+                }
             }
-        }
-        $disalow=array_unique($disalow);
-        return $disalow;
+            $disalow=array_unique($disalow);
+            return $disalow;
         }else{
             return null;
 
@@ -160,7 +160,7 @@ function robotstxt($url_principal){
 }
 ?>
 <?
-require('../../hizmet/tema/menu1.php'); 
+require('../../hizmet/tema/menu1.php');
 ?>
 
 <meta name="description" content="Siteniz için sitemap(site haritası) oluşturun. - Free online site map generator! Get your sitemap done and up in seconds." />
@@ -168,12 +168,12 @@ require('../../hizmet/tema/menu1.php');
 <title>Site Haritası-EP » Hızlı Sitemap Oluştur | Free online site map generator!</title>
 
 <?
-require('../../hizmet/tema/menu2.php'); 
+require('../../hizmet/tema/menu2.php');
 ?>
 
 <div id="title-hizmet" class="title"><h3>
-<a href="http://epfarki.com/hizmet/siteharitasi/" title="Site Haritası">Site Haritası</a>
-</h3></div> 
+        <a href="http://epfarki.com/hizmet/siteharitasi/" title="Site Haritası">Site Haritası</a>
+    </h3></div>
 <div class="temiz"></div>
 
 
@@ -182,87 +182,87 @@ require('../../hizmet/tema/menu2.php');
  <form action="" method="post" name="generate_sitemap" id="generate_sitemap" />
 	    <table id="mytable" cellspacing="0" summary="Sitemap olusturma tablosu.">
 
-	      <tr>
-	        <th scope="row" abbr="Site URL" class="spec">Site URL:</th>
-	        <td><span><input name="url" type="text" value="http://" />
+            <tr>
+                <th scope="row" abbr="Site URL" class="spec">Site URL:</th>
+                <td><span><input name="url" type="text" value="http://" />
 	        </span></td>
-	        <td><p>Lütfen sitemap oluşturmak istediğiniz sitenizin adresini(URL) yazın.</p></td>
+                <td><p>Lütfen sitemap oluşturmak istediğiniz sitenizin adresini(URL) yazın.</p></td>
 
-	      </tr>
-	      <tr>
-	        <th scope="row" abbr="Last Modified" class="specalt"><strong>Strip Türü</strong>:</th>
-	        <td class="alt"><input name="strip" type="text" value="sid, phpsessid" /></td>
-	        <td class="alt">Bilmiyor iseniz dokunmayınız!</td>
-	      </tr>
-	      <tr>
-	        <th scope="row" abbr="Last Modified" class="specalt"><strong>Son Güncelleme</strong>:</th>
-	        <td class="alt">		<input name="last_modified" type="text" value="<?=date("Y-m-d")?>" /></td>
-	        <td class="alt">Son güncelleme yaptığınız tarih. Bu tarih Yıl-Ay-Gün biçiminde girilmelidir.</td>
-	      </tr>
-	      <tr>
+            </tr>
+            <tr>
+                <th scope="row" abbr="Last Modified" class="specalt"><strong>Strip Türü</strong>:</th>
+                <td class="alt"><input name="strip" type="text" value="sid, phpsessid" /></td>
+                <td class="alt">Bilmiyor iseniz dokunmayınız!</td>
+            </tr>
+            <tr>
+                <th scope="row" abbr="Last Modified" class="specalt"><strong>Son Güncelleme</strong>:</th>
+                <td class="alt">		<input name="last_modified" type="text" value="<?=date("Y-m-d")?>" /></td>
+                <td class="alt">Son güncelleme yaptığınız tarih. Bu tarih Yıl-Ay-Gün biçiminde girilmelidir.</td>
+            </tr>
+            <tr>
 
-	        <th scope="row" abbr="Change frequency" class="spec"><strong>Güncelleme sıklığı</strong>:</th>
-	        <td><select name="change_frequency" id="Change_frequency">
-	            <option value="always">Her zaman</option>
-	            <option value="hourly">Her saat</option>
-	            <option value="daily">Her gün</option>
-	            <option value="weekly">Her hafta</option>
+                <th scope="row" abbr="Change frequency" class="spec"><strong>Güncelleme sıklığı</strong>:</th>
+                <td><select name="change_frequency" id="Change_frequency">
+                        <option value="always">Her zaman</option>
+                        <option value="hourly">Her saat</option>
+                        <option value="daily">Her gün</option>
+                        <option value="weekly">Her hafta</option>
 
-	            <option value="monthly" selected="selected">Her ay</option>
-	            <option value="yearly">Her yıl</option>
-	            <option value="never">Asla</option>
-	        </select></td>
-	        <td>Bu site hangi sıklıklarla güncelleniyor.</td>
-	      </tr>
-	      <tr>
+                        <option value="monthly" selected="selected">Her ay</option>
+                        <option value="yearly">Her yıl</option>
+                        <option value="never">Asla</option>
+                    </select></td>
+                <td>Bu site hangi sıklıklarla güncelleniyor.</td>
+            </tr>
+            <tr>
 
-	        <th scope="row" abbr="Priority" class="specalt"><strong>Öncelik</strong>:</th>
-	        <td class="alt"><select name="priority" id="Priority">
-	            <option value="0.0">0.0</option>
-	            <option value="0.1">0.1</option>
-	            <option value="0.2">0.2</option>
-	            <option value="0.3">0.3</option>
+                <th scope="row" abbr="Priority" class="specalt"><strong>Öncelik</strong>:</th>
+                <td class="alt"><select name="priority" id="Priority">
+                        <option value="0.0">0.0</option>
+                        <option value="0.1">0.1</option>
+                        <option value="0.2">0.2</option>
+                        <option value="0.3">0.3</option>
 
-	            <option value="0.4">0.4</option>
-	            <option value="0.5" selected="selected">0.5</option>
-	            <option value="0.6">0.6</option>
-	            <option value="0.7">0.7</option>
-	            <option value="0.8">0.8</option>
-	            <option value="0.9">0.9</option>
+                        <option value="0.4">0.4</option>
+                        <option value="0.5" selected="selected">0.5</option>
+                        <option value="0.6">0.6</option>
+                        <option value="0.7">0.7</option>
+                        <option value="0.8">0.8</option>
+                        <option value="0.9">0.9</option>
 
-	            <option value="1.0">1.0</option>
-	        </select></td>
-	        <td class="alt">Sitenizde bulunan sayfalara verilen öncelik oranıdır. Geçerli değerler 0.1 ile 1.0 arasındadır. Bir sayfanın varsayılan öncelik oranı 0.5'tir. Arama motorları sitenizi indekslerken bu oranlardan faydalanır.</td>
-		  </tr>
-		  
-		  <tr bgcolor="#635F5F">
-	      <td colspan="3" style="text-align: center"><input name="generate_sitemap" type="submit" id="generate_sitemap" value="Sitemap'i Oluştur" style="margin: 5px 5px 5px 0;"></td>
-		  </tr>
-		</table>
- </form>
+                        <option value="1.0">1.0</option>
+                    </select></td>
+                <td class="alt">Sitenizde bulunan sayfalara verilen öncelik oranıdır. Geçerli değerler 0.1 ile 1.0 arasındadır. Bir sayfanın varsayılan öncelik oranı 0.5'tir. Arama motorları sitenizi indekslerken bu oranlardan faydalanır.</td>
+            </tr>
 
-<p>
-<?
-if($_POST['generate_sitemap']){
-if(!empty($_POST['url']) && @file_get_contents($_POST['url'])){
+            <tr bgcolor="#635F5F">
+                <td colspan="3" style="text-align: center"><input name="generate_sitemap" type="submit" id="generate_sitemap" value="Sitemap'i Oluştur" style="margin: 5px 5px 5px 0;"></td>
+            </tr>
+        </table>
+    </form>
 
-    $urlok=1;
-}else{
-    echo "<h3 align=center style='color: red'>URL Hatalı!</h3>";
-    $urlok=0;
+    <p>
+        <?
+        if($_POST['generate_sitemap']){
+        if(!empty($_POST['url']) && @file_get_contents($_POST['url'])){
 
-}
-?>
-</p>
+            $urlok=1;
+        }else{
+            echo "<h3 align=center style='color: red'>URL Hatalı!</h3>";
+            $urlok=0;
+
+        }
+        ?>
+    </p>
 
 
 <div class='frame'>
-<?php
-        $isok=$urlok;
-if($isok==1){
-echo "Sitemap'iniz aşağıda oluşturuluyor. Lütfen Bekleyiniz...\n";
+    <?php
+    $isok=$urlok;
+    if($isok==1){
+    echo "Sitemap'iniz aşağıda oluşturuluyor. Lütfen Bekleyiniz...\n";
 
-echo '
+    echo '
 <style type="text/css">
 <!--
 body,td,th {
@@ -273,113 +273,113 @@ body,td,th {
 
 </style>
 <pre>';
-$db=array();
-$main_url=$_POST['url'];
+    $db=array();
+    $main_url=$_POST['url'];
 
-$url_sitemap=parse_url($main_url);
-$db[$main_url]=0;
-$asd=array("href=\"", "href='", "src=\"", "src='", "\"", "'", ">");
+    $url_sitemap=parse_url($main_url);
+    $db[$main_url]=0;
+    $asd=array("href=\"", "href='", "src=\"", "src='", "\"", "'", ">");
 
-$dsa=array("href=", "href=", "src=", "src=", " ", " ", " ");
+    $dsa=array("href=", "href=", "src=", "src=", " ", " ", " ");
 
-$disalow=robotstxt($main_url);
-$links_final=array();
-$xyz=0;
-while($xyz<=$maxpages){
-
-if($maxpages>=1){
-$xyz++;
-}
-    $current_url=array_search(0, $db);
-    if(!$current_url){break;}
-
-    $db[$current_url]=1;
-flush();
-ob_flush();
-echo "($xyz) indexing: $current_url\n";
-flush();
-
-ob_flush();
-    $file=@file_get_contents($current_url);
-    $file=strtolower(preg_replace("/\s+/m", " ", $file));
-
-    $file_array = explode("<", $file);
+    $disalow=robotstxt($main_url);
     $links_final=array();
-    foreach($file_array as $v_file_array){
-        $v_file_array=str_replace($asd, $dsa, $v_file_array);
+    $xyz=0;
+    while($xyz<=$maxpages){
 
-        if (
-            (preg_match("/^a/", $v_file_array) or
-            preg_match("/^frame/", $v_file_array) or
+        if($maxpages>=1){
+            $xyz++;
+        }
+        $current_url=array_search(0, $db);
+        if(!$current_url){break;}
 
-            preg_match("/^iframe/", $v_file_array)) and
-            (stristr($v_file_array, "href") or stristr($v_file_array, "src")) and
+        $db[$current_url]=1;
+        flush();
+        ob_flush();
+        echo "($xyz) indexing: $current_url\n";
+        flush();
 
-            !stristr($v_file_array, "href=javascript") and
-            !stristr($v_file_array, "href=mailto")
-        ) {
+        ob_flush();
+        $file=@file_get_contents($current_url);
+        $file=strtolower(preg_replace("/\s+/m", " ", $file));
 
-            preg_match('|href=(.*) |U', $v_file_array, $regs);
-            if (($a=formatare_link($regs[1], $current_url, $main_url, $_POST['strip']))  != ''){
+        $file_array = explode("<", $file);
+        $links_final=array();
+        foreach($file_array as $v_file_array){
+            $v_file_array=str_replace($asd, $dsa, $v_file_array);
 
-                if($disalow){
-                    foreach ($disalow as $v_disalow){
-                        if(!stristr($a, '$v_disalow')){
-                            if($db[$a]!=1){
+            if (
+                (preg_match("/^a/", $v_file_array) or
+                    preg_match("/^frame/", $v_file_array) or
 
-                                $db[$a]=0;
+                    preg_match("/^iframe/", $v_file_array)) and
+                (stristr($v_file_array, "href") or stristr($v_file_array, "src")) and
+
+                !stristr($v_file_array, "href=javascript") and
+                !stristr($v_file_array, "href=mailto")
+            ) {
+
+                preg_match('|href=(.*) |U', $v_file_array, $regs);
+                if (($a=formatare_link($regs[1], $current_url, $main_url, $_POST['strip']))  != ''){
+
+                    if($disalow){
+                        foreach ($disalow as $v_disalow){
+                            if(!stristr($a, '$v_disalow')){
+                                if($db[$a]!=1){
+
+                                    $db[$a]=0;
+                                }
+                                break;
                             }
-                            break;
                         }
-                    }
-                }else{
-                    if($db[$a]!=1){
+                    }else{
+                        if($db[$a]!=1){
 
-                        $db[$a]=0;
+                            $db[$a]=0;
+                        }
                     }
                 }
-            }
-            preg_match('|src=(.*) |U', $v_file_array, $regs);
+                preg_match('|src=(.*) |U', $v_file_array, $regs);
 
-            if (($a=formatare_link($regs[1], $current_url, $main_url, $_POST['strip']))  != ''){
+                if (($a=formatare_link($regs[1], $current_url, $main_url, $_POST['strip']))  != ''){
 
-                if($disalow){
-                    foreach ($disalow as $v_disalow){
-                        if(!stristr($a, '$v_disalow')){
-                            if($db[$a]!=1){
+                    if($disalow){
+                        foreach ($disalow as $v_disalow){
+                            if(!stristr($a, '$v_disalow')){
+                                if($db[$a]!=1){
 
-                                $db[$a]=0;
+                                    $db[$a]=0;
+                                }
+                                break;
                             }
-                            break;
                         }
-                    }
-                }else{
-                    if($db[$a]!=1){
+                    }else{
+                        if($db[$a]!=1){
 
-                        $db[$a]=0;
+                            $db[$a]=0;
+                        }
                     }
                 }
             }
         }
     }
-}
-$site_lastmod=htmlspecialchars($_POST['last_modified']);
+    $site_lastmod=htmlspecialchars($_POST['last_modified']);
 
-$site_changefreq=htmlspecialchars($_POST['change_frequency']);
-$site_priority=htmlspecialchars($_POST['priority']);
-$sitemap="<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+    $site_changefreq=htmlspecialchars($_POST['change_frequency']);
+    $site_priority=htmlspecialchars($_POST['priority']);
+    $sitemap="<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 
 <urlset xmlns=\"http://www.google.com/schemas/sitemap/0.84\">
 ";
-$sitemap2="<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+    $sitemap2="<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <urlset xmlns=\"http://www.google.com/schemas/sitemap/0.84\">
 ";
 
-foreach($db as $site_link=>$val){
-$site_link=htmlspecialchars(htmlspecialchars($site_link));
-$site_link2=htmlspecialchars($site_link);
+    foreach($db as $site_link=>$val){
+        $site_link=htmlspecialchars(htmlspecialchars($site_link));
+        $site_link2=htmlspecialchars($site_link);
 
-$sitemap.="<url>
+        $sitemap.="<url>
     <loc>$site_link</loc>
     <lastmod>$site_lastmod</lastmod>
     <changefreq>$site_changefreq</changefreq>
@@ -387,7 +387,7 @@ $sitemap.="<url>
     <priority>$site_priority</priority>
 </url>
 ";
-$sitemap2.="<url>
+        $sitemap2.="<url>
     <loc>$site_link2</loc>
 
     <lastmod>$site_lastmod</lastmod>
@@ -395,53 +395,53 @@ $sitemap2.="<url>
     <priority>$site_priority</priority>
 </url>
 ";
-}
+    }
 
-$sitemap.="</urlset>";
-$sitemap2.="</urlset>";
-$filename=date("YmdHis")."-sitemap.xml";;
+    $sitemap.="</urlset>";
+    $sitemap2.="</urlset>";
+    $filename=date("YmdHis")."-sitemap.xml";;
 
-$current_directory=str_replace(strrchr($_SERVER['SCRIPT_FILENAME'], "/"), "", $_SERVER['SCRIPT_FILENAME'])."/";
+    $current_directory=str_replace(strrchr($_SERVER['SCRIPT_FILENAME'], "/"), "", $_SERVER['SCRIPT_FILENAME'])."/";
 
-$handle = fopen($current_directory.$filename, 'w');
-fwrite($handle, $sitemap2);
-fclose($handle);
+    $handle = fopen($current_directory.$filename, 'w');
+    fwrite($handle, $sitemap2);
+    fclose($handle);
 
-$count=count($db);
-$count1=array_count_values($db);
-echo "\n<b>{$count1[1]}</b> Sayfada <b>$count</b> link bulundu\n";
+    $count=count($db);
+    $count1=array_count_values($db);
+    echo "\n<b>{$count1[1]}</b> Sayfada <b>$count</b> link bulundu\n";
 
-        ?>
-        </div> 
-   
+    ?>
+</div>
 
-   
+
+
 
   <div><span>
 	  <h3>İşte Sitemap'iniz burada.</h3><textarea name="textarea2" cols="65" rows="10"><?=$sitemap?></textarea>
 
-	</span></div>   
+	</span></div>
 
 <p align="center">
-		<span><a href="<?=$filename?>" target="_blank"><strong>Sitemap</strong>i görüntüle</a></span>
-	</p>
+    <span><a href="<?=$filename?>" target="_blank"><strong>Sitemap</strong>i görüntüle</a></span>
+</p>
 
-  <? } } ?>      
+    <? } } ?>
                     </span>
 
 
- <blockquote>
-	<h4>Sitemap Bilgileri</h4>
-	<b>Sitemap dosyasını nereye koymalıyım?</b>		
-    <p><abbr title="Site Haritası">Sitemap.xml</abbr> dosyası için bilgisayarınızın not defterine sitemap'i kopyaladıktan sonra "sitemap.xml" olarak farklı kaydetmeniz gerekir.<strong>Sitemap</strong> dosyanızı sitenizin ana dizinine yükleyin.</p>		
-	<b>Sitemap dosyasının boyutu ne kadar olabilir?</b>		
-		<p>Sitemap dosyaları 10 MB (10,485,760 bytes) üzeri olmamalıdır. Ayrıca en fazla 50.000 URL içerebilir.</p>
-	<b>Sitemap dosyasını oluşturduktan sonra ne yapmalıyım?</b>		
-		<p><strong>Sitemap</strong> dosyanızı oluşturup sitenize yükledikten sonra Sitemap protokolünü kabul eden arama motorlarına bu dosyayı yollamalısınız. Mesela Google arama motoruna sitemap dosyanızı göndermek için <a rel="nofollow" href="http://www.google.com/webmasters" title="Google Webmasters">Google Webmaster</a> hesabı oluşturup sitemap dosyanızı yüklemelisiniz.</p>		
-	<b>Sayfalarımdan bazılarında frame teknolojisi kullanıyorum. Her dosyanın URL'sini ayrı ayrı girmem gerekir mi?</b>		
-		<p>Evet, girmelisiniz</p>	
-  </blockquote>	
+<blockquote>
+    <h4>Sitemap Bilgileri</h4>
+    <b>Sitemap dosyasını nereye koymalıyım?</b>
+    <p><abbr title="Site Haritası">Sitemap.xml</abbr> dosyası için bilgisayarınızın not defterine sitemap'i kopyaladıktan sonra "sitemap.xml" olarak farklı kaydetmeniz gerekir.<strong>Sitemap</strong> dosyanızı sitenizin ana dizinine yükleyin.</p>
+    <b>Sitemap dosyasının boyutu ne kadar olabilir?</b>
+    <p>Sitemap dosyaları 10 MB (10,485,760 bytes) üzeri olmamalıdır. Ayrıca en fazla 50.000 URL içerebilir.</p>
+    <b>Sitemap dosyasını oluşturduktan sonra ne yapmalıyım?</b>
+    <p><strong>Sitemap</strong> dosyanızı oluşturup sitenize yükledikten sonra Sitemap protokolünü kabul eden arama motorlarına bu dosyayı yollamalısınız. Mesela Google arama motoruna sitemap dosyanızı göndermek için <a rel="nofollow" href="http://www.google.com/webmasters" title="Google Webmasters">Google Webmaster</a> hesabı oluşturup sitemap dosyanızı yüklemelisiniz.</p>
+    <b>Sayfalarımdan bazılarında frame teknolojisi kullanıyorum. Her dosyanın URL'sini ayrı ayrı girmem gerekir mi?</b>
+    <p>Evet, girmelisiniz</p>
+</blockquote>
 
 <?
-require('../../hizmet/tema/menu3.php'); 
+require('../../hizmet/tema/menu3.php');
 ?>

@@ -1,5 +1,5 @@
 <?
-require('../../hizmet/tema/menu1.php'); 
+require('../../hizmet/tema/menu1.php');
 ?>
 
 <meta name="description" content="Yenilenme » EPfarki.com Hizmetleri » Birazcık Farklı" />
@@ -7,20 +7,20 @@ require('../../hizmet/tema/menu1.php');
 <title>Yenilenme | EPfarkı</title>
 
 <?
-require('../../hizmet/tema/menu2.php'); 
+require('../../hizmet/tema/menu2.php');
 ?>
 
 <div id="title-hizmet" class="title"><h3>
-<a href="http://epfarki.com/hizmet/" rel="bookmark" title="Farklı">Yenilenme</a>
-</h3></div>
+        <a href="http://epfarki.com/hizmet/" rel="bookmark" title="Farklı">Yenilenme</a>
+    </h3></div>
 <div class="temiz"></div>
 
 
 <blockquote>
-<p><b>Yenilenme</b><br />
-Sistemimiz Yenilenmektedir... // Rahatsızlıktan Dolayı Özür Dileriz...
-</p> </blockquote>
+    <p><b>Yenilenme</b><br />
+        Sistemimiz Yenilenmektedir... // Rahatsızlıktan Dolayı Özür Dileriz...
+    </p> </blockquote>
 
 <?
-require('../../hizmet/tema/menu3.php'); 
+require('../../hizmet/tema/menu3.php');
 ?>
