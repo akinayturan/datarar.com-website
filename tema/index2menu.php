@@ -33,7 +33,8 @@
                 <div id="altyazialan">
                     <div id="main" class="updatable" role="main">
                         <div id="yukleyici"></div>
-                        <div id="kategorimenu">
-                            <? require('../hizmet/tema/menu.php'); ?>
-                        </div>
-                        <div class="postkap"><div class="post"><div class="postic">
+                                    <div id="post-hiz" class="post">
+                                        <div id="postic-hiz" class="postic">
+                                            <div id="title-hiz" class="title"><h4><a href="http://epfarki.com/hizmet/" rel="bookmark" title="Hizmetlerimiz" class="dJAX_internal">Hizmetlerimiz</a></h4></div>
+                                            <div class="temiz"></div>
+                                            <div id="icerik-993" class="icerik">
