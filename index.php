@@ -10,7 +10,6 @@ require('../hizmet/tema/index2menu.php');
 
 <div class="yans2tab">
     <div class="tab2_content">
-        <h5>Online</h5>
         <ul class="tab2ek">
             <ul class="sol">
                 <li><a href="//epfarki.com/linkekle/" title="Link Ekle">Link Ekle</a></li>

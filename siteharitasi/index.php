@@ -442,6 +442,4 @@ body,td,th {
     <p>Evet, girmelisiniz</p>
 </blockquote>
 
-<?
-require('../../hizmet/tema/menu3.php');
-?>
+<? require('../../hizmet/tema/menu3.php'); ?>

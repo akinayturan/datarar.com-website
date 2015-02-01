@@ -422,6 +422,4 @@ require('../../hizmet/tema/menu2.php');
             <br /></p> </blockquote>
 
 </div>
-<?
-require('../../hizmet/tema/menu3jsyok.php');
-?>
+<? require('../../hizmet/tema/menu3jsyok.php'); ?>
