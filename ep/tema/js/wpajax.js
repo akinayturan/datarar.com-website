@@ -23,14 +23,10 @@ h.split("#");return a.slice(1,a.length).join("#")}}}();c.fn.address=function(v){
 r.preventDefault()}};c(this).click(w).live("click",w).live("submit",function(r){if(c(this).is("form")){var s=c(this).attr("action");s=v?v.call(this):(s.indexOf("?")!=-1?s.replace(/&$/,""):s+"?")+c(this).serialize();c.address.value(s);r.preventDefault()}}).attr("address",true)}return this}})(jQuery);
 
 // Warning, global variable =/
-
 var base = 'http://epfarki.com';
 
-// Self-Executing Anonymous Function to avoid more globals
 (function() {
-// Open every external link in a new window.
-$("a:urlExternal").attr( "target", "_blank" );
-
+$("a:urlExternal").attr( "target", "_blank" ); // Open every external link in a new window.
 $(".home li.home").removeClass("home").addClass("current_page_item");
 $("#anayazialan").append("<img src='http://epfarki.com/ep/tema/res/yukleniyor.gif' id='ajax-loader' />");
 
@@ -41,13 +37,12 @@ $('#ortalan a, #footer-outer a').live('click', function(e) {
 }); 
 
 var 
-	  $mainContent     = $("#yazialan"),
+	$mainContent     = $("#yazialan"),
     $ajaxSpinner     = $("#ajax-loader"),
     $searchInput     = $("#s"),
     $allLinks        = $("a"),
     $el;
-   
-    
+
 // Auto-clear search field
 $searchInput.focus(function() {
     if ($(this).val() == "Search...") {
@@ -75,8 +70,8 @@ if ($(".widget_tag_cloud a").length%2 != 0) {
 }
 
 // URL internal is via plugin benalman /projects/jquery-urlinternal-plugin/
-$('a:urlInternal').live('click', function(e) { 
-	
+$('a:urlInternal').live('click', function(e) {
+
 	// Caching
 	$el = $(this);
 
