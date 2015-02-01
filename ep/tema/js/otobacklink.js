@@ -149,10 +149,8 @@ function geturl(){
         document.getElementById("totalbl").innerHTML=currentk2;
         document.getElementById("statusk").innerHTML="Çalışıyor...";
         document.getElementById("currentk").value= currentk2;
-
         url = theurls[current1].replace("{website}", cdomain);
         window.open(url,"frame1");
-
         timerId = setTimeout(geturl, 5000);
     }else{
         document.getElementById("statusk").innerHTML="Submission Completed";
