@@ -212,11 +212,11 @@ if($_GET['start']=="5glive"){
 	</script>
 	<table style="border:1px solid #f5f5f5;" width="350" align="center">
 		<tr><td height="80" align="center"><img src="<?=$filename?>" id="newlogo" alt="����ͼ��" /></td></tr>
-		<tr><td height="40" bgcolor="#f5f5f5" align="center"><input name="savebutton" type="button" id="savebutton" onClick="document.location='?down=<?=$picname?>'" value="Resmi �ndir" style="width:100px;line-height:150%;" /></td></tr>
+		<tr><td height="40" bgcolor="#f5f5f5" align="center"><input name="savebutton" type="button" id="savebutton" onClick="document.location='?down=<?=$picname?>'" value="Resmi indir" style="width:100px;line-height:150%;" /></td></tr>
 		<tr><td>
 				<table>
 					<tr><td height="20" align="center" width="60">Resim Adresi</td><td><input type="text" value="<?=$dirurl.$filename?>" style="width:200px;height:16px;font-family:arial;" onclick="this.select()" id="ubbpic" /></td><td><input type="button" value="Copy" onclick="oCopy(ubbpic)" /></td></tr>
-					<tr><td height="20" align="center">HTML codu</td><td><input type="text" value='<img src="<?=$dirurl.$filename?>" alt="Mail icon EPfarki.com" />' style="width:200px;height:16px;font-family:arial;" onclick="this.select()" id="htmlpic" /></td><td><input type="button" value="Copy" onclick="oCopy(htmlpic)" /></td></tr>
+					<tr><td height="20" align="center">HTML kodu</td><td><input type="text" value='<img src="<?=$dirurl.$filename?>" alt="Mail icon EPfarki.com" />' style="width:200px;height:16px;font-family:arial;" onclick="this.select()" id="htmlpic" /></td><td><input type="button" value="Copy" onclick="oCopy(htmlpic)" /></td></tr>
 				</table>
 			</td></tr>
 	</table>

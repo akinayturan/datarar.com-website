@@ -2,100 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0b6c5d9-262a-4bf5-b83d-a1e627ba6a97" name="Default" comment="edit style of code">
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\130703\1372850174.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\130723\1374559092.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\130723\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\131211\1386757962.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\131211\1386757974.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\131211\1386757975.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\131211\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140206\1391725150.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140206\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140218\1392757852.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140218\1392757954.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140315\1394881408.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140315\1394881426.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140330\1396191650.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140330\1396191685.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140330\1396191688.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140330\1396191699.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140330\1396191704.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140330\1396191710.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140408\1396961730.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140415\1397567460.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140415\1397567484.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140511\1399784079.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140811\1407785990.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140811\1407786008.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\140915\1410808522.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141007\1412689670.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141007\1412689687.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141007\1412689691.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412961569.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412962548.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412962788.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412962798.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412962824.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412962902.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412962914.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412962967.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412962979.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412962988.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412963000.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412963002.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412963015.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412963174.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412963243.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412963248.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412963271.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412963275.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\1412963279.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141010\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141117\1416252888.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141117\1416252900.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141117\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141223\1419352493.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\141223\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\150109\1420819488.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\ep-hizmet\icon-mail\jim_black\150109\Thumbs.db" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alanadi/.htaccess" afterPath="$PROJECT_DIR$/alanadi/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_index/.htaccess" afterPath="$PROJECT_DIR$/bos_index/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitebilgi/.htaccess" afterPath="$PROJECT_DIR$/sitebilgi/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icon-mail/emaillogo.php" afterPath="$PROJECT_DIR$/icon-mail/emaillogo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_index/index.htm" afterPath="$PROJECT_DIR$/bos_index/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alanadi/index.php" afterPath="$PROJECT_DIR$/alanadi/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ara/index.php" afterPath="$PROJECT_DIR$/ara/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depremler/index.php" afterPath="$PROJECT_DIR$/depremler/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/direnc-hesapla/index.php" afterPath="$PROJECT_DIR$/direnc-hesapla/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/furkan/index.php" afterPath="$PROJECT_DIR$/furkan/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gizlen/index.php" afterPath="$PROJECT_DIR$/gizlen/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icon-mail/index.php" afterPath="$PROJECT_DIR$/icon-mail/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ip-bul/index.php" afterPath="$PROJECT_DIR$/ip-bul/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kod-onizleme/index.php" afterPath="$PROJECT_DIR$/kod-onizleme/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/otobacklink/index.php" afterPath="$PROJECT_DIR$/otobacklink/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ovalkose/index.php" afterPath="$PROJECT_DIR$/ovalkose/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resim-filtreleme/index.php" afterPath="$PROJECT_DIR$/resim-filtreleme/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resimyukle/index.php" afterPath="$PROJECT_DIR$/resimyukle/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sifre-olusturucu/index.php" afterPath="$PROJECT_DIR$/sifre-olusturucu/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteharitasi/index.php" afterPath="$PROJECT_DIR$/siteharitasi/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteharitasi/index2.php" afterPath="$PROJECT_DIR$/siteharitasi/index2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tema/index2menu.php" afterPath="$PROJECT_DIR$/tema/index2menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tema/index3menu.php" afterPath="$PROJECT_DIR$/tema/index3menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tema/menu.php" afterPath="$PROJECT_DIR$/tema/menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tema/menu1.php" afterPath="$PROJECT_DIR$/tema/menu1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tema/menu1cssyok.php" afterPath="$PROJECT_DIR$/tema/menu1cssyok.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tema/menu2.php" afterPath="$PROJECT_DIR$/tema/menu2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tema/menu3.php" afterPath="$PROJECT_DIR$/tema/menu3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tema/menu3jsyok.php" afterPath="$PROJECT_DIR$/tema/menu3jsyok.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tema/menuust.php" afterPath="$PROJECT_DIR$/tema/menuust.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteharitasi/php.ini" afterPath="$PROJECT_DIR$/siteharitasi/php.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ovalkose/prototype.js" afterPath="$PROJECT_DIR$/ovalkose/prototype.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ara/script.js" afterPath="$PROJECT_DIR$/ara/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/siteharitasi/style.css" afterPath="$PROJECT_DIR$/siteharitasi/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ara/styles.css" afterPath="$PROJECT_DIR$/ara/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hizmet.iws" />
@@ -121,31 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gizlen/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.423077" vertical-offset="3693" max-vertical-offset="4352">
-              <caret line="250" column="1" selection-start-line="250" selection-start-column="1" selection-end-line="250" selection-end-column="1" />
-              <folding>
-                <element signature="e#6#648#0#PHP" expanded="true" />
-                <marker date="1422785042333" expanded="true" signature="2973:2989" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/furkan/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="476">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/direnc-hesapla/index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -227,11 +110,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alanadi/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7163695" vertical-offset="0" max-vertical-offset="617">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
               <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/icon-mail/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="901" max-vertical-offset="2159">
+              <caret line="58" column="3" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="emaillogo.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/icon-mail/emaillogo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4571949" vertical-offset="3455" max-vertical-offset="4012">
+              <caret line="218" column="61" selection-start-line="218" selection-start-column="61" selection-end-line="218" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -247,7 +150,6 @@
       <list>
         <option value="$PROJECT_DIR$/otobacklink/index.php" />
         <option value="$PROJECT_DIR$/depremler/index.php" />
-        <option value="$PROJECT_DIR$/icon-mail/index.php" />
         <option value="$PROJECT_DIR$/ip-bul/index.php" />
         <option value="$PROJECT_DIR$/kod-onizleme/index.php" />
         <option value="$PROJECT_DIR$/ovalkose/index.php" />
@@ -271,7 +173,6 @@
         <option value="$PROJECT_DIR$/sitebilgi/.htaccess" />
         <option value="$PROJECT_DIR$/resimyukle/index.php" />
         <option value="$PROJECT_DIR$/ovalkose/prototype.js" />
-        <option value="$PROJECT_DIR$/icon-mail/emaillogo.php" />
         <option value="$PROJECT_DIR$/gizlen/index.php" />
         <option value="$PROJECT_DIR$/furkan/index.php" />
         <option value="$PROJECT_DIR$/direnc-hesapla/index.php" />
@@ -282,6 +183,8 @@
         <option value="$PROJECT_DIR$/ara/styles.css" />
         <option value="$PROJECT_DIR$/alanadi/index.php" />
         <option value="$PROJECT_DIR$/alanadi/.htaccess" />
+        <option value="$PROJECT_DIR$/icon-mail/index.php" />
+        <option value="$PROJECT_DIR$/icon-mail/emaillogo.php" />
       </list>
     </option>
   </component>
@@ -337,244 +240,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siteharitasi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sitebilgi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sifre-olusturucu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resimyukle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resim-filtreleme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ovalkose" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="otobacklink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kod-onizleme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ip-bul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icon-mail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="furkan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="direnc-hesapla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="depremler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bos_index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ara" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ep-hizmet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alanadi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -583,6 +248,26 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -596,32 +281,39 @@
       <option name="number" value="Default" />
       <updated>1422204573380</updated>
     </task>
+    <task id="LOCAL-00001" summary="edit style of code">
+      <created>1422785237485</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1422785237485</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -663,20 +355,6 @@
           <caret line="122" column="7" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/icon-mail/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.923077" vertical-offset="1513" max-vertical-offset="2159">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#2;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#2;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#1;n#table#0;n#td#0;n#tr#2;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#2;n#td#0;n#tr#2;n#table#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -946,28 +624,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/icon-mail/emaillogo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.423077" vertical-offset="3353" max-vertical-offset="4012">
-          <caret line="230" column="7" selection-start-line="230" selection-start-column="7" selection-end-line="230" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#1;n#table#0;n#td#0;n#tr#2;n#table#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#table#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gizlen/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.423077" vertical-offset="3693" max-vertical-offset="4352">
           <caret line="250" column="1" selection-start-line="250" selection-start-column="1" selection-end-line="250" selection-end-column="1" />
           <folding>
             <element signature="e#6#648#0#PHP" expanded="true" />
-            <marker date="1422785042333" expanded="true" signature="2973:2989" placeholder="..." />
+            <marker date="1422785042333" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1051,8 +714,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alanadi/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7163695" vertical-offset="0" max-vertical-offset="617">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
           <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icon-mail/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="901" max-vertical-offset="2159">
+          <caret line="58" column="3" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icon-mail/emaillogo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4571949" vertical-offset="3455" max-vertical-offset="4012">
+          <caret line="218" column="61" selection-start-line="218" selection-start-column="61" selection-end-line="218" selection-end-column="61" />
           <folding />
         </state>
       </provider>
