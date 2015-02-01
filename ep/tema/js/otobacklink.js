@@ -53,6 +53,7 @@ var theurls=new Array(
     "http://www.123people.com/s/{website}",
     "http://80008.cn/link/Alexa/Index.asp?url={website}",
 
+    //not edited yet after here
     "http://alexa.epclean.com/alexa.asp?url={website}",
     "http://trade.6jc.cn/tools/alexa/Index.asp?url={website}",
     "http://ip.toolsky.com/?IPstr={website}",
