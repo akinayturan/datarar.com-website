@@ -3,129 +3,56 @@ var theurls=new Array(
     "http://epfarki.com/linkekle/",
     "http://{website}.cubestat.com/",
     "http://{website}.whoisbucket.com/",
+    "http://{website}.websitetrafficspy.com/",
+    "http://validator.w3.org/check?uri=http://{website}",
+    "http://www.alexa.com/siteinfo/{website}",
+    "http://jigsaw.w3.org/css-validator/validator?uri=http://{website}",
     "http://who.is/whois/{website}",
     "http://r.websnapr.com/?r=http://{website}/",
     "http://www.seoprofiler.com/analyze/{website}",
     "http://www.sitetrail.com/{website}",
     "http://www.aboutus.org/{website}",
     "http://websiteshadow.com/{website}",
-    "http://www.quantcast.com/{website}",
-    "http://www.xomreviews.com/{website}",
     "http://www.talkreviews.com/{website}",
-    "http://siteanalytics.compete.com/{website}",
     "http://whois.domaintools.com/{website}",
     "http://www.markosweb.com/www/{website}",
     "http://www.aboutthedomain.com/{website}",
-    "http://www.quarkbase.com/show/{website}",
-    "http://www.aboutdomain.org/backlinks/{website}/",
-    "http://www.bm8.com.cn/alexa/Index.asp?url={website}",
     "http://www.ip-adress.com/reverse_ip/{website}",
     "http://www.surcentro.com/en/info/www.{website}",
-    "http://indexed.webmasterhome.cn/?domain={website}",
     "http://www.linkwan.com/gb/broadmeter/VisitorInfo/QureyIP.asp?QureyIP={website}",
-    "http://www.refertus.info/{website}.phtml",
     "http://stuffgate.com/{website}",
-    "http://i.linkhelper.cn/?weburl={website}",
     "http://www.123cha.com/domain/{website}",
-    "http://www.djwxe.com/alexa/index.asp?url={website}",
-    "http://www.51wad.com/siteinfo.php?url={website}",
-    "http://www.mvp520.com/alexa/?domain={website}",
-    "http://statswebsites.com/www.{website}",
-    "http://www.websitevaluecalculator.org/www.{website}",
-    "http://statout.com/www.{website}",
-    "http://www.mywot.com/en/scorecard/{website}",
-    "http://www.alexa.com/siteinfo/{website}",
-    "http://validator.w3.org/check?uri={website}",
-    "http://jigsaw.w3.org/css-validator/validator?uri={website}",
-    "http://www.submitexpress.com/cgi-bin/analyzer/meta.pl?url=http://{website}",
-    "http://www.pagerankr.com/?url=http://{website}",
+    "http://{website}.statout.com",
+    "https://siteanalytics.compete.com/epfarki.com/{website}",
+    "https://www.mywot.com/en/scorecard/{website}",
     "http://protect-x.com/info/{website}",
-    "http://valet.htmlhelp.com/link/link.cgi?url=http://{website}",
-    "http://www.cynthiasays.com/fulloptions.asp?rptmode=2&url1=http%3A//{website}",
-    "http://www.contentquality.com/fulloptions.asp?rptmode=2&url1=http%3A//{website}",
-    "http://www.contentquality.com/mynewtester/cynthia.exe?rptmode=-1&url1=http://{website}",
-    "http://stats.pingil.com/{website}:i:1",
     "http://builtwith.com/{website}",
-    "http://ratite.com/whois/whois.cgi?domain={website}",
-    "http://www.statsaholic.com/{website}",
     "http://www.sitedossier.com/site/{website}",
-    "http://uptime.netcraft.com/up/graph?site=http://{website}",
-    "http://backlinkcheck.com/popular.pl?url1=http://{website}",
-    "http://www.webstatsdomain.com/domains/{website}/",
-    "http://www.iwebtool.com/pagerank_checker?domain={website}",
+    "http://toolbar.netcraft.com/site_report?url=http://{website}",
+    "{website}.webstatsdomain.org",
     "http://www.iwebtool.com/rank?domain={website}",
-    "http://www.robtex.com/dns/{website}.html#result",
-    "http://www.alexa.com/siteinfo/{website}",
-    "http://alexa.236z.com/index.asp?domain={website}",
-    "http://alexa.aspxz.cn/index.asp?domain={website}",
+    "http://www.robtex.com/dns/{website}.html",
     "http://page2rss.com/page?url={website}",
-    "http://www.hi001.net/alexa/Index.asp?url={website}",
-    "http://akagunduz.com/site-bilgi.aspx?domain={website}",
-    "http://toolbar.netcraft.com/site_report?url={website}",
     "http://www.transtats.bts.gov/exit.asp?url=http://{website}",
-    "http://online.htmlvalidator.com/php/onlinevallite.php?url={website}",
-
-    "http://dataopedia.com/{website}",
+    "http://www.onlinewebcheck.com/?url={website}",
     "http://www.websitevaluebot.com/www.{website}",
     "http://tool.chinadmoz.org/alexa/?domain={website}",
-    "http://www.domaincrawler.com/domains/view/{website}",
+    "http://www.domaincrawler.com/{website}",
     "http://buildstats.com/{website}",
-    "http://www.protrackr.com/www.{website}/",
-    "http://www.alexatop.net/alexa/{website}/",
-    "http://serversiders.com/{website}",
-    "http://tool.hnce.com/tools/Alexa/index.asp?url={website}",
-    "http://www.quarkbase.com/show/{website}",
     "http://www.v3whois.com/w/{website}",
-    "http://ip.webmasterhome.cn/?IpStr={website}",
-    "http://wz.zgdmw.net/tool/search/alexa/index.asp?url={website}",
-    "http://ss.net.cn/tool/alexa.asp?domain={website}",
-    "http://so.5eo.com/alexa/index.php?url={website}",
+    "http://ip.webmasterhome.cn/?ip={website}",
     "http://alexa.chinaz.com/Index.asp?domain={website}",
-    "http://indexed.linkhelper.cn/querypr.asp?url={website}",
+    "http://pr.links.cn/querypr.asp?url={website}",
     "http://pagerank.webmasterhome.cn/?domain={website}",
-    "http://www.91tools.com/Tool_WebMaster/Alexa.asp?domain={website}&Submit=%B2%E9%D1%AF&chkall=on&alexa=1",
     "http://site.egyfox.com/{website}",
-    "http://www.netbar.net/alexa/Index.asp?url={website}",
     "http://alexa.chinabreed.com/?domain={website}",
-    "http://alexa.poptool.net/?d=http%3A%2F%2Fwww.{website}",
-    "http://tool.115.com/alexa/{website}",
-    "http://alexa.chaxun.la/?q={website}",
-    "http://www.kingsnet.biz/tool/seo/AlexaDetail.asp?domain=www.{website}",
-    "http://tools.ittang.com/alexa/?url=www.{website}",
-    "http://www.chaxp.com/alexa/html/{website}",
     "http://www.mqdm.net/tool/search/alexa/?url={website}",
-    "http://pc.7lou.net/alexa/?url={website}",
-    "http://16368.com/link/alexa/index.asp?url={website}",
-    "http://zs.hicode.cn/alexa/index.php?Domain={website}",
-    "http://t.mb5u.com/alexa_{website}",
-    "http://alexa.bainei.com/index.asp?url={website}",
-    "http://cxgjdq.com/alexa/{website}",
-    "http://gzyjn.com.cn/alexa/index.asp?url={website}",
-    "http://www.zzsky.cn/tool/alexa/?q={website}",
-    "http://www.568g.cn/tool/alexa/Index.asp?url={website}",
-    "http://123.96911.com/alexa/Index.asp?url={website}",
     "http://www.yousee123.com/search/alexa/index.asp?url={website}",
-    "http://www.ourquery.com/alexa/index.asp?url=www.belljewelstore.com",
-    "http://www.7x8y.com/alexa/Index.asp?url=www.{website}",
-    "http://www.websitetrafficspy.com/{website}",
-    "http://www.hhlla.com/alexa/?domain={website}",
     "http://alexa.d-yn.com/?domain={website}",
-    "http://alexa.ydaba.com/index.php?domain={website}",
-    "http://tool.haiphp.com/alexa/url_{website}.html",
-    "http://www.tc-by.cn/alexa/index.asp?url=www.{website}",
-    "http://www.padapon.com.cn/alexa/?domain={website}",
-    "http://www.track-ip.com/whois/{website}",
-    "http://www.danyangly.com/search/alexa/index.asp?url={website}",
-    "http://whois.linkhelper.cn/whois.asp?domain={website}",
     "http://whois.gwebtools.com.br/{website}",
     "http://www.123people.com/s/{website}",
-    "http://www.99count.com/pr/?domain={website}&chkall=on&googlerank=1&google=1&baidu=1&msn=1&yahoo=1&yisou=1&alexa=1&sina=1&sohu=1&do163=1&qq=1&whois=1",
-    "http://tool.aspxhome.com/alexa/?url={website}",
-    "http://alexa.seek114.com/{website}.html",
-    "http://alexa.136z.com/?url={website}",
-    "http://www.bcnq.com/alexa/Index.asp?url={website}",
-    "http://www.kingwith.com/alexa/?domain={website}&Submit=%B2%E9%D1%AF&chkall=on&googlerank=1&google=1&baidu=1&msn=1&yahoo=1&links=1&sina=1&do163=1&sohu=1&qq=1&zhongsou=1&uptimebot=1&whois=1&alexa=1",
     "http://80008.cn/link/Alexa/Index.asp?url={website}",
+
     "http://alexa.epclean.com/alexa.asp?url={website}",
     "http://trade.6jc.cn/tools/alexa/Index.asp?url={website}",
     "http://ip.toolsky.com/?IPstr={website}",
@@ -206,9 +133,95 @@ var theurls=new Array(
     "http://www.domainwhoisinfo.com/{website}",
     "http://www.chromewhois.com/domain/{website}",
     "http://www.whoisentry.com/domain/{website}",
-    "http://epfarki.com",
+
+    "http://www.similarsites.com/site/{website}",
     "http://{website}/?nereden=epfarki.com",
-    "http://www.similarsites.com/site/{website}",
-    "http://www.similarsites.com/site/{website}",
     "http://epfarki.com");
-  
+
+
+maxsub=300;
+
+function geturl(){
+    current1 = parseInt(document.getElementById("currentk").value);
+    //current1 = document.getElementById("currentk").value;
+    if(current1<maxsub){
+        currentk2=parseInt(document.getElementById("currentk").value)+1;
+        document.getElementById("totalbl").innerHTML=currentk2;
+        document.getElementById("statusk").innerHTML="Çalışıyor...";
+        document.getElementById("currentk").value= currentk2;
+
+        url = theurls[current1].replace("{website}", cdomain);
+        window.open(url,"frame1");
+
+        timerId = setTimeout(geturl, 5000);
+    }else{
+        document.getElementById("statusk").innerHTML="Submission Completed";
+        //  clearInterval(chatinterval);
+    }
+}
+
+function beginu(){
+    cdomain=document.getElementById("domain").value;
+    cdomain=cdomain.replace("http://", "");
+    cdomain=cdomain.replace("www.", "");
+
+    geturl();
+    // chatinterval = setInterval ( "geturl()", 5000 );
+}
+
+function getFlashMovieObject(movieName)
+{
+    if (window.document[movieName])
+    {
+        return window.document[movieName];
+        alert(movieName);
+    }
+    if (navigator.appName.indexOf("Microsoft Internet")==-1)
+    {
+        if (document.embeds && document.embeds[movieName])
+            return document.embeds[movieName];
+    }
+    else // if (navigator.appName.indexOf("Microsoft Internet")!=-1)
+    {
+        return document.getElementById(movieName);
+    }
+}
+
+function SendDataToFlashMovie(fgh,tr)
+{
+    var flashMovie=getFlashMovieObject("predoll");
+    flashMovie.changetop(fgh,tr);
+    using(fgh,tr);
+}
+
+function GetXmlHttpObject()
+{
+    var xmlHttp=null;
+    try
+    {
+        // Firefox, Opera 8.0+, Safari
+        xmlHttp=new XMLHttpRequest();
+    }
+    catch (e)
+    {
+        // Internet explorer
+        try
+        {
+            xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+        }
+        catch (e)
+        {
+            xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+    }
+    return xmlHttp;
+}
+
+function stateChanged()
+{
+    if (xmlHttp.readyState==3)
+    {
+        tid=xmlHttp.responseText;
+        alert(tid);
+    }
+}
