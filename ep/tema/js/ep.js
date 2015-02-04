@@ -25,7 +25,7 @@ $('body').on('click', 'a[target^=sayfayenile], a[rel^=appendix], area[target^=sa
 });
      
 // tepe sayfa
-$('body').on('click', 'a', function(e) {
+$('body').on('click', 'a[class^=dJAX_internal]', function(e) {
     $(window).scrollTop(0);
     e.preventDefault();
 }); 
@@ -45,9 +45,6 @@ $.ajaxSetup({
 	} 
 });        
 
-// addthis_widget
-      $.getScript('//s7.addthis.com/js/300/addthis_widget.js#pubid=yakaytu');
-                                                 
  // tab menü
 $(document).ready(function() {
 	//Default Action 1
