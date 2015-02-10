@@ -18,7 +18,14 @@
                 <div class="etiketler">
                     <div class="tekil-reklam">
                         <!-- esnek -->
-
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-6963315907881230"
+                             data-ad-slot="6559951811"
+                             data-ad-format="auto"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
                     </div>
                 </div>
                 <div class="etiketler">

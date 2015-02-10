@@ -4,18 +4,13 @@
             <div id="yukleyici"></div>
 
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-            <div id="post-<?php the_ID(); ?>" class="post">
-                <div id="postic-<?php the_ID(); ?>" class="postic">
-                    <div id="title-<?php the_ID(); ?>" class="title"><h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4></div>
-                    <div class="temiz"></div>
-
-                    <div id="icerik-<?php the_ID(); ?>" class="icerik">
-                        <?php the_content('<p class="serif">Read more &raquo;</p>'); ?>
-                        <?php link_pages('<p><strong>Pages:</strong> ', '</p>', 'number'); ?>
-                    </div>
-                </div>
+                <div class="postkap"><div class="post"><div class="postic">
+                            <div class="anatitle"><h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4></div>
+                            <div id="anaicerik-<?php the_ID(); ?>" class="anaicerik">
+                                <?php the_excerpt(get_the_title(). ' yazisinin devamini okuyun &raquo;'); ?></div>
+                        </div></div></div>
                 <div class="temiz"></div>
-                <?php endwhile; ?>
+            <?php endwhile; ?>
                 <?php else : ?>
 
                     <div id="post-<?php the_ID(); ?>" class="post">
@@ -34,7 +29,9 @@
                     </div>
 
                 <?php endif; ?>
-        </div>
+                <?php wp_pagenavi(); ?>
+
+            </div>
         <div class="temiz"></div>
     </div>
 <?php get_sidebar(); ?>

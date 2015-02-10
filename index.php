@@ -19,6 +19,7 @@
                     </div></div></div>
         <div class="temiz"></div>
         <?php endwhile; endif; ?>
+        <?php wp_pagenavi(); ?>
         <div class="temiz"></div>
     </div>
 </div>

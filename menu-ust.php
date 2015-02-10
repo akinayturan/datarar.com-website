@@ -1,6 +1,6 @@
 <div id="ustkategori" class="menunav">
       <ul>
-            <li id="sosyal3"><a rel="appendix" href="//epfarki.com/hizmet/" title="Hizmetlerimiz">Hizmetlerimiz</a></li>
+            <li id="sosyal3"><a rel="appendix" href="//datarar.com/hizmet/" title="Hizmetlerimiz">Hizmetlerimiz</a></li>
             <li id="sosyal2"><a href="//datarar.com/hakkimizda/" title="Hakkımızda">Hakkımızda</a></li>
             <li id="sosyal8"><a href="//datarar.com/ziyaretci-defteri/" title="Ziyaretçi Defteri">Ziyaretçi Defteri</a></li>
             <li id="sosyal7"><a href="//datarar.com/reklam-ver/" title="Reklam">Reklam</a></li>
