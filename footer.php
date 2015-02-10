@@ -13,7 +13,7 @@
                 </p></div>
 
             <div class="bottom-right"><p>
-                    <a href="//datarar.com/" title="datarar.com">Datarar</a> <a href="//datarar.com/git/?url=//creativecommons.org/licenses/by-nc-nd/4.0/deed.tr" title="creativecommons" rel="external">©2015</a> | Tasarım: <a href="//epfarki.com/iletisim/" title="İletişim">Bizimakin</a> | Özel İletişim: iletisim [at] datarar.com
+                    <a href="//datarar.com/" title="datarar.com">Datarar</a> <a href="//datarar.com/git/?url=//creativecommons.org/licenses/by-nc-nd/4.0/deed.tr" title="creativecommons" rel="external">©2015</a> | Tasarım: <a href="//datarar.com/iletisim/" title="İletişim">Bizimakin</a> | Özel İletişim: iletisim [at] datarar.com
                 </p></div>
         </div>
 
@@ -36,13 +36,11 @@
     boomads_widget_height = "50";
     boomads_widget_trackingparameter = "http://bumerang.hurriyet.com.tr";
 </script><script type="text/javascript" src="http://widget.boomads.com/scripts/widget.js"></script>
-
-
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <script src="//code.jquery.com/jquery.min.js"></script>
-<script src="//datarar.com/ep/aa.js"></script>
-<!--  <script src="//epfarki.com/ep/tema/js/ep.js"></script> -->
+<script src="//datarar.com/ep/tema/js/ep.js"></script>
+
 <?php do_action('wp_footer'); ?>
 
 <!-- sayac -->

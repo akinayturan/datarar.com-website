@@ -11,7 +11,7 @@
     <meta name="rating" content="general"/>
 
     <link href="//datarar.com/wp-content/themes/datarar/style.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="//epfarki.com/ep/tanitim/epfarki-com-banner-149-149.jpg" rel="image_src" />
+    <link href="//datarar.com/ep/tanitim/epfarki-com-banner-149-149.jpg" rel="image_src" />
     <link href="//datarar.com/favicon.ico" type="image/x-icon" rel="shortcut icon" />
     <link href="//plus.google.com/102424977791408310221" rel="author" />
     <link href="//datarar.com/" rel="index" title="EPfarki" />
