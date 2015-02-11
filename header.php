@@ -2,8 +2,6 @@
 <html dir="ltr" lang="tr">
 <head><!-- Bismillahirrahmanirrahim ~ Rahmân ve Rahîm olan Allah'ın adıyla. -->
 
-    <title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
-
     <meta charset="UTF-8"/>
     <meta name="designer" content="bizimakin"/>
     <meta name="author" content="bizimakin" />
@@ -19,6 +17,7 @@
     <link href="//feeds.feedburner.com/epfarki" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
     <link href="//datarar.com/feed/" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
     <link href="//datarar.com/xmlrpc.php" rel="pingback" />
+
     <?php wp_head(); ?>
 </head>
 <body>

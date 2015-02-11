@@ -4,7 +4,7 @@
 
         <div id="anakategorimenu2">
             <ul>
-                <li><a><?php $dosya = fopen("sozler.txt","r"); while($satir = fgets($dosya,1024)) $sozler[] = $satir; fclose($dosya); $soz = $sozler[rand(0,count($sozler)-1)]; echo $soz; ?></a></li>
+        aa
             </ul>
         </div>
         <div class="temiz"></div>
