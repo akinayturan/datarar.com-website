@@ -1,6 +1,6 @@
 <?php
 remove_action('wp_head', 'wp_generator');
-
+/*
 // .css ve .js dosyalarını silme
 function stil_sil() {
     wp_deregister_style( 'cptchStylesheet' );
@@ -9,7 +9,7 @@ function stil_sil() {
     wp_deregister_style('grunion.css');
 }
 add_action('wp_print_styles', 'stil_sil');
-
+*/
 function disable_comment_author_links( $author_link ){
     return strip_tags( $author_link );
 }

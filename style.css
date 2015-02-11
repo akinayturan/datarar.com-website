@@ -15,7 +15,7 @@ table,td,th{vertical-align:middle}
 blockquote:before,blockquote:after,q:before,q:after{content:""}
 blockquote,q{quotes:""""}
 a img{border:none}
-body{border:0;background:#FFF;margin:0px;padding:0px;font-family:"Droid Sans","Helvetica",sans-serif;font-size:13.3px;line-height:1.6em}
+body{border:0;background:#FFF;margin:0;padding:0;font-family:"Droid Sans","Helvetica",sans-serif;font-size:13px;line-height:1.6em}
 a{text-decoration:none}
 a:hover{text-decoration:none}
 p{margin-bottom:10px}
@@ -30,11 +30,10 @@ blockquote{border:1px solid #ddd;padding:18px;margin:10px 0;font-family:"Droid S
 blockquote p:last-child{margin-bottom:0}
 .oncekiyazi{border:1px solid #ddd;padding:10px;font-family:"Droid Serif";background:#FFFEEE;color:black;text-align:justify}
 hr{border:1px solid #333}
-k{cursor:help;border-bottom:1px dotted #111}
 iframe,object,embed{text-align:center;width:100%}
 ul#navim{height:80px}
 #navim li{display:inline;float:left}
-#navim li a{margin:0 0 0 0px;text-indent:-9999px;display:block}
+#navim li a{margin:0 0 0 0;text-indent:-9999px;display:block}
 #genel{height:auto;min-height:100%}
 #siteisim{
     position: relative;
@@ -246,17 +245,17 @@ ul#navim{height:80px}
 .postic a{color:black}
 .postic a:hover{color:darkGreen}
 .title{margin-bottom:5px}
-.iconcan{padding:5px 2px 0px 2px;margin:0px;float:left}
-#thumb{float:left;width:155px;height:155px;margin-top:7px;margin-right:10px;padding:8px;background:url(resim/postarka.png) repeat;border:1px solid #dadada}
+.iconcan{padding:5px 2px 0 2px;margin:0;float:left}
+#thumb{float:left;width:155px;height:155px;margin-top:7px;margin-right:10px;padding:8px;border:1px solid #dadada}
 #thumb img{float:left;width:155px;height:155px}
-#thumbic{float:left;width:100px;height:100px;margin-top:7px;padding:8px;background:url(resim/postarka.png) repeat;border:1px solid #dadada}
+#thumbic{float:left;width:100px;height:100px;margin-top:7px;padding:8px;border:1px solid #dadada}
 #thumbic img{float:left;width:100px;height:100px}
 .etiketler{padding-bottom:10px;padding-top:10px;border-top:1px solid #CCC;float:left;width:100%;text-align:justify}
 .etiketler .left{margin-right:10px}
 .etiketler a{color:black;text-decoration:none}
 .etiketler a:hover{text-shadow:none;text-decoration:underline;color:darkgreen}
-.etiketler h4{margin:5px 0px 5px 0px}
-.etiketler ul{padding:0 0 0 0px;padding-left:20px;text-indent:0px}
+.etiketler h4{margin:5px 0 5px 0}
+.etiketler ul{padding:0;padding-left:20px;text-indent:0}
 .etiketler ul li{display:list-item;list-style-type:square}
 .etiketler ul li a{color:black;text-decoration:none}
 .etiketler ul li a:hover{color:darkgreen;text-decoration:underline}
@@ -269,7 +268,7 @@ ul#navim{height:80px}
 .postpart a:active{color:#333}
 .postpart p{font-size:10px}
 .fpost{margin-top:5px}
-.button{padding:7px 12px;margin:0 15px 0 0;color:black;font-size:12px;font-weight:700;float:right;border:1px solid #cbcfd7;float:left;display:block}
+.button{padding:7px 12px;margin:0 15px 0 0;color:black;font-size:12px;font-weight:700;border:1px solid #cbcfd7;float:left;display:block}
 .button span{line-height:14px;height:16px;overflow:hidden;display:block;position:relative}
 .button:hover{background-color:#FFFFDD}
 h1{font-size:34px;color:black;margin-bottom:5px;line-height:26px;font-family:Georgia,serif}
@@ -282,15 +281,15 @@ h6{font-size:14px;color:black;margin-bottom:5px;line-height:16px;font-family:Geo
 .title h4 a{font-family:inherit;font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;color:black;margin-bottom:5px;line-height:24px}
 ul#navim{height:80px}
 #navim li{display:inline;float:left}
-#navim li a{margin:0 0 0 0px;text-indent:-9999px;display:block}
+#navim li a{margin:0 0 0 0;text-indent:-9999px;display:block}
 .thumbnail{float:left;margin-right:4px;border:2px solid #dadada}
 .poppst{font-size:11px;font-weight:normal;line-height:1.6em;font-family:"Droid Sans","Helvetica",sans-serif;color:#777777}
-.yanmenu{border-style:none;padding:0px;margin-top:20px}
-.yanmenu h4{padding-bottom:12px;color:#6a6a6a;background:url(resim/line.png) bottom repeat-x;margin-left:20px}
+.yanmenu{border-style:none;padding:0;margin-top:20px}
+.yanmenu h4{padding-bottom:12px;color:#6a6a6a;margin-left:20px}
 .yanmenusirala{padding:5px}
-.yanmenu ul ul{padding:0px;margin:0px 0px 5px 10px;border:1px solid #EAEAEA}
-.yanmenu ul{border-style:none;padding:0px;margin:0px 0px 5px 10px}
-.yanmenu li li{padding:5px 0px 6px 5px;margin:0px;border-bottom-style:dashed;border-bottom-width:1px;border-bottom-color:#E8E8E8;list-style-type:none;list-style-position:inside;list-style-image:url('resim/resim.png')}
+.yanmenu ul ul{padding:0;margin:0 0 5px 10px;border:1px solid #EAEAEA}
+.yanmenu ul{border-style:none;padding:0;margin:0 0 5px 10px}
+.yanmenu li li{padding:5px 0 6px 5px;margin:0;border-bottom-style:dashed;border-bottom-width:1px;border-bottom-color:#E8E8E8;list-style-type:none;list-style-position:inside}
 .yanmenu li{list-style-type:none;margin-top:20px}
 .yorumlar {padding-bottom: 10px;padding-top: 10px;border-top: 1px solid #CCC;float: left;width: 100%;text-align: justify}
 .yorumlar a{text-decoration:none;color:black}
@@ -310,10 +309,13 @@ div.comment-body div.comment-meta a{text-decoration:none}
 div.reply{margin-top:5px}
 div.reply a{font-weight:normal;font-size:1.2em;font-style:italic;font-family:Georgia,serif;text-decoration:none}
 div#respond input{margin-bottom:15px}
+#searchform{min-width:240px;margin-right:5px;text-align:right}
+input{padding-left:3px;color:#111;background-color:whiteSmoke;border:1px ridge #ddd}
+input:hover{background-color:#FFFFDD}
 input#kayit-mail{margin-left:25px;padding-left:3px}
 input#author,input#email{margin-right:17px;float:left}
 input#url{float:left}
-input#author,input#email,input#url{margin-top:20px;padding-left:3px;height:30px;background:#fff;border:2px solid #eee;border-radius:3px;display:block}
+input#author,input#email,input#url{margin-top:20px;padding-left:3px;height:30px;background:#fff;display:block}
 .wp-pagenavi{padding:10px;margin-bottom:10px;margin-right:20px;margin-top:10px;float:left;color:#000;font-size:12px;line-height:18px;display:block;text-align:center}
 .wp-pagenavi span.right{float:none !important}
 .is-paged{padding:0;padding-top:30px}
@@ -322,7 +324,7 @@ input#author,input#email,input#url{margin-top:20px;padding-left:3px;height:30px;
 .wp-pagenavi .pages{float:right;color:#a7a7a7;width:150px;text-align:right}
 .wp-pagenavi .extend{padding:0 9px 0 4px}
 .wp-pagenavi a,.wp-pagenavi .current,a.add_comment_link{color:white;margin-right:4px;background:#e6e6e6;text-decoration:none !important}
-.pagination-wrap .wp-pagenavi a,.pagination-wrap .wp-pagenavi .current,.is-paged a,.is-paged .current{margin-right:0px}
+.pagination-wrap .wp-pagenavi a,.pagination-wrap .wp-pagenavi .current,.is-paged a,.is-paged .current{margin-right:0}
 .wp-pagenavi a:hover,.wp-pagenavi .current,a.add_comment_link{color:#fff !important}
 .wp-pagenavi a,.sort_by li a,a:hover.add_comment_link,input:hover#add_comment,#content .webroundup a:hover.button{color:black;border:1px solid #CCC;background:#F9F9F9}
 .wp-pagenavi a:hover,.wp-pagenavi .current,.sort_by li a:hover,.sort_by li a.current,a.add_comment_link,input#add_comment,#content .webroundup a.button{background:#222;border:1px solid #68696e}
@@ -335,8 +337,8 @@ input#author,input#email,input#url{margin-top:20px;padding-left:3px;height:30px;
 #lo2go a{color:black}
 #lo2go a:hover{color:green}
 #lo2go a span{color:black}
-#lo2go h1{margin-left:5px;font-size:24px;color:black;font-family:monospace;margin-bottom:0px;line-height:24px;float:left}
-#lo2go h2{float:left;color:gray;margin:0px;line-height:25px;font-family:Georgia,serif;font-size:12px}
+#lo2go h1{margin-left:5px;font-size:24px;color:black;font-family:monospace;margin-bottom:0;line-height:24px;float:left}
+#lo2go h2{float:left;color:gray;margin:0;line-height:25px;font-family:Georgia,serif;font-size:12px}
 .lo2gores{float:left}
 .lo2godescription{color:black;margin-left:40px}
 .gulucuk{width:6px;height:5px;background-image:url(http://datarar.com/ep/tema/res/gulucuk.gif);margin-right:8px;margin-top:9px;float:right}
@@ -374,10 +376,10 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
 .yans .left{margin-right:10px}
 .yans a{color:grey;text-decoration:none}
 .yans a:hover{text-decoration:underline;color:white}
-.yans h4{margin:5px 0px 5px 20px}
+.yans h4{margin:5px 0 5px 20px}
 .yans h3{padding-left:15px;font-family:inherit;font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;border-bottom:1px dashed #68696E;color:black;margin-bottom:8px;line-height:26px}
 .yans ul{color:#111;padding-left:35px}
-.yans ul li{list-style-type:square;padding-bottom:5px;padding-left:0px}
+.yans ul li{list-style-type:square;padding-bottom:5px;padding-left:0}
 .yans ul li a{color:black;text-decoration:none}
 .yans ul li a:hover{color:black;text-decoration:underline}
 .yanstab{width:330px;float:left}
@@ -385,12 +387,12 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
 .tab_content a,.tab_content a strong{color:#000}
 .tab_content a:hover,.tab_content a:hover strong{color:#000;text-decoration:underline}
 .tab_content ul{color:#111;padding-left:35px}
-.tab_content ul li{list-style-type:square;padding-bottom:5px;padding-left:0px}
+.tab_content ul li{list-style-type:square;padding-bottom:5px;padding-left:0}
 .tab_content ul li a{color:black}
 .tab_content ul li a:hover{color:green;text-decoration:underline}
-.tabs{padding-left:5px;overflow:hidden;padding-top:10px;margin-bottom:0px;padding-bottom:0px}
-.tabs li{border:1px solid #DDD;float:left;display:inline;text-align:center;overflow:hidden;font-size:11px;padding-left:0px;width:100px}
-.tabs li.active{border-bottom:none;border-right:none;border-left:none;margin-left:0px;padding-left:0px;width:114px}
+.tabs{padding-left:5px;overflow:hidden;padding-top:10px;margin-bottom:0;padding-bottom:0}
+.tabs li{border:1px solid #DDD;float:left;display:inline;text-align:center;overflow:hidden;font-size:11px;padding-left:0;width:100px}
+.tabs li.active{border-bottom:none;border-right:none;border-left:none;margin-left:0;padding-left:0;width:114px}
 .tabs li a{font-family:Georgia,serif;font-size:12px;text-align:center;color:black;display:block;font-weight:bold;line-height:26px;height:26px}
 .tabs li a:hover{display:block}
 .tabs li a.selected{display:block;background:#EBE9E1}
@@ -399,62 +401,55 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
 .tab2_content a,.tab_content a strong{color:#000}
 .tab2_content a:hover,.tab_content a:hover strong{color:#000;text-decoration:underline}
 .tab2_content ul{padding-right:10px;color:#000;padding-left:15px}
-.tab2_content ul li{margin-left:20px;list-style-type:square;margin-bottom:5px;padding-left:0px}
+.tab2_content ul li{margin-left:20px;list-style-type:square;margin-bottom:5px;padding-left:0}
 .tab2_content ul li a{color:#000}
 .tab2_content ul li a:hover{color:#000;text-decoration:underline}
-.tab2s{margin-left:5px;margin-top:5px;overflow:hidden;padding-top:5px;margin-bottom:0px;padding-bottom:0px}
-.tab2s li{border:1px solid #CCC;float:left;display:inline;text-align:center;overflow:hidden;font-size:11px;padding-left:0px;width:132px}
-.tab2s li.active{border-bottom:none;border-right:none;border-left:none;margin-left:0px;padding-left:0px;width:140px}
+.tab2s{margin-left:5px;margin-top:5px;overflow:hidden;padding-top:5px;margin-bottom:0;padding-bottom:0}
+.tab2s li{border:1px solid #CCC;float:left;display:inline;text-align:center;overflow:hidden;font-size:11px;padding-left:0;width:132px}
+.tab2s li.active{border-bottom:none;border-right:none;border-left:none;margin-left:0;padding-left:0;width:140px}
 .tab2s li a{font-family:Georgia,serif;font-size:12px;text-align:center;color:black;display:block;font-weight:bold;line-height:26px;height:26px}
 .tab2s li a:hover{color:black;display:block}
 .tab2s li a.selected{display:block;background:#000}
 .tab2s li a.selected:hover{display:block;background-repeat:repeat-x;background-position:bottom}
 .tab3etiket{font-size:8pt;text-align:justify;margin-right:20px;margin-left:20px}
 .tab2_content .tab2ek{padding-left:40px;margin:0;list-style:none;float:left}
-.tab2_content .tab2ek li{border-bottom:none;padding-bottom:0px;margin:0px;list-style-type:square;width:240px;float:left;display:list-item}
+.tab2_content .tab2ek li{border-bottom:none;padding-bottom:0;margin:0;list-style-type:square;width:240px;float:left;display:list-item}
 .tab2_content .tab2ek li a{text-decoration:none;color:#000;font-size:12px}
 .tab2_content .tab2ek li a:hover{color:#000;text-decoration:underline}
 .yanskucuk{width:160px;padding:10px;float:left;margin-right:5px;padding-left:20px}
 .yanskucuk .left{margin-right:10px}
 .yanskucuk a{color:#7C8C31;text-decoration:none}
 .yanskucuk a:hover{text-shadow:none;text-decoration:underline;color:#5c9a9a}
-.yanskucuk h4{margin:5px 0px 5px 20px}
+.yanskucuk h4{margin:5px 0 5px 20px}
 .yanskucuk h3{border-bottom:1px dashed #68696E;color:whiteSmoke;margin-bottom:8px;line-height:26px;font-family:Georgia,serif;font-size:22px;font-style:normal;font-variant:normal;font-weight:normal}
-.yanskucuk ul{padding-left:20px;text-indent:0px}
+.yanskucuk ul{padding-left:20px;text-indent:0}
 .yanskucuk ul li{display:list-item;list-style-type:square}
 .yanskucuk ul li a{color:#AAA;text-decoration:none}
 .yanskucuk ul li a:hover{color:#fff;text-decoration:underline}
-.yanskucuk ul li ul{padding-left:2px;text-indent:0px}
+.yanskucuk ul li ul{padding-left:2px;text-indent:0}
 .yanskucuk ul li ul li{display:list-item;list-style-type:square}
-#epstats{margin-right:5px;float:left;padding-left:2px;padding-right:2px;line-height:1.3em;font-size:10px;font-family:Verdana,Geneva,Arial,sans-serif;border:1px solid gray}
-#epip{margin-right:3px;float:left;padding-left:2px;padding-right:2px;line-height:1.3em;font-size:10px;font-family:Verdana,Geneva,Arial,sans-serif;border:1px solid gray}
-#searchform{min-width:240px;margin-right:5px;text-align:right}
-input{padding-left:3px;color:#111;background-color:whiteSmoke;border:1px ridge #ddd}
-input:hover{background-color:#FFFFDD}
-#searchform2{}
-input2{padding:2px;margin:5px 5px 1px 0;color:#B0B0B0;background-color:#222;border:1px ridge #444}
-#footer-bottom{float:left;margin-left:15px;font-family:'Trebuchet MS','Helvetica Neue',Arial,sans-serif;font-size:12px;padding:5px 0px}
+#footer-bottom{float:left;margin-left:15px;font-family:'Trebuchet MS','Helvetica Neue',Arial,sans-serif;font-size:12px;padding:5px 0}
 #footer-bottom p{margin-bottom:2px}
 #footer-bottom a{color:#111}
 #footer-bottom a:hover{color:#111;text-decoration:underline}
 #footer-outer a{color:#111}
 #footer-outer a:hover{color:#111;text-decoration:underline}
-#footer-outer .col-a ul{list-style:none outside none;margin:0px;padding:0}
+#footer-outer .col-a ul{list-style:none outside none;margin:0;padding:0}
 #footer-outer .col-a ul li{border-bottom:1px dotted #383838}
-#footer-outer .col-a ul li span{float:right;margin:-22px 0px 0px 0px;color:#555555}
+#footer-outer .col-a ul li span{float:right;margin:-22px 0 0 0;color:#555555}
 #footer-outer .col-a ul li a{border:medium none;color:#888888;display:block;line-height:1.5em;margin:0;padding:5px 0;width:98%}
 #footer-outer .col-a ul li a span{font-family:'Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,Sans-Serif;font-size:0.95em;font-style:italic;font-weight:normal}
 #footer-outer .col-a ul li a:hover,#footer-outer .col-a ul li a:hover span{color:#f4f4f4}
 #footer-outer{padding:7px 0 8px;float:left;width:100%;border-top:1px solid #e8e8e8}
-#footer-wrap{float:left;padding:9px 0px 5px 0px}
+#footer-wrap{float:left;padding:9px 0 5px 0}
 #footer-wrap .col-a{float:left;width:470px;margin-left:10px}
-#footer-wrap .col-a h2{font-size:18px;margin:0px 0px 6px 0px;padding:10px 0px 3px 0px;color:#cb3833;border-bottom:1px solid #555555}
+#footer-wrap .col-a h2{font-size:18px;margin:0 0 6px 0;padding:10px 0 3px 0;color:#cb3833;border-bottom:1px solid #555555}
 #footer-wrap .col-a h2 span{color:#333}
 #footer-wrap .col-c{float:left;width:250px;margin-left:15px}
-#footer-wrap .col-c h2{font-size:18px;color:#2eb9f4;margin:0px 0px 6px 0px;padding:10px 0px 3px 0px;border-bottom:1px solid #555555}
+#footer-wrap .col-c h2{font-size:18px;color:#2eb9f4;margin:0 0 6px 0;padding:10px 0 3px 0;border-bottom:1px solid #555555}
 #footer-wrap .col-c h2 span{color:#333}
 #footer-wrap .col-b{float:left;width:315px;margin-left:10px}
-#footer-wrap .col-b h2{font-size:18px;margin:0px 0px 6px 0px;padding:10px 0px 3px 0px;color:#09C111;border-bottom:1px solid #555555}
+#footer-wrap .col-b h2{font-size:18px;margin:0 0 6px 0;padding:10px 0 3px 0;color:#09C111;border-bottom:1px solid #555555}
 #footer-wrap .col-b h2 span{color:#333}
 
 .etiketler .soltaraf{float:left;font-family:Georgia,serif;font-size:0.9em;line-height:1.5em}
@@ -464,7 +459,7 @@ input2{padding:2px;margin:5px 5px 1px 0;color:#B0B0B0;background-color:#222;bord
 .icerik a{color:#159}
 .icerik a:hover{color:#438BC5;text-decoration:underline}
 .icerikcerceve{float:left;background:transparent}
-.icerikcerceve img{background:transparent;margin:0px 2px 2px 0px;height:141px;width:195px}
+.icerikcerceve img{background:transparent;margin:0 2px 2px 0;height:141px;width:195px}
 .icerikresim{position:absolute}
 .icerikresim img{height:120px;width:170px;margin:7px 15px 12px 11px}
 .anatitle h4{border-bottom:none;font-size:22px;color:#000;margin-bottom:5px;line-height:26px;font-family:Georgia,serif}
@@ -481,8 +476,8 @@ input2{padding:2px;margin:5px 5px 1px 0;color:#B0B0B0;background-color:#222;bord
 #menu{float:left;margin-right:5px}
 #menu ul{list-style-type:none;width:auto;margin:0;padding:0}
 #menu ul li{display:block;float:left;margin:0}
-#menu ul li a{display:block;float:left;color:#fff;text-shadow:0 0px 1px #5a9696!important;text-decoration:none;height:21px;padding:5px 10px 0;font-family:"Droid Sans","Helvetica",sans-serif;font-size:11.3px}
-#menu ul li a:hover{color:#BDBDBD;text-shadow:0 0px 1px #5a9696!important;font-family:"Droid Sans","Helvetica",sans-serif;font-size:11.3px}
+#menu ul li a{display:block;float:left;color:#fff;text-shadow:0 0 1px #5a9696!important;text-decoration:none;height:21px;padding:5px 10px 0;font-family:"Droid Sans","Helvetica",sans-serif;font-size:11.3px}
+#menu ul li a:hover{color:#BDBDBD;text-shadow:0 0 1px #5a9696!important;font-family:"Droid Sans","Helvetica",sans-serif;font-size:11.3px}
 #menu2{float:right;margin-right:5px}
 #hareketlireklam{text-align:center;margin:5px;float:right;width:125px}
 #ustmenu{
@@ -506,15 +501,15 @@ input2{padding:2px;margin:5px 5px 1px 0;color:#B0B0B0;background-color:#222;bord
 .tekil-reklam{text-align:center}
 .tekil-reklam-yazi{margin-left:10px;margin-top:20px;float:left;display:block;background-image:url(http://datarar.com/ep/tema/res/hepsi.png);background-position:-595px 0;width:24px;height:24px}
 .anasayfa,.hakkimizda,.hizmetlerimiz,.iletisim,.inceleme,.rastgele,.reklamver,.zdefteri,.pinterest,.gplus,.rss-mail,.facebook,.linkedin,.twitter,.rss,.youstube,.paypal,.reklam125,.duyuru,.yukari{margin-bottom:3px;margin-right:5px;float:left;display:block;background-image:url(http://datarar.com/ep/tema/res/hepsi.png)}
-li a.anasayfa:hover,li a.hakkimizda:hover,li a.hizmetlerimiz:hover,li a.iletisim:hover,li a.inceleme:hover,li a.rastgele:hover,li a.reklamver:hover,li a.zdefteri:hover{background-position:0 -333px;width:32px;height:32px;margin-top:3px;margin-left:5px;padding:0px;opacity:.75}
-#sosyal1 .anasayfa{background-position:0 0;width:24px;height:24px;margin:0px;padding:0px}
-#sosyal2 .hakkimizda{background-position:-124px 0;width:24px;height:24px;margin:0px;padding:0px}
-#sosyal3 .hizmetlerimiz{background-position:-153px 0;width:24px;height:24px;margin:0px;padding:0px}
-#sosyal4 .iletisim{background-position:-182px 0;width:24px;height:24px;margin:0px;padding:0px}
-#sosyal5 .inceleme{background-position:-211px 0;width:24px;height:24px;margin:0px;padding:0px}
-#sosyal6 .rastgele{background-position:-436px 0;width:24px;height:24px;margin:0px;padding:0px}
-#sosyal7 .reklamver{background-position:-595px 0;width:24px;height:24px;margin:0px;padding:0px}
-#sosyal8 .zdefteri{background-position:-772px 0;width:24px;height:24px;margin:0px;padding:0px}
+li a.anasayfa:hover,li a.hakkimizda:hover,li a.hizmetlerimiz:hover,li a.iletisim:hover,li a.inceleme:hover,li a.rastgele:hover,li a.reklamver:hover,li a.zdefteri:hover{background-position:0 -333px;width:32px;height:32px;margin-top:3px;margin-left:5px;padding:0;opacity:.75}
+#sosyal1 .anasayfa{background-position:0 0;width:24px;height:24px;margin:0;padding:0}
+#sosyal2 .hakkimizda{background-position:-124px 0;width:24px;height:24px;margin:0;padding:0}
+#sosyal3 .hizmetlerimiz{background-position:-153px 0;width:24px;height:24px;margin:0;padding:0}
+#sosyal4 .iletisim{background-position:-182px 0;width:24px;height:24px;margin:0;padding:0}
+#sosyal5 .inceleme{background-position:-211px 0;width:24px;height:24px;margin:0;padding:0}
+#sosyal6 .rastgele{background-position:-436px 0;width:24px;height:24px;margin:0;padding:0}
+#sosyal7 .reklamver{background-position:-595px 0;width:24px;height:24px;margin:0;padding:0}
+#sosyal8 .zdefteri{background-position:-772px 0;width:24px;height:24px;margin:0;padding:0}
 .sosyal .facebook{background-position:-50px 0;width:32px;height:32px}
 .sosyal .gplus{background-position:-87px 0;width:32px;height:32px}
 .sosyal .rss{background-position:-624px 0;width:32px;height:32px}
@@ -527,15 +522,16 @@ li a.anasayfa:hover,li a.hakkimizda:hover,li a.hizmetlerimiz:hover,li a.iletisim
 #sosyal10 .yukari{background-position:-735px 0;width:32px;height:32px}
 .reklam125{background-position:-465px 0;width:125px;height:125px}
 #kategorimenu li#duyuru{padding-top:2px;padding-left:7px;float:left}
-#kategorimenu a.duyuru{background-position:-29px 0;width:16px;height:16px;float:left;padding:0px}
+#kategorimenu a.duyuru{background-position:-29px 0;width:16px;height:16px;float:left;padding:0}
 #kategorimenu li#duyuru:hover{background:none;padding-top:2px;padding-left:7px;float:left;opacity:.75}
 #anakategorimenu li#duyuru{padding-top:2px;padding-left:7px;float:left;width:22px;border:none}
-#anakategorimenu a.duyuru{background-position:-29px 0;width:16px;height:16px;float:left;padding:0px}
+#anakategorimenu a.duyuru{background-position:-29px 0;width:16px;height:16px;float:left;padding:0}
 #anakategorimenu li#duyuru:hover{background:none;padding-top:2px;padding-left:7px;float:left;opacity:.75}
 
-/* media */@media print{body{margin:0;padding:0;line-height:1.4em;word-spacing:1px;letter-spacing:0.2px;font:13px Arial,Helvetica,"Lucida Grande",serif;color:#000}
+/* media */
+@media print{body{margin:0;padding:0;line-height:1.4em;word-spacing:1px;letter-spacing:0.2px;font:13px Arial,Helvetica,"Lucida Grande",serif;color:#000}
     #ustmenu,#footer-outer,#sidebar,#hareketlireklam,#kategorimenu,.etiketler,.yorumlar,.oncekiyazi{display:none !important}
-    #anayazialan{margin-left:0px !important}
+    #anayazialan{margin-left:0 !important}
     .icerik{border:none !important}
     img,img a,.more-link a{border:none}
     a:link,a:visited{background:transparent;color:#333;text-decoration:none}
@@ -545,7 +541,7 @@ li a.anasayfa:hover,li a.hakkimizda:hover,li a.hizmetlerimiz:hover,li a.iletisim
 @media only screen and (max-width:479px){select{width:100%}
     .yans,.sosyal,.yanstab{display:none !important}
     #hareketlireklam{display:none !important}
-    #anayazialan{margin-left:0px !important}
+    #anayazialan{margin-left:0 !important}
     #footer-outer{min-width:300px !important}
     #sidebar{width:100%;position:relative}
     #ustmenu{min-width:200px}
@@ -561,7 +557,7 @@ li a.anasayfa:hover,li a.hakkimizda:hover,li a.hizmetlerimiz:hover,li a.iletisim
 }
 @media only screen and (min-width:480px) and (max-width:744px){select{width:100%}
     .yans,.sosyal,.yanstab{display:none !important}
-    #anayazialan{margin-left:0px !important}
+    #anayazialan{margin-left:0 !important}
     #footer-outer{min-width:300px !important}
     #sidebar{width:100%;position:relative}
     #ustmenu{min-width:200px}
@@ -577,7 +573,7 @@ li a.anasayfa:hover,li a.hakkimizda:hover,li a.hizmetlerimiz:hover,li a.iletisim
 }
 @media only screen and (min-width:745px) and (max-width:1023px){select{width:100%}
     .yans,.sosyal,.yanstab{display:none !important}
-    #anayazialan{margin-left:0px !important}
+    #anayazialan{margin-left:0 !important}
     #footer-outer{min-width:300px !important}
     #sidebar{width:100%;position:relative}
     #ustmenu{min-width:200px}

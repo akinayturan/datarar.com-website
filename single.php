@@ -48,7 +48,6 @@
                 </div>
                 <div class="etiketler">
                     <?php the_tags('Etiketler: ', ', ', '<br />'); ?>
-                    Sorgular: <?php if(function_exists('stt_terms_list')) echo stt_terms_list() ;?><br />
                 </div>
                 <div class="etiketler">
                     <?php

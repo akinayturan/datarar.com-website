@@ -4,7 +4,7 @@
         <div id="footer-bottom">
             <div class="bottom-left"><p>
                     <a href="//datarar.com/hizmet/" rel="appendix" title="Hizmet">Hizmet</a> |
-                    <a href="//feeds.feedburner.com/epfarki" rel="external" title="Besleme">Feed</a> |
+                    <a href="//feeds.feedburner.com/datarar" rel="external" title="Besleme">Feed</a> |
                     <a href="//www.alexa.com/siteinfo/datarar.com" rel="external" title="Alexa">Alexa</a> |
                     <a href="//validator.w3.org/check?uri=http%3a%2f%2fdatarar.com%2f" rel="external" title="W3-html">W3-html</a> |
                     <a href="//jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fdatarar.com%2F" rel="external" title="W3-css">W3-css</a> |
