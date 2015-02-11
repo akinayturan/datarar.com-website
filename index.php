@@ -1,12 +1,7 @@
 <?php get_header(); ?>
 <div id="altyazialan">
     <div id="main" class="updatable" role="main">
-
-        <div id="anakategorimenu2">
-            <ul>
-        aa
-            </ul>
-        </div>
+        <div id="anakategorimenu2"></div>
         <div class="temiz"></div>
 
         <div id="yukleyici"></div>
