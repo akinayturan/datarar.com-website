@@ -2,16 +2,16 @@
 require('../../hizmet/tema/menu1.php');
 ?>
 
-<meta name="description" content="İp Adresi Bul » EPfarki.com Hizmetleri » Birazcık Farklı" />
-<meta name="keywords" content="İp Adresi Bul, epfarki, ep, farki, evrensel, paylasim, evrenselpaylasim, farkı, farklı, farkli, fark, " />
-<title>Resim Filtreleme | EPfarkı</title>
+<meta name="description" content="İp Adresi Bul » Datarar.com Hizmetleri » Birazcık Farklı" />
+<meta name="keywords" content="İp Adresi Bul, datarar, ep, farki, evrensel, paylasim, evrenselpaylasim, farkı, farklı, farkli, fark, " />
+<title>Resim Filtreleme | Datarar</title>
 
 <link href="css/style.css" rel="stylesheet" />
 <?
 require('../../hizmet/tema/menu2.php');
 ?>
 
-<div id="title-hizmet" class="title"><h3><a href="//epfarki.com/hizmet/resim-filtreleme/" rel="bookmark" title="Farklı">Resim Filtreleme</a></h3></div>
+<div id="title-hizmet" class="title"><h3><a href="//datarar.com/hizmet/resim-filtreleme/" rel="bookmark" title="Farklı">Resim Filtreleme</a></h3></div>
 <div class="temiz"></div>
 
 <div id="photo">

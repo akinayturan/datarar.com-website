@@ -1,15 +1,15 @@
 <? require('../../hizmet/tema/menu1.php'); ?>
 
-<meta name="description" content="Otomatik Back Link Kazanma Sistemi » EPfarkı » Birazcık Farklı" />
-<meta name="keywords" content="Oto, Link, Back, ücretsiz, epfarki, ep, farki, evrensel, paylasim, evrenselpaylasim, farkı, farklı, farkli, fark, " />
-<title>Oto Back Link | EPfarkı</title>
+<meta name="description" content="Otomatik Back Link Kazanma Sistemi » Datarar » Birazcık Farklı" />
+<meta name="keywords" content="Oto, Link, Back, ücretsiz, datarar, ep, farki, evrensel, paylasim, evrenselpaylasim, farkı, farklı, farkli, fark, " />
+<title>Oto Back Link | Datarar</title>
 
-<script src="//epfarki.com/ep/tema/js/otobacklink.js"></script>
+<script src="//datarar.com/ep/tema/js/otobacklink.js"></script>
 
 <? require('../../hizmet/tema/menu2.php'); ?>
 
 <div id="title-hizmet" class="title"><h4>
-        <a href="http://epfarki.com/hizmet/otobacklink/" rel="bookmark" title="Oto Back Link">Otomatik Backlink (gerilink).</a>
+        <a href="http://datarar.com/hizmet/otobacklink/" rel="bookmark" title="Oto Back Link">Otomatik Backlink (gerilink).</a>
     </h4></div> <div class="temiz"></div>
 <div id="icerik-hizmet" class="icerik">
     <p>
@@ -25,7 +25,7 @@
                 <input type='hidden' id='currentk' value='0' >
                 <input type='hidden' id='cwindow' value='0' >
                 <h5>Site: http://www.</h5></td>
-            <td colspan='2'><input type='text' name='domain' id='domain' value='epfarki.com' ></td>
+            <td colspan='2'><input type='text' name='domain' id='domain' value='datarar.com' ></td>
             <td><input type='button' value='Başlat!' name='submit' onclick="beginu();" ></td>
         </tr>
         <tr>

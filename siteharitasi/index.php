@@ -172,7 +172,7 @@ require('../../hizmet/tema/menu2.php');
 ?>
 
 <div id="title-hizmet" class="title"><h3>
-        <a href="http://epfarki.com/hizmet/siteharitasi/" title="Site Haritası">Site Haritası</a>
+        <a href="http://datarar.com/hizmet/siteharitasi/" title="Site Haritası">Site Haritası</a>
     </h3></div>
 <div class="temiz"></div>
 

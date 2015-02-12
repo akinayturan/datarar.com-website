@@ -100,7 +100,7 @@ $depremler";
 
 ?>
 <p>
-    <a href="#">Yukar�</a> |
+    <a href="#">Yukarı</a> |
     <a href="http://epfarki.com/hizmet">Hizmet</a> |
     <a target="_blank" rel="nofollow" href="http://feeds.feedburner.com/epfarki">Feed</a> |
     <a target="_blank" rel="nofollow" href="http://www.alexa.com/siteinfo/epfarki.com">Alexa</a> |

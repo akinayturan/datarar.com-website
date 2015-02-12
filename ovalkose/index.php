@@ -2,9 +2,9 @@
 require('../../hizmet/tema/menu1.php');
 ?>
 
-<meta name="description" content="CSS Oval Köşe Oluşturucu | CSS border radius generator » EPfarki.com Hizmetleri » Birazcık Farklı" />
+<meta name="description" content="CSS Oval Köşe Oluşturucu | CSS border radius generator » Datarar.com Hizmetleri » Birazcık Farklı" />
 <meta name="keywords" content="css3, border radius, css3 border radius, webkit border radius, firefox border radius" />
-<title>CSS Oval Köşe Oluşturucu | EPfarkı</title>
+<title>CSS Oval Köşe Oluşturucu | Datarar</title>
 
 <style type="text/css" media="screen">
 
@@ -120,13 +120,13 @@ require('../../hizmet/tema/menu1.php');
     }
 </style>
 
-<script src="//epfarki.com/hizmet/ovalkose/prototype.js" type="text/javascript"></script>
+<script src="//datarar.com/hizmet/ovalkose/prototype.js" type="text/javascript"></script>
 <?
 require('../../hizmet/tema/menu2.php');
 ?>
 
 <div id="title-hizmet" class="title"><h4>
-        <a href="http://epfarki.com/hizmet/ovalkose/" rel="bookmark" title="Farklı">CSS Oval Köşe Oluşturucu</a>
+        <a href="http://datarar.com/hizmet/ovalkose/" rel="bookmark" title="Farklı">CSS Oval Köşe Oluşturucu</a>
     </h4></div>
 <div class="temiz"></div>
 

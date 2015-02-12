@@ -178,15 +178,15 @@ function robotstxt($url_principal){
     <meta name="description" content="Siteniz için sitemap(site haritası) oluşturun. - Free online site map generator! Get your sitemap done and up in seconds." />
     <meta name="keywords" content="sitemap oluştur, sitemap nedir, sitemap, sitemap oluşturucu, hızlı sitemap, google sitemap, bedava sitemap, sitemap, site map, generator, XML, HTML, text, ROR, google, yahoo, php" />
 
-    <title>Site Haritası-EP » Hızlı Sitemap Oluştur | Free online site map generator!</title>
+    <title>Site Haritası » Hızlı Sitemap Oluştur | Free online site map generator!</title>
 
-    <meta http-equiv="reply-to" content="epfarki@gmail.com" />
+    <meta http-equiv="reply-to" content="iletisim@datarar.com" />
     <meta http-equiv="content-language" content="tr, en" />
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="pragma" content="no-cache" />
 
-    <meta name="abstract" content="EPfarkı » Bilgiye Işık Tut!" />
-    <meta name="DC.title" content="EPfarkı » Bilgiye Işık Tut!" />
+    <meta name="abstract" content="datarar » Bilgiye Işık Tut!" />
+    <meta name="DC.title" content="datarar » Bilgiye Işık Tut!" />
     <meta name="geo.position" content="38.963745;35.243322" />
     <meta name="classification" content="personel blog" />
     <meta name="copyright" content="creativecommons" />
@@ -204,25 +204,23 @@ function robotstxt($url_principal){
     <meta name="author" content="bizimakin" />
     <meta name="rating" content="all" />
 
-    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/epfarki" />
-    <link rel="shortcut icon" href="http://ozel.epfarki.com/img/favicon.ico" type="image/x-icon" />
-    <link rel="image_src" href="http://ozel.epfarki.com/img/epfarki-com.jpg" />
-    <link rel='index' title='EPfarki' href='http://epfarki.com/' />
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/datarar" />
+    <link rel="shortcut icon" href="http://datarar.com/img/favicon.ico" type="image/x-icon" />
+    <link rel='index' title='datarar' href='http://datarar.com/' />
 
-    <script type="text/javascript">
+    <!-- sayac -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-26694472-1']);
-        _gaq.push(['_setDomainName', 'epfarki.com']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+        ga('create', 'UA-26694472-1', 'auto');
+        ga('send', 'pageview');
 
     </script>
+    <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter10711903 = new Ya.Metrika({id:10711903, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/10711903" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+    <!-- /sayac -->
 
     <link rel="stylesheet" type="text/css" href="http://siteharitasi.epfarki.com/style.css" />
 </head>
@@ -232,7 +230,7 @@ function robotstxt($url_principal){
 
     <div id="left">
                 <span id="logo">
-                <a href="http://www.siteharitasi.epfarki.com/"><img src="img/logo.jpg" alt="siteharitasi.epfarki.com - Free online site map generator!" /></a>
+                <a href="http://www.siteharitasi.datarar.com/"><img src="img/logo.jpg" alt="siteharitasi.datarar.com - Free online site map generator!" /></a>
             </span>
 
             <span id="menu">
@@ -257,31 +255,19 @@ function robotstxt($url_principal){
                 <p><strong>Diğer Sitelerimiz</strong></p>
                 <p><ul>
 
-                    <li><a target="_blank" href="http://www.epfarki.com">EPfarkı</a></li>
-                    <li><a target="_blank" href="http://www.hizmet.epfarki.com">Hizmetlerimiz</a></li>
-                    <li><a target="_blank" href="http://www.paylasim.epfarki.com/kod-onizleme-editoru/">Kod Önizleme</a></li>
-                    <li><a target="_blank" href="http://www.basin.epfarki.com/">Basın</a></li>
-                    <li><a target="_blank" href="http://www.dizin.epfarki.com/">Dizin</a></li>
-                    <li><a target="_blank" href="http://www.toplist.epfarki.com/">Toplist</a></li>
-                    <li><a target="_blank" href="http://www.hitlen.epfarki.com/">Hitlen</a></li>
-                    <li><a target="_blank" href="http://www.epfarki.com/addlink/">Link Ekle</a></li>
-                    <li><a target="_blank" href="http://www.bannerdegisim.epfarki.com/">Banner Değişim</a></li>
-                    <li><a target="_blank" href="http://www.sitearaclari.epfarki.com/anasayfa/">Site Araçları</a></li>
-                    <li><a target="_blank" href="http://www.reklam.epfarki.com/">Reklam</a></li>
-                    <li><a target="_blank" href="http://www.hitlen.net/">Hitlen.net</a></li>
-                    <li><a target="_blank" href="http://www.hitarttirmak.com/">Hitarttirmak.com</a></li>
+                    <li><a target="_blank" href="http://datarar.com">EPfarkı</a></li>
 
                 </ul></p>
             </span>
             <span id="contact">
                 <strong>İletişim</strong>
 <p>
-    <a href="http://www.epfarki.com/iletisim/">EPfarkı</a> © 2010
-    <br />Design by <a href="http://www.epfarki.com/" target="_blank">Bizimakin</a>
+    <a href="http://datarar.com/iletisim/">EPfarkı</a> © 2010
+    <br />Design by <a href="http://datarar.com/" target="_blank">Bizimakin</a>
     <br />Private Communication
-    <br /><a href="mailto:epfarki@gmail.com" target="_blank">epfarki@gmail.com</a>
+    <br /><a href="mailto:iletisim@datarar.com" target="_blank">iletisim@datarar.com</a>
 <div style="text-align: center;">
-    <span id="wobsbn"><script type="text/javascript">var wozone="10800",wouser="yakaytu", wobanner=11;</script><script type="text/javascript" src="http://www.ozel.epfarki.com/c.js"></script></span>
+    <span id="wobsbn"><script type="text/javascript">var wozone="10800",wouser="bizimakin", wobanner=11;</script><script type="text/javascript" src="http://www.ozel.epfarki.com/c.js"></script></span>
 </div>
                 </p>
             </span>

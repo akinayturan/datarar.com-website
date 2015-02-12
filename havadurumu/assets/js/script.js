@@ -1,5 +1,5 @@
 $(function(){
-
+	/*http://tutorialzine.com/2013/05/weather-web-app-geolocation-revisited/*/
 	/* Configuration */
 
 	var DEG = 'c';			// c for celsius, f for fahrenheit

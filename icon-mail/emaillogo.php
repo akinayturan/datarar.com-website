@@ -1,5 +1,5 @@
 <?
-$dirurl = "http://epfarki.com/hizmet/icon-mail/";
+$dirurl = "http://datarar.com/hizmet/icon-mail/";
 $picdir = "jim_black";
 
 function read_from_file($file){
@@ -45,7 +45,7 @@ if($_GET['start']=="5glive"){
 }elseif($_GET['down']){
 	$filename = $_GET['down'];
 	header("Content-type: command");
-	header("Content-Disposition: attachment; filename=EPfarki_emaillogo.png");
+	header("Content-Disposition: attachment; filename=datarar_emaillogo.png");
 	readfile($picdir."/".date("ymd",$filename)."/".$filename.".png");
 	exit;
 }elseif($_GET['mkpic']=="5glive"){
@@ -137,14 +137,14 @@ if($_GET['start']=="5glive"){
 	<meta name="alexaVerifyID" content="ybOKfPS80NueBfPKssTKHmhaWo0" />
 	<meta name="yandex-verification" content="5d863a6dead77fbe" />
 
-	<meta name="description" content="Resimli E-posta olu�turma � EPfarki.com Hizmetleri � Birazc�k Farkl�" />
-	<meta name="keywords" content="Resimli E-posta olu�turma, epfarki, ep, farki, evrensel, paylasim, evrenselpaylasim, fark�, farkl�, farkli, fark, " />
-	<title>�con Mail � Resimli E-posta olu�turma � EPfarki.com Hizmetleri � Birazc�k Farkl�</title>
+	<meta name="description" content="Resimli E-posta olu�turma � datarar.com Hizmetleri � Birazc�k Farkl�" />
+	<meta name="keywords" content="Resimli E-posta olu�turma, datarar, ep, farki, evrensel, paylasim, evrenselpaylasim, fark�, farkl�, farkli, fark, " />
+	<title>�con Mail � Resimli E-posta olu�turma � datarar.com Hizmetleri � Birazc�k Farkl�</title>
 
 
 
 	<meta name="robots" content="index, follow" />
-	<meta http-equiv="reply-to" content="epfarki@gmail.com" />
+	<meta http-equiv="reply-to" content="iletisim@datarar.com" />
 	<meta http-equiv="content-language" content="tr, en" />
 	<meta http-equiv="pragma" content="no-cache" />
 	<meta http-equiv="cache-control" content="no-cache" />
@@ -167,11 +167,11 @@ if($_GET['start']=="5glive"){
 	<meta name="DC.title" content="EPfark� � Bilgiye I��k Tut!" />
 
 
-	<link href="http://dosya.epfarki.com/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-	<link href="http://epfarki.com/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
-	<link href="http://epfarki.com/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+	<link href="http://datarar.com/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="http://datarar.com/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+	<link href="http://datarar.com/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
 
-	<link rel='index' title='EPfarki' href='http://epfarki.com/' />
+	<link rel='index' title='datarar' href='http://datarar.com/' />
 
 
 	<link href="images/common.css" rel="stylesheet" type="text/css" />
@@ -182,20 +182,19 @@ if($_GET['start']=="5glive"){
 	<style>
 		body{font-size:12px;color:#666;margin:0;}
 	</style>
-	<script type="text/javascript">
+	<!-- sayac -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-15636054-13']);
-		_gaq.push(['_setDomainName', 'epfarki.com']);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
+		ga('create', 'UA-26694472-1', 'auto');
+		ga('send', 'pageview');
 
 	</script>
+	<!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter10711903 = new Ya.Metrika({id:10711903, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/10711903" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+	<!-- /sayac -->
 </head>
 <body>
 <? if($type==1){ ?>
@@ -216,7 +215,7 @@ if($_GET['start']=="5glive"){
 		<tr><td>
 				<table>
 					<tr><td height="20" align="center" width="60">Resim Adresi</td><td><input type="text" value="<?=$dirurl.$filename?>" style="width:200px;height:16px;font-family:arial;" onclick="this.select()" id="ubbpic" /></td><td><input type="button" value="Copy" onclick="oCopy(ubbpic)" /></td></tr>
-					<tr><td height="20" align="center">HTML kodu</td><td><input type="text" value='<img src="<?=$dirurl.$filename?>" alt="Mail icon EPfarki.com" />' style="width:200px;height:16px;font-family:arial;" onclick="this.select()" id="htmlpic" /></td><td><input type="button" value="Copy" onclick="oCopy(htmlpic)" /></td></tr>
+					<tr><td height="20" align="center">HTML kodu</td><td><input type="text" value='<img src="<?=$dirurl.$filename?>" alt="Mail icon Datarar.com" />' style="width:200px;height:16px;font-family:arial;" onclick="this.select()" id="htmlpic" /></td><td><input type="button" value="Copy" onclick="oCopy(htmlpic)" /></td></tr>
 				</table>
 			</td></tr>
 	</table>

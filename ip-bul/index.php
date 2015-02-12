@@ -2,16 +2,16 @@
 require('../../hizmet/tema/menu1.php');
 ?>
 
-<meta name="description" content="İp Adresi Bul » EPfarki.com Hizmetleri » Birazcık Farklı" />
-<meta name="keywords" content="İp Adresi Bul, epfarki, ep, farki, evrensel, paylasim, evrenselpaylasim, farkı, farklı, farkli, fark, " />
-<title>İp Adresi Bul | EPfarkı</title>
+<meta name="description" content="İp Adresi Bul » Datarar.com Hizmetleri » Birazcık Farklı" />
+<meta name="keywords" content="İp Adresi Bul, datarar, ep, farki, evrensel, paylasim, evrenselpaylasim, farkı, farklı, farkli, fark, " />
+<title>İp Adresi Bul | Datarar</title>
 
 <?
 require('../../hizmet/tema/menu2.php');
 ?>
 
 <div id="title-hizmet" class="title"><h3>
-        <a href="http://epfarki.com/hizmet/ip-bul/" rel="bookmark" title="Farklı">İp Adresiniz</a>
+        <a href="http://datarar.com/hizmet/ip-bul/" rel="bookmark" title="Farklı">İp Adresiniz</a>
     </h3></div>
 <div class="temiz"></div>
 

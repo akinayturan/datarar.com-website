@@ -5,13 +5,13 @@
     <meta charset="UTF-8"/>
     <meta name="designer" content="bizimakin"/>
     <meta name="author" content="bizimakin" />
-    <meta name="generator" content="EP 2.0"/>
+    <meta name="generator" content="Datarar 2.0"/>
     <meta name="rating" content="general"/>
 
-    <link rel="stylesheet" href="//epfarki.com/wp-content/themes/epbeyaz/style.css" type="text/css" media="screen" />
-    <link rel="image_src" href="//epfarki.com/ep/tanitim/epfarki-com-banner-149-149.jpg" />
-    <link rel="shortcut icon" href="//epfarki.com/favicon.ico" type="image/x-icon" />
-    <link rel="index" title="EPfarki" href="//epfarki.com/" />
+    <link rel="stylesheet" href="//datarar.com/wp-content/themes/datarar/style.css" type="text/css" media="screen" />
+    <link rel="image_src" href="//datarar.com/ep/tanitim/epfarki-com-banner-149-149.jpg" />
+    <link rel="shortcut icon" href="//datarar.com/favicon.ico" type="image/x-icon" />
+    <link rel="index" title="datarar" href="//datarar.com/" />
 
-    <link href="//feeds.feedburner.com/epfarki" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
-    <link href="//epfarki.com/feed/" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+    <link href="//feeds.feedburner.com/datarar" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+    <link href="//datarar.com/feed/" rel="alternate" type="application/rss+xml" title="RSS 2.0" />

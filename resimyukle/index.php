@@ -5,8 +5,8 @@ require('engine.php');
 require('../../hizmet/tema/menu1.php');
 ?>
 
-<meta name="description" content="Resim yükleme servisi | EPfarkı | Birazcık Farklı" />
-<meta name="keywords" content="epfarki, ep, farki, evrensel, paylasim, evrenselpaylasim, farkı, farklı, farkli, fark, " />
+<meta name="description" content="Resim yükleme servisi | Datarar | Birazcık Farklı" />
+<meta name="keywords" content="datarar, ep, farki, evrensel, paylasim, evrenselpaylasim, farkı, farklı, farkli, fark, " />
 <title><? echo $titulo.' '.APP_NAME;?> - <?=TAG_LINE;?></title>
 
 <link href="<?=URL_SCRIPT;?>estilo.css" rel="stylesheet" type="text/css" />
@@ -273,21 +273,31 @@ require('../../hizmet/tema/menu1.php');
         </div> <!-- contenido -->
 
         <div id="foot"><div class="foot-d2">
-                <a href="http://epfarki.com/hizmet">Hizmet</a> |
-                <a target="_blank" rel="nofollow" href="http://feeds.feedburner.com/epfarki">Feed</a> |
-                <a target="_blank" rel="nofollow" href="http://www.alexa.com/siteinfo/epfarki.com">Alexa</a> |
-                <a target="_blank" rel="nofollow" href="http://validator.w3.org/check?uri=http%3a%2f%2fepfarki.com%2f">W3-html</a> |
-                <a target="_blank" rel="nofollow" href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fepfarki.com%2F">W3-css</a> |
-                <a target="_blank" href="http://epfarki.com/sitemap-video.xml">V-Sitemap</a> |
-                <a target="_blank" href="http://epfarki.com/sitemap.xml">G-Sitemap</a>
+                <a href="http://datarar.com/hizmet">Hizmet</a> |
+                <a target="_blank" rel="nofollow" href="http://feeds.feedburner.com/datarar">Feed</a> |
+                <a target="_blank" rel="nofollow" href="http://www.alexa.com/siteinfo/datarar.com">Alexa</a> |
+                <a target="_blank" rel="nofollow" href="http://validator.w3.org/check?uri=http%3a%2f%2fdatarar.com%2f">W3-html</a> |
+                <a target="_blank" rel="nofollow" href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fdatarar.com%2F">W3-css</a> |
+                <a target="_blank" href="http://datarar.com/sitemap-video.xml">V-Sitemap</a> |
+                <a target="_blank" href="http://datarar.com/sitemap.xml">G-Sitemap</a>
                 <br /><br />
-                <a href="http://epfarki.com/">EPfarkı</a>
-                <a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-nc-nd/2.5/">© 2012</a> | Tasarım: <a href="http://epfarki.com/iletisim/">Bizimakin</a> | Özel İletişim: epfarki [at] gmail.com
+                <a href="http://datarar.com/">EPfarkı</a>
+                <a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-nc-nd/2.5/">© 2012</a> | Tasarım: <a href="http://datarar.com/iletisim/">Bizimakin</a> | Özel İletişim: iletisim [at] datarar.com
 
 
 
                 <!-- sayac -->
-                <script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script><script type="text/javascript">try { var yaCounter10711903 = new Ya.Metrika({id:10711903, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { }</script><noscript><div><img src="//mc.yandex.ru/watch/10711903" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+                <script>
+                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                    ga('create', 'UA-26694472-1', 'auto');
+                    ga('send', 'pageview');
+
+                </script>
+                <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter10711903 = new Ya.Metrika({id:10711903, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/10711903" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
                 <!-- /sayac -->
             </div></div>
 </body>

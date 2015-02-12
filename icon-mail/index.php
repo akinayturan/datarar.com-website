@@ -2,9 +2,9 @@
 require('../../hizmet/tema/menu1.php');
 ?>
 
-<meta name="description" content="Resimli E-posta oluşturma » EPfarki.com Hizmetleri » Birazcık Farklı" />
-<meta name="keywords" content="Resimli E-posta oluşturma, epfarki, ep, farki, evrensel, paylasim, evrenselpaylasim, farkı, farklı, farkli, fark, " />
-<title>İcon Mail » Resimli E-posta oluşturma » EPfarki.com Hizmetleri » Birazcık Farklı</title>
+<meta name="description" content="Resimli E-posta oluşturma » datarar.com Hizmetleri » Birazcık Farklı" />
+<meta name="keywords" content="Resimli E-posta oluşturma, datarar, ep, farki, evrensel, paylasim, evrenselpaylasim, farkı, farklı, farkli, fark, " />
+<title>İcon Mail » Resimli E-posta oluşturma » datarar.com Hizmetleri » Birazcık Farklı</title>
 
 <script language="javascript">
   var once=true;
@@ -66,7 +66,7 @@ require('../../hizmet/tema/menu2.php');
 
 <div id="title-hizmet" class="title"><h3>
 
-    <a href="http://epfarki.com/hizmet/icon-mail/" rel="bookmark" title="İcon Mail">İcon Mail</a>
+    <a href="http://datarar.com/hizmet/icon-mail/" rel="bookmark" title="İcon Mail">İcon Mail</a>
 
   </h3></div> <div class="temiz"></div>
 
@@ -75,7 +75,7 @@ require('../../hizmet/tema/menu2.php');
     <td>
   <tr>
     <td width="355" valign="middle" style="text-align: center;">
-      <iframe width="355" height="200" frameborder="0" id="mailfr" name="mailfr" src="http://epfarki.com/hizmet/icon-mail/emaillogo.php?start=5glive" scrolling="no"></iframe>
+      <iframe width="355" height="200" frameborder="0" id="mailfr" name="mailfr" src="http://datarar.com/hizmet/icon-mail/emaillogo.php?start=5glive" scrolling="no"></iframe>
     </td>
   </tr>
   <tr>

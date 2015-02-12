@@ -2,8 +2,8 @@
 require('../../hizmet/tema/menu1cssyok.php');
 ?>
 
-<meta name="description" content="Kod Ön İzleme Editörü | Gerçek Zamanlı | EPfarkı | Birazcık Farklı" />
-<meta name="keywords" content="epfarki, ep, farki, evrensel, paylasim, evrenselpaylasim, farkı, farklı, farkli, fark, HTML,JavaScript, Kodlari Test Et, Kod Onizleme Editoru," />
+<meta name="description" content="Kod Ön İzleme Editörü | Gerçek Zamanlı | Datarar" />
+<meta name="keywords" content="datarar, ep, farki, evrensel, paylasim, evrenselpaylasim, farkı, farklı, farkli, fark, HTML,JavaScript, Kodlari Test Et, Kod Onizleme Editoru," />
 <title>Kod Ön İzleme Editörü | Gerçek Zamanlı | EPfarkı</title>
 
 <script type="text/javascript">
@@ -28,9 +28,9 @@ require('../../hizmet/tema/menu1cssyok.php');
   var defaultStuff = '- Gerçek Zamanlı Kod Ön İzleme Editörü ^^ \n' +
       '- İstediginiz Kodu Buraya Yazınız... (*HTML,JavaScript Vb. )\n' +
       '- Yandaki Kutucukta Nasıl Göründüklerine Bakabilirsiniz.(Gerçek Zamanlı Olarak!)\n' +
-      '- EPfarki.com\n';
+      '- datarar.com\n';
   // I don't want this stuff to appear in the box at the top because I feel it's likely to be distracting.
-  var extraStuff = '<div style="position:absolute; margin:.3em; bottom:0em; right:0em;"><small><a href="http://epfarki.com/">EPfarkı</a>  <a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-nc-nd/2.5/">© 2012</a> | Tasarım: <a href="http://epfarki.com/iletisim/">Bizimakin</a> | Özel İletişim: epfarki [at] gmail.com';
+  var extraStuff = '<div style="position:absolute; margin:.3em; bottom:0em; right:0em;"><small><a href="http://datarar.com/">EPfarkı</a>  <a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-nc-nd/2.5/">© 2012</a> | Tasarım: <a href="http://datarar.com/iletisim/">Bizimakin</a> | Özel İletişim: iletisim [at] datarar.com';
 
 
   var old = '';
