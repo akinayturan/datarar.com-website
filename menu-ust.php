@@ -1,7 +1,7 @@
 <div id="ustkategori" class="menunav">
       <ul>
             <li id="sosyal5"><a href="//datarar.com/blog/" title="Blog">Blog</a></li>
-            <li id="sosyal3"><a rel="appendix" href="//datarar.com/hizmet/" title="Hizmetlerimiz">Hizmetlerimiz</a></li>
+            <li id="sosyal3"><a rel="appendix" href="//datarar.com/hizmetler/" title="Hizmetler">Hizmetler</a></li>
             <li id="sosyal2"><a href="//datarar.com/inceleme/" title="İnceleme">İnceleme</a></li>
             <li id="sosyal2"><a href="//datarar.com/hakkimizda/" title="Hakkımızda">Hakkımızda</a></li>
             <li id="sosyal8"><a href="//datarar.com/ziyaretci-defteri/" title="Ziyaretçi Defteri">Ziyaretçi Defteri</a></li>

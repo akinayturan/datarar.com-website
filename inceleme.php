@@ -2,6 +2,7 @@
 <?php get_header(); ?>
     <div id="altyazialan">
         <div id="main" class="updatable" role="main">
+            <div id="yukleyici"></div>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div id="post-<?php the_ID(); ?>" class="post">
