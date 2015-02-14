@@ -5,13 +5,14 @@
 </div>
 <div id="ustkategori" class="menunav">
     <ul>
-        <li id="sosyal3"><a rel="appendix" href="//datarar.com/hizmet/" class=" dJAX_internal" title="Hizmetlerimiz">Hizmetlerimiz</a></li>
-        <li id="sosyal2"><a href="//datarar.com/hakkimizda/" class="dJAX_internal" title="Hakkımızda">Hakkımızda</a></li>
-        <li id="sosyal8"><a href="//datarar.com/ziyaretci-defteri/" class="dJAX_internal" title="Ziyaretçi Defteri">Ziyaretçi Defteri</a></li>
-        <li id="sosyal7"><a href="//datarar.com/reklam-ver/" class="dJAX_internal" title="Reklam">Reklam</a></li>
-        <li id="sosyal4"><a href="//datarar.com/iletisim/" class="dJAX_internal" title="İletişim">İletişim</a></li>
-        <li id="sosyal5"><a href="//datarar.com/inceleme/" class="dJAX_internal" title="İnceleme">İnceleme</a></li>
-        <li id="sosyal6"><a rel="datarar" href="//datarar.com/?rastgele" class="dJAX_internal" title="Rastgele Yazı">Rastgele</a></li>
+        <li id="sosyal5"><a href="//datarar.com/blog/" title="Blog">Blog</a></li>
+        <li id="sosyal3"><a rel="appendix" href="//datarar.com/hizmetler/" title="Hizmetler">Hizmetler</a></li>
+        <li id="sosyal2"><a href="//datarar.com/inceleme/" title="İnceleme">İnceleme</a></li>
+        <li id="sosyal2"><a href="//datarar.com/hakkimizda/" title="Hakkımızda">Hakkımızda</a></li>
+        <li id="sosyal8"><a href="//datarar.com/ziyaretci-defteri/" title="Ziyaretçi Defteri">Ziyaretçi Defteri</a></li>
+        <li id="sosyal7"><a href="//datarar.com/reklam-ver/" title="Reklam">Reklam</a></li>
+        <li id="sosyal4"><a href="//datarar.com/iletisim/" title="İletişim">İletişim</a></li>
+        <li id="sosyal6"><a rel="appendix" href="//datarar.com/?rastgele" title="Rastgele Yazı">Rastgele</a></li>
     </ul>
 </div>
 <div class="aras">

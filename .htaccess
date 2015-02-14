@@ -7,28 +7,29 @@ SecFilterScanPOST Off
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.hizmet\.datarar\.com$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^hizmet\.datarar\.com$ [NC]
-RewriteRule ^(.*)$ http://datarar.com/hizmet/$1 [L,R=301] 
+RewriteCond %{HTTP_HOST} ^datarar\.com\.hizmet$ [NC,OR]
+RewriteRule ^(.*)$ http://datarar.com/hizmetler/$1 [L,R=301]
 
 
 # Error Pages
-ErrorDocument 400 http://datarar.com/hizmet
-ErrorDocument 401 http://datarar.com/hizmet
-ErrorDocument 402 http://datarar.com/hizmet
-ErrorDocument 403 http://datarar.com/hizmet
-ErrorDocument 404 http://datarar.com/hizmet
-ErrorDocument 405 http://datarar.com/hizmet
-ErrorDocument 406 http://datarar.com/hizmet
-ErrorDocument 407 http://datarar.com/hizmet
-ErrorDocument 408 http://datarar.com/hizmet
-ErrorDocument 409 http://datarar.com/hizmet
-ErrorDocument 410 http://datarar.com/hizmet
-ErrorDocument 411 http://datarar.com/hizmet
-ErrorDocument 412 http://datarar.com/hizmet
-ErrorDocument 413 http://datarar.com/hizmet
-ErrorDocument 414 http://datarar.com/hizmet
-ErrorDocument 500 http://datarar.com/hizmet
-ErrorDocument 501 http://datarar.com/hizmet
-ErrorDocument 502 http://datarar.com/hizmet
-ErrorDocument 503 http://datarar.com/hizmet
-ErrorDocument 504 http://datarar.com/hizmet
-ErrorDocument 505 http://datarar.com/hizmet 
+ErrorDocument 400 http://datarar.com/hizmetler
+ErrorDocument 401 http://datarar.com/hizmetler
+ErrorDocument 402 http://datarar.com/hizmetler
+ErrorDocument 403 http://datarar.com/hizmetler
+ErrorDocument 404 http://datarar.com/hizmetler
+ErrorDocument 405 http://datarar.com/hizmetler
+ErrorDocument 406 http://datarar.com/hizmetler
+ErrorDocument 407 http://datarar.com/hizmetler
+ErrorDocument 408 http://datarar.com/hizmetler
+ErrorDocument 409 http://datarar.com/hizmetler
+ErrorDocument 410 http://datarar.com/hizmetler
+ErrorDocument 411 http://datarar.com/hizmetler
+ErrorDocument 412 http://datarar.com/hizmetler
+ErrorDocument 413 http://datarar.com/hizmetler
+ErrorDocument 414 http://datarar.com/hizmetler
+ErrorDocument 500 http://datarar.com/hizmetler
+ErrorDocument 501 http://datarar.com/hizmetler
+ErrorDocument 502 http://datarar.com/hizmetler
+ErrorDocument 503 http://datarar.com/hizmetler
+ErrorDocument 504 http://datarar.com/hizmetler
+ErrorDocument 505 http://datarar.com/hizmetler
