@@ -3,7 +3,7 @@
 
         <div id="footer-bottom">
             <div class="bottom-left"><p>
-                    <a href="//datarar.com/hizmet/" rel="appendix" title="Hizmet">Hizmet</a> |
+                    <a href="//datarar.com/hizmetler/" rel="appendix" title="Hizmet">Hizmet</a> |
                     <a href="//feeds.feedburner.com/datarar" rel="external" title="Besleme">Feed</a> |
                     <a href="//www.alexa.com/siteinfo/datarar.com" rel="external" title="Alexa">Alexa</a> |
                     <a href="//validator.w3.org/check?uri=http%3a%2f%2fdatarar.com%2f" rel="external" title="W3-html">W3-html</a> |
@@ -13,7 +13,7 @@
                 </p></div>
 
             <div class="bottom-right"><p>
-                    <a href="//datarar.com/" title="datarar.com">Datarar</a> <a href="//datarar.com/git/?url=//creativecommons.org/licenses/by-nc-nd/4.0/deed.tr" title="creativecommons" rel="external">©2015</a> | Tasarım: <a href="//datarar.com/iletisim/" title="İletişim">Bizimakin</a> | Özel İletişim: iletisim [at] datarar.com
+                    <a href="//datarar.com/" title="datarar.com">Datarar</a> <a href="//creativecommons.org/licenses/by-nc-nd/4.0/deed.tr" title="creativecommons" rel="external">©2015</a> | Tasarım: <a href="//datarar.com/iletisim/" title="İletişim">Bizimakin</a> | Özel İletişim: iletisim [at] datarar.com
                 </p></div>
         </div>
 

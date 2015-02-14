@@ -1,8 +1,4 @@
-<?php
-/*
-Template Name: Sitemap
-*/
-?>
+<?php /* Template Name: Sitemap */ ?>
 <?php get_header(); ?>
 <div id="main" class="updatable" role="main">
 <div id="yukleyici"></div>
@@ -84,7 +80,7 @@ Template Name: Sitemap
             </div>
 
 
-            <blockquote>sitemap.xml'e <a href="//epfarki.com/sitemap.xml" rel="external" title="Site Haritası">buradan</a> ulaşabilirsiniz.</blockquote>
+            <blockquote>sitemap.xml'e <a href="//datarar.com/sitemap_index.xml" rel="external" title="Site Haritası">buradan</a> ulaşabilirsiniz.</blockquote>
 
 
         </div>

@@ -9,12 +9,10 @@
     <meta name="rating" content="general"/>
 
     <link href="//datarar.com/wp-content/themes/datarar/style.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="//datarar.com/ep/tanitim/epfarki-com-banner-149-149.jpg" rel="image_src" />
     <link href="//datarar.com/favicon.ico" type="image/x-icon" rel="shortcut icon" />
-    <link href="//plus.google.com/102424977791408310221" rel="author" />
-    <link href="//datarar.com/" rel="index" title="EPfarki" />
+    <link href="//datarar.com/" rel="index" title="Datarar" />
 
-    <link href="//feeds.feedburner.com/epfarki" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+    <link href="//feeds.feedburner.com/datarar" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
     <link href="//datarar.com/feed/" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
     <link href="//datarar.com/xmlrpc.php" rel="pingback" />
 
