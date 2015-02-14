@@ -1,11 +1,7 @@
-<?php
-/*
-Template Name: İnceleme
-*/
-?>
+<?php /* Template Name: İnceleme */ ?>
 <?php get_header(); ?>
-<div id="main" class="updatable" role="main">
-<div id="yukleyici"></div>
+    <div id="altyazialan">
+        <div id="main" class="updatable" role="main">
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div id="post-<?php the_ID(); ?>" class="post">
@@ -15,7 +11,6 @@ Template Name: İnceleme
         <div id="icerik-<?php the_ID(); ?>" class="icerik">
             <?php the_content('<p class="serif">Read the rest of this entry &raquo;</p>'); ?>
             <?php link_pages('<p><strong>Pages:</strong> ', '</p>', 'number'); ?>
-
 
             <?php
             $args=array(
@@ -86,9 +81,7 @@ Template Name: İnceleme
                 <div class="tab2_content">
                     <h5>Etiket</h5>
                     <div class="tab3etiket">
-                        Popüler Arama Sorguları: <?php if(function_exists('stt_popular_terms')) echo stt_popular_terms(15) ;?><br /><br />
-                        Son Gelen Arama Sorguları: <?php if(function_exists('stt_recent_terms')) echo stt_recent_terms(15) ;?><br /><br />
-                        Etiketler: <?php wp_tag_cloud('smallest=8&largest=8&number=20'); ?> <br /><br />
+                        Etiketler: <?php wp_tag_cloud('smallest=8&largest=8&number=50'); ?> <br /><br />
                     </div>
                     <h5>Arşiv</h5>
                     <ul class="tab2ek">
@@ -96,10 +89,7 @@ Template Name: İnceleme
                     </ul>
                 </div>
 
-
-
             </div>
-
 
         </div>
     </div>
@@ -108,10 +98,10 @@ Template Name: İnceleme
 <?php endwhile; else: ?>
     <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 <?php endif; ?>
-<div class="temiz"></div>
-</div>
-</div>
-
-</div>
-<div class="temiz"></div>
+                    </div>
+                </div>
+                <div class="temiz"></div>
+            </div>
+        </div>
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
