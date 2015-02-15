@@ -56,31 +56,31 @@ function setPostViews($postID) {
     }
 }
 
-// Yazıdaki ilk resmi alma 
-function mstfturkgoster() {
+// Yazıdaki ilk resmi alma ve gösterme //datarar.com
+function resimgoster() {
     error_reporting(0);
     global $post, $posts;
-    $mstfturkbir = '';
+    $resimbir = '';
     ob_start();
     ob_end_clean();
     $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
-    $mstfturkbir = $matches [1] [0];
-    if(empty($mstfturkbir)){ //Eğer mstfturk eklememişseniz 
-        $mstfturkbir = '//epfarki.com/ep/tanitim/epfarki-com-banner-149-149.jpg';
-    }
-    return $mstfturkbir;
+    $resimbir = $matches [1] [0];
+     if(empty($resimbir)){ //Eğer resim eklememişseniz
+         $resimbir = '//datarar.com/ep/tanitim/epfarki-com-banner-149-149.jpg';
+     }
+    return $resimbir;
 }
-function mstfturkgoster_by_post($post) {
+function resimgoster_by_post($post) {
     error_reporting(0);
-    $mstfturkbir = '';
+    $resimbir = '';
     ob_start();
     ob_end_clean();
     $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
-    $mstfturkbir = $matches [1] [0];
-    if(empty($mstfturkbir)){ //Eğer mstfturk eklememişseniz 
-        $mstfturkbir = '//epfarki.com/ep/tanitim/epfarki-com-banner-149-149.jpg';
+    $resimbir = $matches [1] [0];
+    if(empty($resimbir)){ //Eğer resim eklememişseniz
+        $resimbir = '//datarar.com/ep/tanitim/epfarki-com-banner-149-149.jpg';
     }
-    return $mstfturkbir;
+    return $resimbir;
 }
 
 // Yazıyı kelime sayısınca kısaltma

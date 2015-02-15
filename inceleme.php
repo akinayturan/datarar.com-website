@@ -31,30 +31,6 @@
 
             <div class="yans2tab">
                 <div class="tab2_content">
-                    <h5>Kategoriler</h5>
-                    <?php
-                    $cats = explode("<br />",wp_list_categories('title_li=&echo=0&style=none'));
-                    $cat_n = count($cats) - 1;
-                    for ($i=0;$i< $cat_n;$i++):
-                        if ($i<$cat_n/2):
-                            $cat_sol = $cat_sol.'<li>'.$cats[$i].'';
-                        elseif ($i>=$cat_n/2):
-                            $cat_sag = $cat_sag.'<li>'.$cats[$i].'</li>';
-                        endif;
-                    endfor;
-                    ?>
-                    <ul class="tab2ek">
-                        <ul class="sol">
-                            <?php echo $cat_sol;?>
-                        </ul>
-                        <ul class="sag">
-                            <?php echo $cat_sag;?>
-                        </ul>
-                    </ul>
-                </div>
-
-                <div class="temiz"> </div>
-                <div class="tab2_content">
                     <h5>Popüler Yazılar</h5>
 
                     <ul>

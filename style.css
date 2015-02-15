@@ -416,6 +416,34 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
 .tab2_content .tab2ek li{border-bottom:none;padding-bottom:0;margin:0;list-style-type:square;width:240px;float:left;display:list-item}
 .tab2_content .tab2ek li a{text-decoration:none;color:#000;font-size:12px}
 .tab2_content .tab2ek li a:hover{color:#000;text-decoration:underline}
+
+.tab3_content{padding: 5px;
+    padding-top: 20px;
+    overflow: hidden}
+.tab3_content h5{padding-bottom: 8px}
+.tab3_content a,.tab_content a strong{color:#000}
+.tab3_content a:hover,.tab_content a:hover strong{color:#000;text-decoration:underline}
+.tab3_content ul{color:#111}
+.tab3_content ul li{list-style-type:square;padding-bottom:5px;padding-left:0}
+.tab3_content ul li a{color:black}
+.tab3_content ul li a:hover{color:green;text-decoration:underline}
+.tab3s{padding-left:5px;overflow:hidden;padding-top:10px;margin-bottom:0;padding-bottom:0}
+.tab3s li{border:1px solid #DDD;float:left;display:inline;text-align:center;overflow:hidden;font-size:11px;padding-left:0;width:100px}
+.tab3s li.active{border-bottom:none;border-right:none;border-left:none;margin-left:0;padding-left:0;width:114px}
+.tab3s li a{font-family:Georgia,serif;font-size:12px;text-align:center;color:black;display:block;font-weight:bold;line-height:26px;height:26px}
+.tab3s li a:hover{display:block}
+.tab3s li a.selected{display:block;background:#EBE9E1}
+.tab3s li a.selected:hover{display:block;background-repeat:repeat-x;background-position:bottom}
+.tab3sol{
+    float: left;
+    padding-left: 25px;
+    width: 42%;
+}
+.tab3sag{
+    float: left;
+    padding-left: 25px;
+    width: 42%;
+}
 .yanskucuk{width:160px;padding:10px;float:left;margin-right:5px;padding-left:20px}
 .yanskucuk .left{margin-right:10px}
 .yanskucuk a{color:#7C8C31;text-decoration:none}

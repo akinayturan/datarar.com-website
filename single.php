@@ -30,23 +30,22 @@
                 </div>
                 <div class="etiketler">
                     <div class="soltaraf">
-                        <span>Yazar: <?php the_author_posts_link(); ?> /</span>
-                        <span><?php setPostViews(get_the_ID()); ?><?php echo getPostViews(get_the_ID()); ?> /</span>
+                        <span>Yazar: <?php the_author_posts_link(); ?> / Yazarın <a rel="external" href="<?php the_author_meta('user_url'); ?>">websitesi</a> /</span>
                         <span><?php comments_popup_link('Yorum Yok', '1 Yorum', '% Yorum'); ?> /</span>
-                        <span><a rel="external" href="https://plus.google.com/117754544806409912046?rel=author">G+ Profili</a> /</span>
                         <span><a rel="external" href="//www.google.com.tr/search?hl=tr&amp;q=<?php the_title(); ?>" title="<?php the_title(); ?>">G-Arama</a></span>
                         <br />
+                        <span><?php setPostViews(get_the_ID()); ?><?php echo getPostViews(get_the_ID()); ?> /</span>
                         <span>Güncelleme: <?php the_modified_date('j F Y'); ?> /</span>
                         <span>Yayın: <?php the_time('j F Y [l]'); ?></span>
-                        <br />
-                        <?php edit_post_link('Düzenle', '', ' | '); ?>
-                        <span>Kategori(ler): <?php the_category(', ') ?></span>
                     </div>
                     <div class="sagtaraf">
                         <?php include (TEMPLATEPATH . '/sosyal-paylasim-single.php'); ?>
                     </div>
                 </div>
                 <div class="etiketler">
+                    <span>Kategori(ler): <?php the_category(', ') ?></span>
+                    <br />
+                    <?php edit_post_link('Düzenle', '', ' | '); ?>
                     <?php the_tags('Etiketler: ', ', ', '<br />'); ?>
                 </div>
                 <div class="etiketler">

@@ -8,20 +8,19 @@
     <meta name="generator" content="DataRar 2.0"/>
     <meta name="rating" content="general"/>
 
-    <link href="//datarar.com/wp-content/themes/datarar/style.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="//datarar.com/favicon.ico" type="image/x-icon" rel="shortcut icon" />
-    <link href="//datarar.com/" rel="index" title="Datarar" />
+    <link href="http://datarar.com/wp-content/themes/datarar/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="http://datarar.com/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <link href="http://datarar.com/" rel="index" title="Datarar" />
 
-    <link href="//feeds.feedburner.com/datarar" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
-    <link href="//datarar.com/feed/" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
-    <link href="//datarar.com/xmlrpc.php" rel="pingback" />
+    <link href="http://feeds.feedburner.com/datarar" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+    <link href="http://datarar.com/feed/" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
 
     <?php wp_head(); ?>
 </head>
 <body>
 <div id="genel">
     <!--[if lte IE 9]>
-    <blockquote>Kullandiginiz tarayıcı bu sitede kullanılan çoğu özelligi desteklemiyor. Kullandiginiz tarayıcıyı <a href="http://windows.microsoft.com/tr-tr/internet-explorer/download-ie" title="internet-explorer" target="_blank"><font color="#BF0000"><b>Yeni Sürüm İnternet Explorer</b></font></a>'a yükseltmenizi yada daha gelişmiş olan <a href="http://google.com/chrome" title="chrome" target="_blank"><font color="#BF0000"><b>Google Chrome</b></font></a> veya <a href=" http://www.mozilla.org/tr/firefox/new/" title="firefox" target="_blank"><font color="#BF0000"><b>Mozilla Firefox</b></font></a> yüklemenizi öneririm :)</blockquote>
+    <blockquote>Kullandiginiz tarayıcı bu sitede kullanılan çoğu özelligi desteklemiyor olabilir. Kullandiginiz tarayıcıyı <a href="http://windows.microsoft.com/tr-tr/internet-explorer/download-ie" title="internet-explorer" target="_blank"><font color="#BF0000"><b>Yeni Sürüm İnternet Explorer</b></font></a>'a yükseltmenizi yada daha gelişmiş olan <a href="http://google.com/chrome" title="chrome" target="_blank"><font color="#BF0000"><b>Google Chrome</b></font></a> veya <a href=" http://www.mozilla.org/tr/firefox/new/" title="firefox" target="_blank"><font color="#BF0000"><b>Mozilla Firefox</b></font></a> yüklemenizi öneririm :)</blockquote>
     <![endif]-->
 
     <div id="ustmenu">
