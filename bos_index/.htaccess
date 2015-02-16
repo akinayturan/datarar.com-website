@@ -26,8 +26,4 @@ ErrorDocument 501 http://datarar.Com
 ErrorDocument 502 http://datarar.Com
 ErrorDocument 503 http://datarar.Com
 ErrorDocument 504 http://datarar.Com
-ErrorDocument 505 http://datarar.Com 
-RewriteCond %{HTTP_HOST} ^demo\.datarar\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.demo\.datarar\.com$
-RewriteRule ^/?$ "http\:\/\/datarar\.com\/" [R=301,L]
-
+ErrorDocument 505 http://datarar.Com
