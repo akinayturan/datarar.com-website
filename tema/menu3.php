@@ -45,13 +45,13 @@
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script src="//www.google.com.tr/coop/cse/brand?form=cse-search-box&amp;lang=tr"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" language="javascript" src="http://datarar.com/ep/tema/js/parser.js"></script>
+<script type="text/javascript" language="javascript" src="http://datarar.com/dr/tema/js/parser.js"></script>
 <script type="text/javascript">
     $(function(){
         parseRSS('http://datarar.com/feed/', '#datarar')
     });
 </script>
-<script src="//datarar.com/ep/tema/js/sozler.js"></script>
+<script src="//datarar.com/dr/tema/js/sozler.js"></script>
 <script type="text/javascript">
     document.getElementById('preloader').className += 'loading';
 </script>
