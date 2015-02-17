@@ -508,13 +508,10 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
 #menu ul li a:hover{color:#BDBDBD;text-shadow:0 0 1px #5a9696!important;font-family:"Droid Sans","Helvetica",sans-serif;font-size:11.3px}
 #menu2{float:right;margin-right:5px}
 #hareketlireklam{text-align:center;margin:5px;float:right;width:125px}
-#ustmenu{
-    margin-top: 10px;
-    width: 100%;
-    padding: 15px 0 15px;
-    margin-bottom: 45px;}
+#ustmenu{margin-top: 10px;width: 100%;padding: 15px 0 15px;margin-bottom: 45px;}
 #ustmenu ul{list-style:none}
 #ustmenu ul li{padding-right:10px;padding-left:10px;border-right:1px solid #DDD;float:left}
+#ustmenuson{border-right:none !important}
 #ustmenu ul li a{float:left;display:block;color:#111;font-size:10px;text-transform:uppercase;font-weight:bolder}
 #ustmenu ul li a:hover{float:left;color:green;border-bottom: 3px solid green;}
 #ustmenu li#sosyal6{border-right:none}
@@ -557,7 +554,8 @@ li a.anasayfa:hover,li a.hakkimizda:hover,li a.hizmetlerimiz:hover,li a.iletisim
 #anakategorimenu li#duyuru:hover{background:none;padding-top:2px;padding-left:7px;float:left;opacity:.75}
 
 /* media */
-@media print{body{margin:0;padding:0;line-height:1.4em;word-spacing:1px;letter-spacing:0.2px;font:13px Arial,Helvetica,"Lucida Grande",serif;color:#000}
+@media print{
+    body{margin:0;padding:0;line-height:1.4em;word-spacing:1px;letter-spacing:0.2px;font:13px Arial,Helvetica,"Lucida Grande",serif;color:#000}
     #ustmenu,#footer-outer,#sidebar,#hareketlireklam,#kategorimenu,.etiketler,.yorumlar,.oncekiyazi{display:none !important}
     #anayazialan{margin-left:0 !important}
     .icerik{border:none !important}
@@ -566,53 +564,47 @@ li a.anasayfa:hover,li a.hakkimizda:hover,li a.hizmetlerimiz:hover,li a.iletisim
     a:link[href^="http://"]:after,a[href^="http://"]:visited:after{content:" (" attr(href) ") ";font-size:11px}
     a[href^="http://"]{color:#000}
 }
-@media only screen and (max-width:479px){select{width:100%}
-    .yans,.sosyal,.yanstab{display:none !important}
-    #hareketlireklam{display:none !important}
+@media only screen and (max-width:479px){
+    select{width:100%}
     #anayazialan{margin-left:0 !important}
     #footer-outer{min-width:300px !important}
-    #sidebar{width:100%;position:relative}
+    #sidebar{display:none !important}
+    .aras{display:none !important}
     #ustmenu{min-width:200px}
     #ustkategori{margin-top:10px;float:left;margin-left:10px;width:95%}
     #lo2go{margin-left:10px}
     #footer-bottom{margin-left:10px}
     #yazialan{min-width:200px}
     #altyazialan{min-width:200px}
-    #searchform{margin-left:5px}
     #kategorimenu li{width:45%}
     div#kategorimenu li:hover{background-color:white}
     div#kategorimenu li a:hover{color:black;text-decoration:underline}
 }
-@media only screen and (min-width:480px) and (max-width:744px){select{width:100%}
-    .yans,.sosyal,.yanstab{display:none !important}
-    #anayazialan{margin-left:0 !important}
-    #footer-outer{min-width:300px !important}
-    #sidebar{width:100%;position:relative}
-    #ustmenu{min-width:200px}
-    #ustkategori{margin-top:10px;float:left;margin-left:10px;width:95%}
-    #lo2go{margin-left:10px}
-    #footer-bottom{margin-left:10px}
-    #yazialan{min-width:200px}
-    #altyazialan{min-width:200px}
-    #searchform{margin-left:5px}
-    #kategorimenu li{width:45%}
-    div#kategorimenu li:hover{background-color:white}
-    div#kategorimenu li a:hover{color:black;text-decoration:underline}
+@media only screen and (min-width:0px) and (max-width:1150px){
+    select{width:100%}
+    #sidebar{display:none !important}
+    #anayazialan {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    #siteisim {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    #altyazialan {
+        float: left;
+        width: 100%;
+        overflow: hidden;
+    }
+    #ortalan {
+        margin-right: 20px;
+        margin-left: 20px;
+        position: relative;
+    }
 }
-@media only screen and (min-width:745px) and (max-width:1023px){select{width:100%}
-    .yans,.sosyal,.yanstab{display:none !important}
-    #anayazialan{margin-left:0 !important}
-    #footer-outer{min-width:300px !important}
-    #sidebar{width:100%;position:relative}
-    #ustmenu{min-width:200px}
-    #ustkategori{margin-top:10px;float:left;margin-left:10px}
-    #lo2go{margin-left:10px}
-    #footer-bottom{margin-left:10px}
-    #yazialan{min-width:200px}
-    #searchform{margin-left:5px}
-    #kategorimenu li{width:45%}
-    div#kategorimenu li:hover{background-color:white}
-    div#kategorimenu li a:hover{color:black;text-decoration:underline}
-}
-@media only screen and (min-width:1024px) and (max-width:1200px){#yanlo2go{float:left;border-bottom:1px solid #e8e8e8;width:100%;padding:7px 0 31px}
+@media only screen and (min-width:1151px) and (max-width:1200px){
 }
