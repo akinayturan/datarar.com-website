@@ -7,6 +7,8 @@
     <meta name="author" content="bizimakin" />
     <meta name="generator" content="DataRar 2.0"/>
     <meta name="rating" content="general"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
     <link href="http://datarar.com/wp-content/themes/datarar/style.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="http://datarar.com/favicon.ico" type="image/x-icon" rel="shortcut icon" />
