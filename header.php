@@ -29,7 +29,7 @@
         <div id="siteisim">
             <div id="yanlo2go">
                 <div id="lo2go">
-                    <h1><a title="EP" href="//datarar.com/"> <span>Data</span>Rar</a></h1>
+                    <h1><a title="DataRar" href="//datarar.com/"> <span>Data</span>Rar</a></h1>
                 </div>
             </div>
             <div id="ustkategori" class="menunav">
