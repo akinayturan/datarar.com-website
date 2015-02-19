@@ -1,5 +1,5 @@
-// EPfarki v2.0 | epfarki.com
-var base = 'http://epfarki.com';
+// DataRar v3.0 | datarar.com
+var base = 'http://datarar.com';
 
 
 // tab menü
