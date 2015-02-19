@@ -1,8 +1,6 @@
 <?php get_header(); ?>
     <div id="altyazialan">
         <div id="main" class="updatable" role="main">
-
-            <?php include (TEMPLATEPATH . '/menu.php'); ?>
             <div id="yukleyici"></div>
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             <div class="post"><div class="postic">

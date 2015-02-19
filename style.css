@@ -81,11 +81,11 @@ ul#navim{height:80px}
 .entry-content, .entry-summary {
     margin: 1.5em 0 0;
 }
-.fruitful_description_box {
+.datarar_description_box {
     position: relative;
     z-index: 0;
 }
-.fruitful_description {
+.datarar_description {
     float: left;
     width: 100%;
     min-height: 50px;
@@ -94,7 +94,7 @@ ul#navim{height:80px}
     display: block;
     background: #fff;
 }
-.fruitful_description.shadow-type-1 .top_line {
+.datarar_description.shadow-type-1 .top_line {
     z-index: 2;
     display: block;
     width: 100%;
@@ -104,7 +104,7 @@ ul#navim{height:80px}
     top: 0;
     left: 0;
 }
-.fruitful_description.shadow-type-1 .top_line:before, .fruitful_description.shadow-type-1 .top_line:after {
+.datarar_description.shadow-type-1 .top_line:before, .datarar_description.shadow-type-1 .top_line:after {
     z-index: 1;
     position: absolute;
     content: "";
@@ -123,7 +123,7 @@ ul#navim{height:80px}
     -ms-transform: rotate(-1.5deg);
     transform: rotate(-1.5deg);
 }
-.fruitful_description.shadow-type-1 .top_line:after {
+.datarar_description.shadow-type-1 .top_line:after {
     -webkit-transform: rotate(1.5deg);
     -moz-transform: rotate(1.5deg);
     -o-transform: rotate(1.5deg);
@@ -132,12 +132,12 @@ ul#navim{height:80px}
     right: 10px;
     left: auto;
 }
-.fruitful_description .text {
+.datarar_description .text {
     margin: 0 auto;
     width: 90%;
-    padding: 10px 0;
+    padding: 40px 0;
 }
-.fruitful_description.shadow-type-1 .bottom_line {
+.datarar_description.shadow-type-1 .bottom_line {
     z-index: 2;
     display: block;
     width: 100%;
@@ -147,7 +147,7 @@ ul#navim{height:80px}
     bottom: 0;
     left: 0;
 }
-.fruitful_description.shadow-type-1 .bottom_line:before, .fruitful_description.shadow-type-1 .bottom_line:after {
+.datarar_description.shadow-type-1 .bottom_line:before, .datarar_description.shadow-type-1 .bottom_line:after {
     z-index: 1;
     position: absolute;
     content: "";
@@ -165,7 +165,7 @@ ul#navim{height:80px}
     -ms-transform: rotate(1.5deg);
     transform: rotate(1.5deg);
 }
-.fruitful_description.shadow-type-1 .bottom_line:after {
+.datarar_description.shadow-type-1 .bottom_line:after {
     -webkit-transform: rotate(-1.5deg);
     -moz-transform: rotate(-1.5deg);
     -o-transform: rotate(-1.5deg);
@@ -177,10 +177,10 @@ ul#navim{height:80px}
 .info-box-row {
     display: block;
     float: left;
-    margin: 30px 0 25px;
+    margin: 40px 0 40px;
     width: 100%;
 }
-.ffs-two-one, .ffs-three-one, .ffs-three-two, .ffs-four-one, .ffs-four-two, .ffs-four-three, .ffs-five-one, .ffs-five-two, .ffs-five-three, .ffs-five-four, .ffs-six-one, .ffs-six-two, .ffs-six-three, .ffs-six-four, .ffs-six-five {
+.ffs-three-one {
     float: left;
     margin-right: 4%;
     margin-bottom: 4%;
@@ -229,8 +229,6 @@ ul#navim{height:80px}
     color: #cc0000;
 }
 
-
-
 #yazialan{width:auto;min-width:708px}
 #altyazialan{
     float: left;
@@ -268,7 +266,7 @@ ul#navim{height:80px}
 .postpart a:active{color:#333}
 .postpart p{font-size:10px}
 .fpost{margin-top:5px}
-.button{padding:7px 12px;margin:0 15px 0 0;color:black;font-size:12px;font-weight:700;border:1px solid #cbcfd7;float:left;display:block}
+.button{padding: 9px 15px;color:black;font-size:12px;font-weight:700;float:left;display:block}
 .button span{line-height:14px;height:16px;overflow:hidden;display:block;position:relative}
 .button:hover{background-color:#FFFFDD}
 h1{font-size:34px;color:black;margin-bottom:5px;line-height:26px;font-family:Georgia,serif}
@@ -314,8 +312,7 @@ input{padding-left:3px;color:#111;background-color:whiteSmoke;border:1px ridge #
 input:hover{background-color:#FFFFDD}
 input#kayit-mail{margin-left:25px;padding-left:3px}
 input#author,input#email{margin-right:17px;float:left}
-input#url{float:left}
-input#author,input#email,input#url{margin-top:20px;padding-left:3px;height:30px;background:#fff;display:block}
+input#author,input#email,input#url{width: 35%;padding-left:3px;height:30px;background:#fff;display:block}
 .wp-pagenavi{padding:10px;margin-bottom:10px;margin-right:20px;margin-top:10px;float:left;color:#000;font-size:12px;line-height:18px;display:block;text-align:center}
 .wp-pagenavi span.right{float:none !important}
 .is-paged{padding:0;padding-top:30px}
@@ -368,7 +365,7 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
     padding-left: 50px;
     float: left;}
 .aras{float:right}
-#sidebar{border: 1px solid #e2e2e2;height: 100%;width: 330px;padding-left: 5px;padding-right: 5px;float: right}
+#sidebar{padding-bottom: 15px;border: 1px solid #e2e2e2;height: 100%;width: 330px;padding-left: 5px;padding-right: 5px;float: right}
 .sidebar{float:left;width:190px;margin-right:5px;font-size:11px}
 .yans_mail{margin-left:5px;background:#F9F9F9;position:fixed;bottom:20px;margin-top:5px;padding-bottom:5px;padding-top:5px;border-bottom:1px dashed #AAA;width:330px;border-top:1px dashed #AAA;padding-left:10px;float:left}
 .yans{float:left;padding:10px;margin-bottom:10px;border-bottom: 1px solid #e8e8e8}
@@ -420,7 +417,7 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
 .tab3_content{padding: 5px;
     padding-top: 20px;
     overflow: hidden}
-.tab3_content h5{padding-bottom: 8px}
+.tab3_content h5{border-bottom: 1px solid #e2e2e2;padding-bottom: 8px}
 .tab3_content a,.tab_content a strong{color:#000}
 .tab3_content a:hover,.tab_content a:hover strong{color:#000;text-decoration:underline}
 .tab3_content ul{color:#111}
@@ -517,7 +514,7 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
 #ustmenu li#sosyal6{border-right:none}
 #sosyal10{overflow:hidden;float:right}
 #sosyal1,#sosyal2,#sosyal3,#sosyal4,#sosyal5,#sosyal6,#sosyal7,#sosyal8,.sosyal9{text-align:left}
-.sosyal{padding-top: 10px;float:left;padding-left:30px;text-align:left}
+.sosyal{padding-top: 10px;float:left;padding-left:20px;text-align:left}
 .sosyal a{opacity:.55}
 .sosyal a:hover{opacity:.99}
 .paylasim{padding-top:9px;padding-right:10px;padding-left:5px;border:1px solid #eee;margin-bottom:10px;margin-top:5px}
@@ -552,6 +549,21 @@ li a.anasayfa:hover,li a.hakkimizda:hover,li a.hizmetlerimiz:hover,li a.iletisim
 #anakategorimenu li#duyuru{padding-top:2px;padding-left:7px;float:left;width:22px;border:none}
 #anakategorimenu a.duyuru{background-position:-29px 0;width:16px;height:16px;float:left;padding:0}
 #anakategorimenu li#duyuru:hover{background:none;padding-top:2px;padding-left:7px;float:left;opacity:.75}
+
+
+
+.yanmenukapsa{width:100%;border-top:1px solid #e2e2e2;float:left;padding-top:5px;padding-bottom:5px;}
+
+#yanmenu{width:100%;border-bottom:1px solid #e2e2e2;color:#777;float:left}
+#yanmenu ul{margin:0;padding:0;list-style:none;float:left}
+#yanmenu li{float:left;margin-right:1px;border-left:1px solid #eee}
+#yanmenu li a{text-decoration:none;float:left;display:block;padding:0 10px;color:#333;font-size:10px;font-weight:bolder}
+div#yanmenu li:hover{background:#1A1B19;color:#fff}
+div#yanmenu a:hover,div#menu a:hover span{color:#fff}
+#yanmenu li#duyuru{padding-top:2px;padding-left:7px;float:left;width:22px;border:none}
+#yanmenu a.duyuru{background-position:-29px 0;width:16px;height:16px;float:left;padding:0}
+#yanmenu li#duyuru:hover{background:none;padding-top:2px;padding-left:7px;float:left;opacity:.75}
+
 
 /* media */
 @media print{

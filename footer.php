@@ -23,7 +23,7 @@
                 <a href="http://bumerang.hurriyet.com.tr" class="BoomadsButtonLink154" target="_blank"><img src="http://widget.boomads.com/images/bumerangWidget/bumerang-25050-white.gif" alt="Bumerang - Yazarkafe"/></a>
             </div>
         </div>
-        <div id="sosyal10"><a class="yukari updatable"></a></div>
+        <div id="sosyal10"><a href="#" class="yukari updatable"></a></div>
         <a class="gulucuk"></a>
     </div></div>
 
@@ -36,7 +36,6 @@
     boomads_widget_height = "50";
     boomads_widget_trackingparameter = "http://bumerang.hurriyet.com.tr";
 </script><script type="text/javascript" src="http://widget.boomads.com/scripts/widget.js"></script>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <script src="//code.jquery.com/jquery.min.js"></script>
 <script src="//datarar.com/ep/tema/js/ep.js"></script>
