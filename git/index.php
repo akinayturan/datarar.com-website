@@ -2,8 +2,8 @@
 $adres=$_GET['url'];
 preg_match('@^(?:http://)?([^/]+)@i', $_SERVER['HTTP_REFERER'], $matches);
 $ref = $matches[1];
-	if($adres=='' || $ref!= 'epfarki.com') 
-     $adres = '//epfarki.com'; 
+	if($adres=='' || $ref!= 'datarar.com')
+     $adres = '//datarar.com';
 	if( !(preg_match('|^(//)|', $adres) || preg_match('|^(http://)|', $adres) || preg_match('|^(https://)|', $adres)) ) 
      $adres = '//'.$adres;
 ?>
@@ -18,12 +18,12 @@ $ref = $matches[1];
 <meta name="generator" content="EP 2.0"/> 
 <meta name="rating" content="general"/>   
    
-<link rel="image_src" href="//epfarki.com/ep/tanitim/epfarki-com-banner-149-149.jpg" />  
-<link rel="shortcut icon" href="//epfarki.com/favicon.ico" type="image/x-icon" /> 
-<link rel="index" title="EPfarki" href="//epfarki.com/" />  
+<link rel="image_src" href="//datarar.com/ep/tanitim/epfarki-com-banner-149-149.jpg" />
+<link rel="shortcut icon" href="//datarar.com/favicon.ico" type="image/x-icon" />
+<link rel="index" title="EPfarki" href="//datarar.com/" />
 
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="//feeds.feedburner.com/epfarki" />
-<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="//epfarki.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="//datarar.com/feed/" />
 
 <meta name="robots" content="noindex,nofollow" />
 
@@ -42,10 +42,10 @@ function exec_refresh() { var timerID = setTimeout("exec_refresh();", 0);  if (t
     <tr>
       <td width="100%">
       <p align="center"><br /><b>
-       <p><strong><font face="Trebuchet MS">Su Anda <a href="//epfarki.com">EPfarki.com</a> Sitesinden Ayrılıyorsunuz. Yeniden bekleriz...</font></strong></p></b>
+       <p><strong><font face="Trebuchet MS">Su Anda <a href="//datarar.com">Datarar.com</a> Sitesinden Ayrılıyorsunuz. Yeniden bekleriz...</font></strong></p></b>
       <font color="#FF0000" face="Tahoma" size="2">  
     Yönlendirme gerçekleşmedi ise <strong><a href="<? echo $adres; ?>" rel="nofollow">buraya</a></strong> tıklayabilirsiniz. Arada oluyor böyle şeyler :)<strong><br>		<br>
-		veya <a href="//epfarki.com/?rastgele" title="Ruh halinize uygun bir yazı">Ruh halinize uygun bir yazı için burayıda tıklayabilirsiniz</a></strong></font> :)</td>
+		veya <a href="//datarar.com/?rastgele" title="Ruh halinize uygun bir yazı">Ruh halinize uygun bir yazı için burayıda tıklayabilirsiniz</a></strong></font> :)</td>
     </tr>
   </table>
   </center>

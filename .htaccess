@@ -19,10 +19,6 @@ RewriteRule . /index.php [L]
 
 # END WordPress
 
-RewriteCond %{HTTP_HOST} ^xn\-\-epfark\-u9a\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.xn\-\-epfark\-u9a\.com$
-RewriteRule ^/?$ "http\:\/\/epfarki\.com\/" [R=301,L]
-
 <IfModule mod_expires.c>
 ExpiresActive On
 ExpiresDefault A1209600

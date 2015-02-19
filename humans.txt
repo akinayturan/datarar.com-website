@@ -7,11 +7,11 @@
 	From: Turkey
 
 /* SITE */
-	Site Name: EPfarki	
-	Site URL: http://epfarki.com/  
+	Site Name: datarar
+	Site URL: http://datarar.com/
 	Doctype: PHP, HTML, CSS
 	Standards: HTML5, CSS
     Charset: UTF-8
 	Language: Usually Turkish
-	Contact: iletisim@epfarki.com 
-	Twitter: @epfarki         
+	Contact: iletisim@datarar.com
+	Twitter: @datarar_com
