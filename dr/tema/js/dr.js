@@ -20,6 +20,12 @@ $(document).ready(function() {
     });
 });
 
+// üst menü - http://micjamking.github.io/Menutron/
+(function(a){a.fn.menutron=function(b){var c={maxScreenWidth:700,menuTitle:"Seçiniz..."};var b=a.extend(c,b);return this.each(function(){var i=a(this).children();var f=a("<select>").css("display","none");var h=a("<optgroup>").css("display","none");g();function g(){e();d();j()}function e(){if(a(window).width()<b.maxScreenWidth){a(f).css("display","inline-block");a(i).css("display","none")}else{a(f).css("display","none");a(i).css("display","block")}}function d(){a(i).children().each(function(){if(a(this).get(0).tagName!=="DT"){if(a(this).find("ul,ol,dl").length){a(h).attr("label",a(this).children(":first").text());var l=a("<option>").text(a(this).children(":first").text());var m=a(this).children("a").attr("href");a(l).attr("value",m);a(l).appendTo(h);var n=a(this).children().not(":first");a(n).children().each(function(){var o=a("<option>").text(a(this).text());var p=a(this).children("a").attr("href");a(o).attr("value",p);a(o).appendTo(h)});console.log(h);a(h).appendTo(f)}else{var l=a("<option>").text(a(this).text());var m=a(this).children("a").attr("href");a(l).attr("value",m);a(l).appendTo(f)}}});var k='<option selected="selected" value>'+b.menuTitle+"</option>";a(f).prepend(k);f.appendTo(a(i).parent());f.change(function(){if(a(this).val()!=""){window.location.href=a(this).val()}})}function j(){a(window).resize(function(){e()})}})}})(jQuery);
+$(function(){
+    $(".menunav").menutron();
+});
+
 //github code
 (function(){"use strict";$(function(){var t,e,a,i,n,s;return t="https://gist.github.com",a=$("div[data-gist]"),i={},e=[],s=[],n=function(t){var e;e=document.createElement("link"),e.type="text/css",e.rel="stylesheet",e.href=t,document.getElementsByTagName("head")[0].appendChild(e)},a.addClass("loading"),a.each(function(t,e){var a;return e=$(e),a=e.data("gist"),null==i[a]&&(i[a]={targets:[]}),i[a].targets.push(e)}),$.each(i,function(e){return $.getJSON(""+t+"/"+e+".json?callback=?",function(t){var a,r,l;return r=i[e],r.data=t,l=r.data.stylesheet,s.indexOf(l)<0&&(s.push(l),n(l)),a=r.data.div,r.files=$(a).find(".gist-file"),r.outer=$(a).first().html(""),$(r.targets).each(function(t,e){var i,n,s;return i=e.data("gist-file"),i?(s=r.outer.clone(),n='<div class="gist-file">'+$(r.files.get(r.data.files.indexOf(i))).html()+"</div>",s.html(n)):s=$(a),s.hide(),e.fadeOut("fast",function(){return $(this).replaceWith(s),s.fadeIn()})})})})})}).call(this);
 
@@ -66,11 +72,4 @@ $.ajaxSetup({
     complete: function (XMLHttpRequest, textStatus) {
         $("#yukleyici").html('');
     }
-});
-
-
-// üst menü - http://micjamking.github.io/Menutron/
-(function(a){a.fn.menutron=function(b){var c={maxScreenWidth:745,menuTitle:"Seçiniz..."};var b=a.extend(c,b);return this.each(function(){var i=a(this).children();var f=a("<select>").css("display","none");var h=a("<optgroup>").css("display","none");g();function g(){e();d();j()}function e(){if(a(window).width()<b.maxScreenWidth){a(f).css("display","inline-block");a(i).css("display","none")}else{a(f).css("display","none");a(i).css("display","block")}}function d(){a(i).children().each(function(){if(a(this).get(0).tagName!=="DT"){if(a(this).find("ul,ol,dl").length){a(h).attr("label",a(this).children(":first").text());var l=a("<option>").text(a(this).children(":first").text());var m=a(this).children("a").attr("href");a(l).attr("value",m);a(l).appendTo(h);var n=a(this).children().not(":first");a(n).children().each(function(){var o=a("<option>").text(a(this).text());var p=a(this).children("a").attr("href");a(o).attr("value",p);a(o).appendTo(h)});console.log(h);a(h).appendTo(f)}else{var l=a("<option>").text(a(this).text());var m=a(this).children("a").attr("href");a(l).attr("value",m);a(l).appendTo(f)}}});var k='<option selected="selected" value>'+b.menuTitle+"</option>";a(f).prepend(k);f.appendTo(a(i).parent());f.change(function(){if(a(this).val()!=""){window.location.href=a(this).val()}})}function j(){a(window).resize(function(){e()})}})}})(jQuery);
-$(function(){
-    $(".menunav").menutron();
 });
