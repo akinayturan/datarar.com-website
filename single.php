@@ -14,6 +14,12 @@
                     </div></div>
                 <div class="temiz"></div>
                 <div class="etiketler">
+                    <span>Kategori(ler): <?php the_category(', ') ?></span>
+                    <br />
+                    <?php edit_post_link('Düzenle', '', ' | '); ?>
+                    <?php the_tags('Etiketler: ', ', ', '<br />'); ?>
+                </div>
+                <div class="etiketler">
                     <div class="tekil-reklam">
                         <!-- esnek -->
                         <ins class="adsbygoogle"
@@ -27,8 +33,12 @@
                     </div>
                 </div>
                 <div class="etiketler">
+                    <p class="alignleft" style="margin-right: 10px;"><?php echo get_avatar( get_the_author_meta('user_email'), '125', '' ); ?></p>
+                    <p style="text-align: justify;"><?php the_author_meta('description'); ?></p>
+                </div>
+                <div class="etiketler">
                     <div class="soltaraf">
-                        <span>Yazar: <?php the_author_posts_link(); ?> / Yazarın <a rel="external" href="<?php the_author_meta('user_url'); ?>">websitesi</a> /</span>
+                        <span>Yazar: <?php the_author_posts_link(); ?> / Kişisel:<a rel="external" href="<?php the_author_meta('user_url'); ?>"><?php the_author_meta('user_url'); ?></a> /</span>
                         <span><?php comments_popup_link('Yorum Yok', '1 Yorum', '% Yorum'); ?> /</span>
                         <span><a rel="external" href="//www.google.com.tr/search?hl=tr&amp;q=<?php the_title(); ?>" title="<?php the_title(); ?>">G-Arama</a></span>
                         <br />
@@ -39,12 +49,6 @@
                     <div class="sagtaraf">
                         <?php include (TEMPLATEPATH . '/sosyal-paylasim-single.php'); ?>
                     </div>
-                </div>
-                <div class="etiketler">
-                    <span>Kategori(ler): <?php the_category(', ') ?></span>
-                    <br />
-                    <?php edit_post_link('Düzenle', '', ' | '); ?>
-                    <?php the_tags('Etiketler: ', ', ', '<br />'); ?>
                 </div>
                 <div class="etiketler">
                     <?php

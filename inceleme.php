@@ -55,6 +55,17 @@
                         </ul><?php endif; ?>
                 </div>
 
+
+                <div class="tab2_content">
+                    <h5>Yazarlar:</h5>
+                    <ul class="sitemap-authors">
+                        <?php
+                        //http://codex.wordpress.org/Function_Reference/wp_list_authors
+                        wp_list_authors('exclude_admin=1&optioncount=1');
+                        ?>
+                    </ul>
+                </div>
+
                 <div class="tab2_content">
                     <h5>Etiket</h5>
                     <div class="tab3etiket">

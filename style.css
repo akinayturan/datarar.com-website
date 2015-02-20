@@ -15,7 +15,9 @@ table,td,th{vertical-align:middle}
 blockquote:before,blockquote:after,q:before,q:after{content:""}
 blockquote,q{quotes:""""}
 a img{border:none}
-body{border:0;background:#FFF;margin:0;padding:0;font-family:"Droid Sans","Helvetica",sans-serif;font-size:13px;line-height:1.6em}
+body{
+    width: auto;
+    height: auto;border:0;background:#FFF;margin:0;padding:0;font-family:"Droid Sans","Helvetica",sans-serif;font-size:13px;line-height:1.6em}
 a{text-decoration:none}
 a:hover{text-decoration:none}
 p{margin-bottom:10px}
@@ -47,8 +49,6 @@ ul#navim{height:80px}
     width: 1090px;
     margin: 0 auto;
     padding: 0;}
-
-
 
 
 #page {
@@ -136,6 +136,12 @@ ul#navim{height:80px}
     margin: 0 auto;
     width: 90%;
     padding: 40px 0;
+
+     font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.2;
 }
 .datarar_description.shadow-type-1 .bottom_line {
     z-index: 2;
@@ -289,7 +295,7 @@ ul#navim{height:80px}
 .yanmenu ul{border-style:none;padding:0;margin:0 0 5px 10px}
 .yanmenu li li{padding:5px 0 6px 5px;margin:0;border-bottom-style:dashed;border-bottom-width:1px;border-bottom-color:#E8E8E8;list-style-type:none;list-style-position:inside}
 .yanmenu li{list-style-type:none;margin-top:20px}
-.yorumlar {padding-bottom: 10px;padding-top: 10px;border-top: 1px solid #CCC;float: left;width: 100%;text-align: justify}
+.yorumlar {padding-bottom: 10px;padding-top: 10px;border-top: 1px solid #CCC;float: left;width: 99%;text-align: justify}
 .yorumlar a{text-decoration:none;color:black}
 .yorumlar a:hover{text-decoration:none;color:darkBlue}
 .yorumlar textarea{width:98%;height:90px;font-size:1em;padding:5px;color:#111;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;margin-bottom:10px}
@@ -564,7 +570,6 @@ div#yanmenu a:hover,div#menu a:hover span{color:#fff}
 #yanmenu a.duyuru{background-position:-29px 0;width:16px;height:16px;float:left;padding:0}
 #yanmenu li#duyuru:hover{background:none;padding-top:2px;padding-left:7px;float:left;opacity:.75}
 
-
 /* media */
 @media print{
     body{margin:0;padding:0;line-height:1.4em;word-spacing:1px;letter-spacing:0.2px;font:13px Arial,Helvetica,"Lucida Grande",serif;color:#000}
@@ -576,24 +581,8 @@ div#yanmenu a:hover,div#menu a:hover span{color:#fff}
     a:link[href^="http://"]:after,a[href^="http://"]:visited:after{content:" (" attr(href) ") ";font-size:11px}
     a[href^="http://"]{color:#000}
 }
-@media only screen and (max-width:479px){
-    select{width:100%}
-    #anayazialan{margin-left:0 !important}
-    #footer-outer{min-width:300px !important}
-    #sidebar{display:none !important}
-    .aras{display:none !important}
-    #ustmenu{min-width:200px}
-    #ustkategori{margin-top:10px;float:left;margin-left:10px;width:95%}
-    #lo2go{margin-left:10px}
-    #footer-bottom{margin-left:10px}
-    #yazialan{min-width:200px}
-    #altyazialan{min-width:200px}
-    #kategorimenu li{width:45%}
-    div#kategorimenu li:hover{background-color:white}
-    div#kategorimenu li a:hover{color:black;text-decoration:underline}
-}
-@media only screen and (min-width:0px) and (max-width:1150px){
-    select{width:100%}
+@media only screen and (max-width:699px){
+    select{width:90%}
     #sidebar{display:none !important}
     #anayazialan {
         position: relative;
@@ -616,6 +605,88 @@ div#yanmenu a:hover,div#menu a:hover span{color:#fff}
         margin-right: 20px;
         margin-left: 20px;
         position: relative;
+    }
+    #yazialan {
+        width: auto;
+        min-width: 200px;
+    }
+    .ffs-three-one {
+        width: 100%;
+    }
+    .datarar_description .text {
+        font-size: 30px;
+    }
+    #ustkategori {
+        width: 100%;
+        padding-top: 7px;
+        padding-left: 0;
+        float: none;
+    }
+    #ustmenu {
+        text-align: center;
+    }
+    #yanlo2go {
+        float: none;
+    }
+    #lo2go {
+        float: none;
+    }
+
+    #lo2go h1 {
+        margin-left: 5px;
+        font-size: 30px;
+        color: black;
+        font-family: monospace;
+        margin-bottom: 0;
+        line-height: 35px;
+        float: none;
+    }
+    #searchform {
+        text-align: center;
+        margin-top: 5px;
+    }
+    .aras {
+        float: none;
+    }
+}
+@media only screen and (min-width:499px) and (max-width:699px){
+
+    .datarar_description .text {
+        font-size: 40px;
+    }
+
+}
+@media only screen and (min-width:700px) and (max-width:1150px){
+    select{width:90%}
+    #sidebar{display:none !important}
+    #anayazialan {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    #siteisim {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    #altyazialan {
+        float: left;
+        width: 100%;
+        overflow: hidden;
+    }
+    #ortalan {
+        margin-right: 20px;
+        margin-left: 20px;
+        position: relative;
+    }
+    #yazialan {
+        width: auto;
+        min-width: 200px;
+    }
+    .datarar_description .text {
+        font-size: 40px;
     }
 }
 @media only screen and (min-width:1151px) and (max-width:1200px){

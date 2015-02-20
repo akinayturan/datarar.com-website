@@ -37,8 +37,8 @@
     boomads_widget_trackingparameter = "http://bumerang.hurriyet.com.tr";
 </script><script type="text/javascript" src="http://widget.boomads.com/scripts/widget.js"></script>
 
-<script src="//code.jquery.com/jquery.min.js"></script>
-<script src="//datarar.com/dr/tema/js/dr.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="http://datarar.com/dr/tema/js/dr.js"></script>
 
 <?php do_action('wp_footer'); ?>
 

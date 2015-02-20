@@ -42,8 +42,9 @@ if ( post_password_required() ) { ?>
             </form>
         <?php endif;?>
     </div>
+    <div class="temiz"></div>
     <h3 id="comments"><?php comments_number(__(''), __('Buraya 1 kişi renk katmış.'), __('Buraya % kişi renk katmış.'));?></h3>
-    <div class="clear"></div>
+    <div class="temiz"></div>
     <ol class="commentlist">
         <?php wp_list_comments('avatar_size=64'); ?>
     </ol>
