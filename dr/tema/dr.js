@@ -54,14 +54,14 @@ jQuery(document).ready(function($) {
 // yukleyici
 $.ajaxSetup({
     beforeSend: function (XMLHttpRequest) {
-        $("#yukleyici").html('<img title="yukleniyor" src="//epfarki.com/ep/tema/res/yukleniyor.gif" alt="reklam-ver">');
+        $("#yukleyici").html('<i class="fa fa-refresh fa-spin"></i>');
     },
     complete: function (XMLHttpRequest, textStatus) {
         $("#yukleyici").html('');
     }
 });
 
-
+/*
  // https://github.com/beezee/djax
 // @version v0.122
 // https://gist.github.com/Hadryan/6045111
@@ -297,7 +297,7 @@ $.ajaxSetup({
                 console.log('error', response);
                 replaceBlocks(response['responseText']);
             });
-        }; /* End self.navigate */
+        }; // End self.navigate
 
         // Only add a class to internal links
         $(this).find('a').not('.no-djax').filter(function () {
@@ -318,6 +318,6 @@ $.ajaxSetup({
     };
 
 }(jQuery, window));
-
+*/
 
 
