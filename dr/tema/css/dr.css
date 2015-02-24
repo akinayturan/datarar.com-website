@@ -658,9 +658,13 @@ div#yanmenu a:hover,div#menu a:hover span{color:#fff}
     .aras {
         float: none;
     }
+    .footerout {
+        width: auto;
+    }
 }
-@media only screen and (min-width:499px) and (max-width:699px){
-
+@media only screen and (min-width:500px) and (max-width:699px){
+    #genel{max-width: 699px;
+    }
     .datarar_description .text {
         font-size: 40px;
     }
