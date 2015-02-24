@@ -1,0 +1,39 @@
+/*
+Version:3.0
+Author:Bizimakin
+Theme Name:Datarar-v3
+Theme URI:http://datarar.com
+Author URI:http://datarar.com
+Description:Perfect Two Column plus into page
+Tags:two columns,fixed width,black,white,widgets,minimum image,with sidebar,light,graphics minimum,ads menu,
+The CSS,XHTML and design is released under GPL:http://www.opensource.org/licenses/gpl-license.php
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;list-style-type:none}
+table{border-collapse:separate;border-spacing:0}
+caption,th,td{text-align:left;font-weight:normal}
+table,td,th{vertical-align:middle}
+blockquote:before,blockquote:after,q:before,q:after{content:""}
+blockquote,q{quotes:""""}
+a img{border:none}
+body{
+    width: auto;
+    height: auto;border:0;background:#FFF;margin:0;padding:0;font-family:"Droid Sans","Helvetica",sans-serif;font-size:13px;line-height:1.6em}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+p{margin-bottom:10px}
+.alignright{float:right;clear:none;margin:0 0 1em 1em}
+.alignleft{float:left;clear:none;margin:0 1em 1em 0}
+.aligncenter{display:block;margin:1em auto;text-align:center}
+.alignnone{margin:0 0.5em 0 0}
+.temiz,.clear,.spacer{clear:both}
+.right{float:left;width:140px}
+.left{float:left;width:140px}
+blockquote{border:1px solid #ddd;padding:18px;margin:10px 0;font-family:"Droid Serif";color:black;text-align:justify}
+blockquote p:last-child{margin-bottom:0}
+.oncekiyazi{border:1px solid #ddd;padding:10px;font-family:"Droid Serif";background:#FFFEEE;color:black;text-align:justify}
+hr{border:1px solid #333}
+iframe,object,embed{text-align:center;width:100%}
+ul#navim{height:80px}
+#navim li{display:inline;float:left}
+#navim li a{margin:0 0 0 0;text-indent:-9999px;display:block}
+#genel{height:auto;min-height:100%}
