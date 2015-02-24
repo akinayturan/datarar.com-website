@@ -9,7 +9,7 @@
     <meta name="rating" content="general"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="//datarar.com/dr/tema/dr.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="//datarar.com/dr/tema/css/dr.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="//datarar.com/favicon.ico" type="image/x-icon" rel="shortcut icon" />
 
