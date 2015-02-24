@@ -1,3 +1,4 @@
+</div></div></div>
 <div id="footer-outer" class="temiz">
     <div class="footerout">
 
@@ -23,11 +24,10 @@
                 <a href="http://bumerang.hurriyet.com.tr" class="BoomadsButtonLink154" target="_blank"><img src="http://widget.boomads.com/images/bumerangWidget/bumerang-25050-white.gif" alt="Bumerang - Yazarkafe"/></a>
             </div>
         </div>
-        <div id="sosyal10"><a href="#" class="yukari updatable"></a></div>
-        <a class="gulucuk"></a>
+        <div id="sosyal10"><a href="#" class="updatable"><i class="fa fa-caret-up  fa-2x"></i></a></div>
     </div></div>
 
-</div></div></div></div>
+</div>
 
 <script type="text/javascript">
     boomads_widget_client = "724dbb2af4fe4588bbfb41b99d2ee20c";

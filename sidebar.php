@@ -1,13 +1,6 @@
 <div id="sidebar">
-
-    <div id="yanmenu">
-        <ul>
-            <li id="duyuru"><a class="duyuru"></a></li>
-            <li><a href="http://datarar.com/24-kasim-ogretmenler-gunu-24-11/" title="24 Kasım Öğretmenler Günü">24 Kasım Öğretmenler Gününüz Kutlu Olsun</a></li>
-        </ul>
-    </div>
     <?php include (TEMPLATEPATH . "/sosyal-paylasim-sidebar.php"); ?>
-    <div class="temiz"></div>
+
 
     <div class="tab3_content">
         <h5>Kategoriler</h5>

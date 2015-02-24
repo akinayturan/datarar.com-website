@@ -10,9 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <link href="http://datarar.com/wp-content/themes/datarar/style.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="http://datarar.com/favicon.ico" type="image/x-icon" rel="shortcut icon" />
-    <link href="http://datarar.com/" rel="index" title="Datarar" />
+    <link href="//datarar.com/wp-content/themes/datarar/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="//datarar.com/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <link href="//datarar.com/" rel="index" title="Datarar" />
 
     <link href="http://feeds.feedburner.com/datarar" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
     <link href="http://datarar.com/feed/" rel="alternate" type="application/rss+xml" title="RSS 2.0" />

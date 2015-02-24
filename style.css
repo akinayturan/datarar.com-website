@@ -1,4 +1,4 @@
-/* 
+/*
 Version:3.0
 Author:Bizimakin
 Theme Name:Datarar-Theme-v3
@@ -137,7 +137,7 @@ ul#navim{height:80px}
     width: 90%;
     padding: 40px 0;
 
-     font-size: 50px;
+    font-size: 50px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 300;
@@ -186,6 +186,17 @@ ul#navim{height:80px}
     margin: 40px 0 40px;
     width: 100%;
 }
+.info-box-row a{
+    float: left;
+    padding: 10px;
+}
+.info-box-row a:hover{
+    color: white !important;
+    float: left;
+    background-color: #2192cb;
+    padding: 10px;
+}
+
 .ffs-three-one {
     float: left;
     margin-right: 4%;
@@ -201,14 +212,19 @@ ul#navim{height:80px}
     height: 0;
 }
 .ffs-info-box.center .ffs-icon-box, .ffs-info-box.center .ffs-content-box {
+    padding-top: 20px;
     width: 100%;
 }
 .info-box-row .ffs-info-box .infobox-title {
+    line-height: 1.6em;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
     margin: 0 0 5px;
     font-weight: 300;
 }
 .info-box-row .ffs-info-box .infobox-text {
-    padding: 0;
+    padding-bottom: 20px;
 }
 .ffs-three-one {
     width: 30.66%;
@@ -337,8 +353,8 @@ input#author,input#email,input#url{width: 35%;padding-left:3px;height:30px;backg
 .wp-pagenavi span.current{font-weight:bold}
 #yanlo2go{float:left}
 #lo2go{float:left}
-#lo2go a{color:black}
-#lo2go a:hover{color:green}
+#lo2go a{color:green}
+#lo2go a:hover{color:black}
 #lo2go a span{color:black}
 #lo2go h1{margin-left:5px;font-size:24px;color:black;font-family:monospace;margin-bottom:0;line-height:24px;float:left}
 #lo2go h2{float:left;color:gray;margin:0;line-height:25px;font-family:Georgia,serif;font-size:12px}
@@ -371,7 +387,7 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
     padding-left: 50px;
     float: left;}
 .aras{float:right}
-#sidebar{padding-bottom: 15px;border: 1px solid #e2e2e2;height: 100%;width: 330px;padding-left: 5px;padding-right: 5px;float: right}
+#sidebar{padding-bottom: 15px;height: 100%;width: 336px;float: right}
 .sidebar{float:left;width:190px;margin-right:5px;font-size:11px}
 .yans_mail{margin-left:5px;background:#F9F9F9;position:fixed;bottom:20px;margin-top:5px;padding-bottom:5px;padding-top:5px;border-bottom:1px dashed #AAA;width:330px;border-top:1px dashed #AAA;padding-left:10px;float:left}
 .yans{float:left;padding:10px;margin-bottom:10px;border-bottom: 1px solid #e8e8e8}
@@ -385,17 +401,36 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
 .yans ul li{list-style-type:square;padding-bottom:5px;padding-left:0}
 .yans ul li a{color:black;text-decoration:none}
 .yans ul li a:hover{color:black;text-decoration:underline}
-.yanstab{width:330px;float:left}
-.tab_content{border-top:none;padding:0;padding-top:10px;overflow:hidden}
+.yanstab{border: 1px solid #e2e2e2;width:336px;float:left}
+.tab_content{border-top: none;
+    padding: 0;
+    padding-top: 10px;
+    overflow: hidden;}
 .tab_content a,.tab_content a strong{color:#000}
 .tab_content a:hover,.tab_content a:hover strong{color:#000;text-decoration:underline}
 .tab_content ul{color:#111;padding-left:35px}
 .tab_content ul li{list-style-type:square;padding-bottom:5px;padding-left:0}
 .tab_content ul li a{color:black}
 .tab_content ul li a:hover{color:green;text-decoration:underline}
-.tabs{padding-left:5px;overflow:hidden;padding-top:10px;margin-bottom:0;padding-bottom:0}
-.tabs li{border:1px solid #DDD;float:left;display:inline;text-align:center;overflow:hidden;font-size:11px;padding-left:0;width:100px}
-.tabs li.active{border-bottom:none;border-right:none;border-left:none;margin-left:0;padding-left:0;width:114px}
+.tabs{overflow:hidden;margin-bottom:0;padding-bottom:0}
+.tabs li{
+    float: left;
+    display: inline;
+    text-align: center;
+    overflow: hidden;
+    font-size: 11px;
+    padding-left: 0;
+    width: 32%;
+    border-right: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    border-left: 1px solid #DDD;}
+.tabs li.active{
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    margin-left: 0;
+    padding-left: 0;
+    width: 34%;}
 .tabs li a{font-family:Georgia,serif;font-size:12px;text-align:center;color:black;display:block;font-weight:bold;line-height:26px;height:26px}
 .tabs li a:hover{display:block}
 .tabs li a.selected{display:block;background:#EBE9E1}
@@ -420,33 +455,6 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
 .tab2_content .tab2ek li a{text-decoration:none;color:#000;font-size:12px}
 .tab2_content .tab2ek li a:hover{color:#000;text-decoration:underline}
 
-.tab3_content{padding: 5px;
-    padding-top: 20px;
-    overflow: hidden}
-.tab3_content h5{border-bottom: 1px solid #e2e2e2;padding-bottom: 8px}
-.tab3_content a,.tab_content a strong{color:#000}
-.tab3_content a:hover,.tab_content a:hover strong{color:#000;text-decoration:underline}
-.tab3_content ul{color:#111}
-.tab3_content ul li{list-style-type:square;padding-bottom:5px;padding-left:0}
-.tab3_content ul li a{color:black}
-.tab3_content ul li a:hover{color:green;text-decoration:underline}
-.tab3s{padding-left:5px;overflow:hidden;padding-top:10px;margin-bottom:0;padding-bottom:0}
-.tab3s li{border:1px solid #DDD;float:left;display:inline;text-align:center;overflow:hidden;font-size:11px;padding-left:0;width:100px}
-.tab3s li.active{border-bottom:none;border-right:none;border-left:none;margin-left:0;padding-left:0;width:114px}
-.tab3s li a{font-family:Georgia,serif;font-size:12px;text-align:center;color:black;display:block;font-weight:bold;line-height:26px;height:26px}
-.tab3s li a:hover{display:block}
-.tab3s li a.selected{display:block;background:#EBE9E1}
-.tab3s li a.selected:hover{display:block;background-repeat:repeat-x;background-position:bottom}
-.tab3sol{
-    float: left;
-    padding-left: 25px;
-    width: 42%;
-}
-.tab3sag{
-    float: left;
-    padding-left: 25px;
-    width: 42%;
-}
 .yanskucuk{width:160px;padding:10px;float:left;margin-right:5px;padding-left:20px}
 .yanskucuk .left{margin-right:10px}
 .yanskucuk a{color:#7C8C31;text-decoration:none}
@@ -471,7 +479,16 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
 #footer-outer .col-a ul li a{border:medium none;color:#888888;display:block;line-height:1.5em;margin:0;padding:5px 0;width:98%}
 #footer-outer .col-a ul li a span{font-family:'Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,Sans-Serif;font-size:0.95em;font-style:italic;font-weight:normal}
 #footer-outer .col-a ul li a:hover,#footer-outer .col-a ul li a:hover span{color:#f4f4f4}
-#footer-outer{padding:7px 0 8px;float:left;width:100%;border-top:1px solid #e8e8e8}
+#footer-outer{float:left;width:100%}
+.footerout{
+    padding-top: 10px;
+    border-top: 1px solid #e8e8e8;
+    position: relative;
+    width: 1090px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
 #footer-wrap{float:left;padding:9px 0 5px 0}
 #footer-wrap .col-a{float:left;width:470px;margin-left:10px}
 #footer-wrap .col-a h2{font-size:18px;margin:0 0 6px 0;padding:10px 0 3px 0;color:#cb3833;border-bottom:1px solid #555555}
@@ -518,43 +535,6 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
 #ustmenu ul li a{float:left;display:block;color:#111;font-size:10px;text-transform:uppercase;font-weight:bolder}
 #ustmenu ul li a:hover{float:left;color:green;border-bottom: 3px solid green;}
 #ustmenu li#sosyal6{border-right:none}
-#sosyal10{overflow:hidden;float:right}
-#sosyal1,#sosyal2,#sosyal3,#sosyal4,#sosyal5,#sosyal6,#sosyal7,#sosyal8,.sosyal9{text-align:left}
-.sosyal{padding-top: 10px;float:left;padding-left:20px;text-align:left}
-.sosyal a{opacity:.55}
-.sosyal a:hover{opacity:.99}
-.paylasim{padding-top:9px;padding-right:10px;padding-left:5px;border:1px solid #eee;margin-bottom:10px;margin-top:5px}
-#kucukfacebook,#kucukgplus,#kucuktwitter,#kucukpinterest,#kucuklinkedin{width:17%}
-#kucukpaylas{float:right}
-.tekil-reklam{text-align:center}
-.tekil-reklam-yazi{margin-left:10px;margin-top:20px;float:left;display:block;background-image:url(http://datarar.com/ep/tema/res/hepsi.png);background-position:-595px 0;width:24px;height:24px}
-.anasayfa,.hakkimizda,.hizmetlerimiz,.iletisim,.inceleme,.rastgele,.reklamver,.zdefteri,.pinterest,.gplus,.rss-mail,.facebook,.linkedin,.twitter,.rss,.youstube,.paypal,.reklam125,.duyuru,.yukari{margin-bottom:3px;margin-right:5px;float:left;display:block;background-image:url(http://datarar.com/ep/tema/res/hepsi.png)}
-li a.anasayfa:hover,li a.hakkimizda:hover,li a.hizmetlerimiz:hover,li a.iletisim:hover,li a.inceleme:hover,li a.rastgele:hover,li a.reklamver:hover,li a.zdefteri:hover{background-position:0 -333px;width:32px;height:32px;margin-top:3px;margin-left:5px;padding:0;opacity:.75}
-#sosyal1 .anasayfa{background-position:0 0;width:24px;height:24px;margin:0;padding:0}
-#sosyal2 .hakkimizda{background-position:-124px 0;width:24px;height:24px;margin:0;padding:0}
-#sosyal3 .hizmetlerimiz{background-position:-153px 0;width:24px;height:24px;margin:0;padding:0}
-#sosyal4 .iletisim{background-position:-182px 0;width:24px;height:24px;margin:0;padding:0}
-#sosyal5 .inceleme{background-position:-211px 0;width:24px;height:24px;margin:0;padding:0}
-#sosyal6 .rastgele{background-position:-436px 0;width:24px;height:24px;margin:0;padding:0}
-#sosyal7 .reklamver{background-position:-595px 0;width:24px;height:24px;margin:0;padding:0}
-#sosyal8 .zdefteri{background-position:-772px 0;width:24px;height:24px;margin:0;padding:0}
-.sosyal .facebook{background-position:-50px 0;width:32px;height:32px}
-.sosyal .gplus{background-position:-87px 0;width:32px;height:32px}
-.sosyal .rss{background-position:-624px 0;width:32px;height:32px}
-.sosyal .twitter{background-position:-661px 0;width:32px;height:32px}
-.sosyal .youstube{background-position:-698px 0;width:32px;height:32px}
-.sosyal .rss-mail{background-position:-277px 0;width:32px;height:32px}
-.sosyal .pinterest{background-position:-399px 0;width:32px;height:32px}
-.sosyal .linkedin{background-position:-240px 0;width:32px;height:32px}
-.sosyal9 .paypal{background-position:-314px 0;width:80px;height:15px}
-#sosyal10 .yukari{background-position:-735px 0;width:32px;height:32px}
-.reklam125{background-position:-465px 0;width:125px;height:125px}
-#kategorimenu li#duyuru{padding-top:2px;padding-left:7px;float:left}
-#kategorimenu a.duyuru{background-position:-29px 0;width:16px;height:16px;float:left;padding:0}
-#kategorimenu li#duyuru:hover{background:none;padding-top:2px;padding-left:7px;float:left;opacity:.75}
-#anakategorimenu li#duyuru{padding-top:2px;padding-left:7px;float:left;width:22px;border:none}
-#anakategorimenu a.duyuru{background-position:-29px 0;width:16px;height:16px;float:left;padding:0}
-#anakategorimenu li#duyuru:hover{background:none;padding-top:2px;padding-left:7px;float:left;opacity:.75}
 
 
 
@@ -566,9 +546,39 @@ li a.anasayfa:hover,li a.hakkimizda:hover,li a.hizmetlerimiz:hover,li a.iletisim
 #yanmenu li a{text-decoration:none;float:left;display:block;padding:0 10px;color:#333;font-size:10px;font-weight:bolder}
 div#yanmenu li:hover{background:#1A1B19;color:#fff}
 div#yanmenu a:hover,div#menu a:hover span{color:#fff}
-#yanmenu li#duyuru{padding-top:2px;padding-left:7px;float:left;width:22px;border:none}
-#yanmenu a.duyuru{background-position:-29px 0;width:16px;height:16px;float:left;padding:0}
-#yanmenu li#duyuru:hover{background:none;padding-top:2px;padding-left:7px;float:left;opacity:.75}
+
+.tab3_content{border: 1px solid #e2e2e2;margin-top: 5px;padding: 5px;
+    padding-top: 20px;
+    overflow: hidden}
+.tab3_content h5{padding-left: 10px;border-bottom: 1px solid #e2e2e2;padding-bottom: 8px}
+.tab3_content a,.tab_content a strong{color:#000}
+.tab3_content a:hover,.tab_content a:hover strong{color:#000;text-decoration:underline}
+.tab3_content ul{color:#111}
+.tab3_content ul li{list-style-type:square;padding-bottom:5px;padding-left:0}
+.tab3_content ul li a{color:black}
+.tab3_content ul li a:hover{color:green;text-decoration:underline}
+.tab3s{padding-left:5px;overflow:hidden;padding-top:10px;margin-bottom:0;padding-bottom:0}
+.tab3s li{border:1px solid #DDD;float:left;display:inline;text-align:center;overflow:hidden;font-size:11px;padding-left:0;width:100px}
+.tab3s li.active{border-bottom:none;border-right:none;border-left:none;margin-left:0;padding-left:0;width:114px}
+.tab3s li a{font-family:Georgia,serif;font-size:12px;text-align:center;color:black;display:block;font-weight:bold;line-height:26px;height:26px}
+.tab3s li a:hover{display:block}
+.tab3s li a.selected{display:block;background:#EBE9E1}
+.tab3s li a.selected:hover{display:block;background-repeat:repeat-x;background-position:bottom}
+.tab3sol{
+    float: left;
+    padding-left: 25px;
+    width: 42%;
+}
+.tab3sag{
+    float: left;
+    padding-left: 25px;
+    width: 42%;
+}
+
+.sosyal{border: 1px solid #e2e2e2;padding-top: 5px;padding-bottom:5px;text-align:center}
+.sosyal a{color:#000000;}
+.sosyal a:hover{color:green;}
+#sosyal10{overflow:hidden;float:right}
 
 /* media */
 @media print{
