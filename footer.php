@@ -38,7 +38,7 @@
 </script><script type="text/javascript" src="http://widget.boomads.com/scripts/widget.js"></script>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-<script type="text/javascript" src="http://datarar.com/dr/tema/js/dr.js"></script>
+<script type="text/javascript" src="http://datarar.com/dr/tema/dr.js"></script>
 
 <?php do_action('wp_footer'); ?>
 
