@@ -1,6 +1,6 @@
 /* TEAM */
-	Administrator: bizimakin
-  	Special Thanks: SerbayAcar
+	Administrator: AkinAyturan
+  	With Thanks: Serbay Acar
 
 /* THANKS */
 	Hosting: Hostturka

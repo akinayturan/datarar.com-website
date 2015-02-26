@@ -362,9 +362,13 @@ input#author,input#email,input#url{width: 35%;padding-left:3px;height:30px;backg
 .lo2godescription{color:black;margin-left:40px}
 .gulucuk{width:6px;height:5px;background-image:url(http://datarar.com/ep/tema/res/gulucuk.gif);margin-right:8px;margin-top:9px;float:right}
 
-#anakategorimenu{width:100%;border-bottom:1px solid #e2e2e2;color:#777;float:left}
+#anakategorimenu{margin-top: 5px;
+    width: 100%;
+    border: 1px solid #e2e2e2;
+    color: #777;
+    float: left;}
 #anakategorimenu ul{margin:0;padding:0;list-style:none;float:left}
-#anakategorimenu li{float:left;margin-right:1px;border-left:1px solid #eee}
+#anakategorimenu li{float:left}
 #anakategorimenu li a{text-decoration:none;float:left;display:block;padding:0 10px;color:#333;font-size:10px;font-weight:bolder}
 div#anakategorimenu li:hover{background:#1A1B19;color:#fff}
 div#anakategorimenu a:hover,div#menu a:hover span{color:#fff}
@@ -391,7 +395,7 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
 .sidebar{float:left;width:190px;margin-right:5px;font-size:11px}
 .yans_mail{margin-left:5px;background:#F9F9F9;position:fixed;bottom:20px;margin-top:5px;padding-bottom:5px;padding-top:5px;border-bottom:1px dashed #AAA;width:330px;border-top:1px dashed #AAA;padding-left:10px;float:left}
 .yans{float:left;padding:10px;margin-bottom:10px;border-bottom: 1px solid #e8e8e8}
-.yans2{margin-top:7px;border-top:1px solid #e2e2e2}
+.yans2{margin-top:7px;border:1px solid #e2e2e2}
 .yans .left{margin-right:10px}
 .yans a{color:grey;text-decoration:none}
 .yans a:hover{text-decoration:underline;color:white}
