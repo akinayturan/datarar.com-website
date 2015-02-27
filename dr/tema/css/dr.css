@@ -9,6 +9,7 @@ Tags:two columns,fixed width,black,white,widgets,minimum image,with sidebar,ligh
 The CSS,XHTML and design is released under GPL:http://www.opensource.org/licenses/gpl-license.php
 */
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;list-style-type:none}
+html,body{overflow-x: hidden;}
 table{border-collapse:separate;border-spacing:0}
 caption,th,td{text-align:left;font-weight:normal}
 table,td,th{vertical-align:middle}

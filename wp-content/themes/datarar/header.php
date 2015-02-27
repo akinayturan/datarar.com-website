@@ -7,7 +7,7 @@
     <meta name="author" content="bizimakin" />
     <meta name="generator" content="DataRar 2.0"/>
     <meta name="rating" content="general"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="//datarar.com/dr/tema/css/dr.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
