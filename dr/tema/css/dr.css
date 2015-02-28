@@ -363,11 +363,13 @@ input#author,input#email,input#url{width: 35%;padding-left:3px;height:30px;backg
 .lo2godescription{color:black;margin-left:40px}
 .gulucuk{width:6px;height:5px;background-image:url(http://datarar.com/ep/tema/res/gulucuk.gif);margin-right:8px;margin-top:9px;float:right}
 
-#anakategorimenu{margin-top: 5px;
+#anakategorimenu{
+    margin-top: 5px;
     width: 100%;
     border: 1px solid #e2e2e2;
     color: #777;
-    float: left;}
+    float: left;
+}
 #anakategorimenu ul{margin:0;padding:0;list-style:none;float:left}
 #anakategorimenu li{float:left}
 #anakategorimenu li a{text-decoration:none;float:left;display:block;padding:0 10px;color:#333;font-size:10px;font-weight:bolder}
@@ -552,9 +554,14 @@ div#kategorimenu a:hover,div#menu a:hover span{color:#fff}
 div#yanmenu li:hover{background:#1A1B19;color:#fff}
 div#yanmenu a:hover,div#menu a:hover span{color:#fff}
 
-.tab3_content{border: 1px solid #e2e2e2;margin-top: 5px;padding: 5px;
+.tab3_content{
+    width: 100%;
+    float: left;
+    border: 1px solid #e2e2e2;
+    margin-top: 5px;
     padding-top: 20px;
-    overflow: hidden}
+    overflow: hidden;
+}
 .tab3_content h5{padding-left: 10px;border-bottom: 1px solid #e2e2e2;padding-bottom: 8px}
 .tab3_content a,.tab_content a strong{color:#000}
 .tab3_content a:hover,.tab_content a:hover strong{color:#000;text-decoration:underline}
@@ -580,7 +587,13 @@ div#yanmenu a:hover,div#menu a:hover span{color:#fff}
     width: 42%;
 }
 
-.sosyal{border: 1px solid #e2e2e2;padding-top: 5px;padding-bottom:5px;text-align:center}
+.sosyal{
+    width: 100%;
+    border: 1px solid #e2e2e2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
 .sosyal a{color:#000000;}
 .sosyal a:hover{color:green;}
 #sosyal10{overflow:hidden;float:right}

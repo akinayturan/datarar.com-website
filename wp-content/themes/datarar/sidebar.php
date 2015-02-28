@@ -1,6 +1,11 @@
 <div id="sidebar">
     <?php include (TEMPLATEPATH . "/sosyal-paylasim-sidebar.php"); ?>
-
+    <div id="anakategorimenu">
+        <ul><li id="sozler">
+                <a href="//datarar.com/24-kasim-ogretmenler-gunu-24-11/" title="24 Kasım Öğretmenler Günü">24 Kasım Öğretmenler Gününüz Kutlu Olsun</a>
+            </li>
+        </ul>
+    </div>
 
     <div class="tab3_content">
         <h5>Kategoriler</h5>
@@ -25,18 +30,18 @@
         </ul>
     </div>
 
-<div class="yanmenukapsa">
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- esnek -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-6963315907881230"
-         data-ad-slot="6559951811"
-         data-ad-format="auto"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-</div>
+    <div class="yanmenukapsa">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- esnek -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-6963315907881230"
+             data-ad-slot="6559951811"
+             data-ad-format="auto"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
 
     <div class="yanstab">
         <ul id="tabs" class="tabs">

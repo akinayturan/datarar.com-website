@@ -64,11 +64,11 @@ require('../../hizmet/tema/menu1.php');
 require('../../hizmet/tema/menu2.php');
 ?>
 
-<div id="title-hizmet" class="title"><h3>
+<div id="title-hizmet" class="title"><h4>
 
     <a href="http://datarar.com/hizmet/icon-mail/" rel="bookmark" title="İcon Mail">İcon Mail</a>
 
-  </h3></div> <div class="temiz"></div>
+  </h4></div> <div class="temiz"></div>
 
 <table border="0" cellpadding="0" cellspacing="0" width="530" align="left">
   <tr>

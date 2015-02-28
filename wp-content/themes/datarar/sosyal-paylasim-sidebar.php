@@ -9,7 +9,4 @@
     <a rel="external" class="rss" href="//feeds.feedburner.com/datarar" title="feedburner"><i class="fa fa-rss-square fa-2x"></i></a>
     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=epfarki%40gmail%2ecom&amp;lc=TR&amp;item_name=EPfarki&amp;currency_code=TRY&amp;bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted" target="_blank" rel="external nofollow"><i class="fa fa-cc-paypal fa-2x"></i></a>
     <a rel="external" class="rss-mail" href="//feedburner.google.com/fb/a/mailverify?uri=datarar" title="feedMail"><i class="fa fa-envelope-o fa-2x"></i></a>
-    <ul>
-        <li><a href="http://datarar.com/24-kasim-ogretmenler-gunu-24-11/" title="24 Kasım Öğretmenler Günü">24 Kasım Öğretmenler Gününüz Kutlu Olsun</a></li>
-    </ul>
 </div>

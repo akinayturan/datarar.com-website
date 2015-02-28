@@ -8,9 +8,11 @@
 
 <? require('../../hizmet/tema/menu2.php'); ?>
 
-<div id="title-hizmet" class="title"><h4>
+<div id="title-hizmet" class="title">
+    <h4>
         <a href="http://datarar.com/hizmet/otobacklink/" rel="bookmark" title="Oto Back Link">Otomatik Backlink (gerilink).</a>
-    </h4></div> <div class="temiz"></div>
+    </h4>
+</div> <div class="temiz"></div>
 <div id="icerik-hizmet" class="icerik">
     <p>
         <b>Backlink</b> kazanmak için yapmanız gereken tek şey boş alana sitenizin alanını, uzantısını yazmak vede başlat butonuna basmak ve ücretsiz link veren sitelerin tümü bitene kadar açılan sayfayı kapatmamanız olacaktır...<br />

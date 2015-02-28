@@ -10,9 +10,9 @@ require('../../hizmet/tema/menu1.php');
 require('../../hizmet/tema/menu2.php');
 ?>
 
-<div id="title-hizmet" class="title"><h3>
+<div id="title-hizmet" class="title"><h4>
         <a href="http://datarar.com/hizmet/ip-bul/" rel="bookmark" title="Farklı">İp Adresiniz</a>
-    </h3></div>
+    </h4></div>
 <div class="temiz"></div>
 
 <?php
