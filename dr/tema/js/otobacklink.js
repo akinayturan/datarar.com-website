@@ -52,6 +52,7 @@ var theurls=new Array(
     "http://whois.gwebtools.com.br/{website}",
     "http://www.123people.com/s/{website}",
     "http://80008.cn/link/Alexa/Index.asp?url={website}",
+    "https://www.200please.com/speed/{website}",
 
     //not edited yet after here
     "http://alexa.epclean.com/alexa.asp?url={website}",
