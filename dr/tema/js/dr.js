@@ -48,7 +48,7 @@ $('body').on('click', 'a[class^=dJAX_internal]', function(e) {
 
 // djax
 jQuery(document).ready(function($) {
-    $('body').djax('.updatable', ['git/?url=', 'ep/', 'hizmet/', '?rastgele', 'sitemap', '#tab', 'wp-admin', 'wp-login']);
+    $('body').djax('.updatable', ['go/?url=', 'dr/', 'h/', '?rastgele', 'sitemap', '#tab', 'wp-admin', 'wp-login']);
 });
 
 // yukleyici

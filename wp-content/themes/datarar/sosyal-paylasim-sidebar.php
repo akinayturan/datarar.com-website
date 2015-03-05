@@ -7,6 +7,6 @@
     <a rel="external" class="linkedin" href="//www.linkedin.com/company/datarar" title="linkedin"><i class="fa fa-linkedin-square fa-2x"></i></a>
     <a rel="external" class="youstube" href="//www.youtube.com/channel/UCpGJ2flXKGcawIfZ1UDiR9Q" title="youtube"><i class="fa fa-youtube-square fa-2x"></i></a>
     <a rel="external" class="rss" href="//feeds.feedburner.com/datarar" title="feedburner"><i class="fa fa-rss-square fa-2x"></i></a>
-    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=epfarki%40gmail%2ecom&amp;lc=TR&amp;item_name=EPfarki&amp;currency_code=TRY&amp;bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted" target="_blank" rel="external nofollow"><i class="fa fa-cc-paypal fa-2x"></i></a>
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=akinayturan%40gmail%2ecom&lc=TR&item_name=Datarar&currency_code=TRY&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted" target="_blank" rel="external nofollow"><i class="fa fa-cc-paypal fa-2x"></i></a>
     <a rel="external" class="rss-mail" href="//feedburner.google.com/fb/a/mailverify?uri=datarar" title="feedMail"><i class="fa fa-envelope-o fa-2x"></i></a>
 </div>

