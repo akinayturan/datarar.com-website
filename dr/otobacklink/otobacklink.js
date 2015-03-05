@@ -1,7 +1,7 @@
-var base = 'http://datarar.com';
 var theurls=new Array(
 
     "http://epfarki.com/linkekle/",
+    "http://{website}.cubestat.com/",
     "http://{website}.whoisbucket.com/",
     "http://{website}.websitetrafficspy.com/",
     "http://validator.w3.org/check?uri=http://{website}",
@@ -52,11 +52,8 @@ var theurls=new Array(
     "http://whois.gwebtools.com.br/{website}",
     "http://www.123people.com/s/{website}",
     "http://80008.cn/link/Alexa/Index.asp?url={website}",
-    "http://www.fuub.net/trustrank/?url=www.{website}",
-    "http://www.fuub.net/site-bilgi/www..{website}",
 
     //not edited yet after here
-    "http://{website}.cubestat.com/",
     "http://alexa.epclean.com/alexa.asp?url={website}",
     "http://trade.6jc.cn/tools/alexa/Index.asp?url={website}",
     "http://ip.toolsky.com/?IPstr={website}",
