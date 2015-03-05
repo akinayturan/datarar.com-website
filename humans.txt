@@ -1,17 +1,27 @@
 /* TEAM */
-	Administrator: Akın Ayturan
-  	With Thanks: Serbay Acar
+	Administrator: Akın Y. Ayturan
+	Contact: akinayturan [at] gmail.com
+	Twitter: @akinayturan
+
+	Editor: Serbay Acar
+	Contact: serbayacar [at] gmail.com
+	Twitter: @serbayacar
+
+	Editor: Mustafa Buğra Tamer
 
 /* THANKS */
-	Hosting: Hostturka
+
+	Hosting: Hostturka.com
 	From: Turkey
 
 /* SITE */
+	Last update: 2015/03/05
 	Site Name: datarar
 	Site URL: http://datarar.com/
 	Doctype: PHP, HTML, CSS
-	Standards: HTML5, CSS
-    Charset: UTF-8
+	Standards: HTML5, CSS3
+	Charset: UTF-8
 	Language: Usually Turkish
 	Contact: iletisim@datarar.com
 	Twitter: @datarar_com
+

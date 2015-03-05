@@ -1,5 +1,5 @@
 <?
-require('../../h/tema/menu1.php');
+require('../tema/header.php');
 ?>
 
 <meta name="description" content="İp Adresi Bul » EPfarki.com Hizmetleri » Birazcık Farklı" />
