@@ -1,3 +1,5 @@
+
+var base = 'http://datarar.com';
 var theurls=new Array(
 
     "http://epfarki.com/linkekle/",
