@@ -13,8 +13,6 @@ $durum1 = substr($basladi,0,$bitti);
 $depremler = "$durum1</pre>";
 
 // Bilgileri ekrana yazdırıyoruz
-echo "
-<!-- egonomik.com -->
-$depremler";
+echo "$depremler";
 
 ?>
