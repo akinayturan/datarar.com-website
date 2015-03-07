@@ -11,10 +11,12 @@
 
     <link href="//datarar.com/dr/tema/css/dr.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//datarar.com/dr/tema/jquery.lightbox.min.css" />
     <link href="//datarar.com/favicon.ico" type="image/x-icon" rel="shortcut icon" />
 
     <link href="http://feeds.feedburner.com/datarar" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
     <link href="http://datarar.com/feed/" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+
 
     <?php wp_head(); ?>
 </head>
